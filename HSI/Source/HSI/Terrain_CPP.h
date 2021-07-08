@@ -23,6 +23,12 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	void CleanGeometry();
+
+	UFUNCTION(BlueprintCallable)
+	void GenerateTerrain(FVector2D _size, FVector2D _tiles, FVector2D _textureTiles,
+						 UMaterial* Material, UTexture2D* ColorMap, float MaxHeight);
+
 private:
 	UPROPERTY(EditAnywhere, Category = TerrainSettings)
 		FVector2D Size;
@@ -45,4 +51,24 @@ private:
 	UPROPERTY(EditAnywhere, Category = TerrainSettings)
 		float MaxHeight;
 
+	UPROPERTY()
+		TArray<FVector> Vertices;
+
+	UPROPERTY()
+		TArray<FVector2D> UVs;
+
+	UPROPERTY()
+		TArray<FVector> Normals;
+
+	UPROPERTY()
+		TArray<int> Indices;
+
+	//UPROPERTY()
+		//TArray<FVector2D> Tangents;
+
+	UPROPERTY()
+		UMaterialInstanceDynamic* DynamicMat;
+
+	//UPROPERTY()
+		//class UProceduralMeshComponent* ProceduralMesh;
 };

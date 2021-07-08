@@ -8,14 +8,25 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector2D;
+class UMaterial;
+class UTexture2D;
 #ifdef HSI_Terrain_CPP_generated_h
 #error "Terrain_CPP.generated.h already included, missing '#pragma once' in Terrain_CPP.h"
 #endif
 #define HSI_Terrain_CPP_generated_h
 
 #define HSI_Source_HSI_Terrain_CPP_h_12_SPARSE_DATA
-#define HSI_Source_HSI_Terrain_CPP_h_12_RPC_WRAPPERS
-#define HSI_Source_HSI_Terrain_CPP_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define HSI_Source_HSI_Terrain_CPP_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGenerateTerrain);
+
+
+#define HSI_Source_HSI_Terrain_CPP_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGenerateTerrain);
+
+
 #define HSI_Source_HSI_Terrain_CPP_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATerrain_CPP(); \
@@ -65,7 +76,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATerrain_CPP); \
 	FORCEINLINE static uint32 __PPO__Material() { return STRUCT_OFFSET(ATerrain_CPP, Material); } \
 	FORCEINLINE static uint32 __PPO__ColorMap() { return STRUCT_OFFSET(ATerrain_CPP, ColorMap); } \
 	FORCEINLINE static uint32 __PPO__HeightMap() { return STRUCT_OFFSET(ATerrain_CPP, HeightMap); } \
-	FORCEINLINE static uint32 __PPO__MaxHeight() { return STRUCT_OFFSET(ATerrain_CPP, MaxHeight); }
+	FORCEINLINE static uint32 __PPO__MaxHeight() { return STRUCT_OFFSET(ATerrain_CPP, MaxHeight); } \
+	FORCEINLINE static uint32 __PPO__Vertices() { return STRUCT_OFFSET(ATerrain_CPP, Vertices); } \
+	FORCEINLINE static uint32 __PPO__UVs() { return STRUCT_OFFSET(ATerrain_CPP, UVs); } \
+	FORCEINLINE static uint32 __PPO__Normals() { return STRUCT_OFFSET(ATerrain_CPP, Normals); } \
+	FORCEINLINE static uint32 __PPO__Indices() { return STRUCT_OFFSET(ATerrain_CPP, Indices); } \
+	FORCEINLINE static uint32 __PPO__DynamicMat() { return STRUCT_OFFSET(ATerrain_CPP, DynamicMat); }
 
 
 #define HSI_Source_HSI_Terrain_CPP_h_9_PROLOG
