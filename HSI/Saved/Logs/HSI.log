@@ -926,3 +926,106 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.07.08-23.19.48:274][336]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration2684BA9C4285D10989DD6EB82B1F39EF.tmp' to '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
 [2021.07.08-23.19.48:289][336]AssetCheck: New page: Asset Save: UI_Configuration
 [2021.07.08-23.19.48:289][336]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.07.08-23.26.01:853][838]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wolfi/MainGameInstance.MainGameInstance
+[2021.07.08-23.27.51:046][408]BlueprintLog: New page: Compile MainGameInstance
+[2021.07.08-23.27.51:116][408]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2021.07.08-23.27.51:770][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/MainGameInstance" FILE="../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/MainGameInstance.uasset" SILENT=true
+[2021.07.08-23.27.51:808][467]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Saved/MainGameInstance2ABD05B04D1EABEA7ED967BB968E8980.tmp' to '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/MainGameInstance.uasset'
+[2021.07.08-23.27.51:859][467]AssetCheck: New page: Asset Save: MainGameInstance
+[2021.07.08-23.27.51:859][467]LogContentValidation: Display: Validating Blueprint /Game/Wolfi/MainGameInstance.MainGameInstance
+[2021.07.08-23.28.17:218][299]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Wolfi/IMAGES/M_BG_White.M_BG_White
+[2021.07.08-23.28.17:664][299]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MaterialEditor' in 0.0003 seconds. Added 3 classes and 0 folders.
+[2021.07.08-23.28.17:667][299]LogMaterial: Display: Missing cached shader map for material M_BG_White, compiling. 
+[2021.07.08-23.28.18:164][299]LogMaterial: Display: Missing cached shader map for material M_BG_White, compiling. 
+[2021.07.08-23.28.18:172][299]LogMaterial: Display: Missing cached shader map for material M_BG_White, compiling. 
+[2021.07.08-23.28.18:181][299]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.07.08-23.28.18:181][299]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.07.08-23.28.18:182][299]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.07.08-23.28.18:182][299]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.07.08-23.28.18:182][299]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.07.08-23.28.18:182][299]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.07.08-23.28.18:182][299]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.07.08-23.28.18:182][299]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.07.08-23.28.18:188][299]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.07.08-23.28.19:883][357]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2021.07.08-23.28.19:895][358]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2021.07.08-23.28.19:895][358]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2021.07.08-23.28.19:895][358]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2021.07.08-23.28.19:895][358]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.07.08-23.28.27:569][174]LogMaterial: Display: Missing cached shader map for material M_BG_White, compiling. 
+[2021.07.08-23.28.27:617][175]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.07.08-23.28.27:617][175]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.07.08-23.28.27:617][175]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.07.08-23.28.27:618][175]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.07.08-23.28.27:618][175]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.07.08-23.28.27:618][175]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.07.08-23.28.27:618][175]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.07.08-23.28.27:618][175]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.07.08-23.28.28:031][207]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2021.07.08-23.28.28:601][234]MaterialEditorStats: Default UI Pixel Shader: 36 instructions
+[2021.07.08-23.28.28:601][234]MaterialEditorStats: Default UI Vertex Shader: 17 instructions
+[2021.07.08-23.28.28:601][234]MaterialEditorStats: Instanced UI Vertex Shader: 17 instructions
+[2021.07.08-23.28.28:601][234]MaterialEditorStats: Texture samplers: 2/16
+[2021.07.08-23.28.28:602][234]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.07.08-23.28.28:602][234]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.07.08-23.28.29:096][282]LogMaterialEditor: Saving and Compiling material M_BG_White
+[2021.07.08-23.28.29:765][282]LogMaterial: Display: Missing cached shader map for material M_BG_White, compiling. 
+[2021.07.08-23.28.29:783][282]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.07.08-23.28.29:783][282]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.07.08-23.28.29:784][282]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.07.08-23.28.29:784][282]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.07.08-23.28.29:784][282]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.07.08-23.28.29:784][282]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.07.08-23.28.29:784][282]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.07.08-23.28.29:784][282]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.07.08-23.28.29:814][282]LogMaterial: Display: Missing cached shader map for material M_BG_White, compiling. 
+[2021.07.08-23.28.29:921][282]LogUObjectHash: Compacting FUObjectHashTables data took   9.28ms
+[2021.07.08-23.28.29:938][282]TextureStreamingBuild: Display: Compiling optional shaders took 0.014 seconds.
+[2021.07.08-23.28.29:999][282]LogUObjectHash: Compacting FUObjectHashTables data took   6.30ms
+[2021.07.08-23.28.30:598][282]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2021.07.08-23.28.30:598][282]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 9
+[2021.07.08-23.28.30:598][282]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2021.07.08-23.28.30:598][282]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2021.07.08-23.28.30:598][282]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2021.07.08-23.28.30:599][282]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.07.08-23.28.30:599][282]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2021.07.08-23.28.30:599][282]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2021.07.08-23.28.31:155][282]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.07.08-23.28.31:305][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/IMAGES/M_BG_White" FILE="../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/IMAGES/M_BG_White.uasset" SILENT=true
+[2021.07.08-23.28.31:310][282]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Saved/M_BG_WhiteCF0E20D24DB456FA379517A398462D32.tmp' to '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/IMAGES/M_BG_White.uasset'
+[2021.07.08-23.28.31:356][282]AssetCheck: New page: Asset Save: M_BG_White
+[2021.07.08-23.28.31:356][282]LogContentValidation: Display: Validating Material /Game/Wolfi/IMAGES/M_BG_White.M_BG_White
+[2021.07.08-23.28.52:565][684]LogAssetEditorSubsystem: Opening Asset editor for FileMediaSource /Game/Wolfi/IMAGES/BG_White.BG_White
+[2021.07.08-23.29.15:298][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/IMAGES/BG_White" FILE="../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/IMAGES/BG_White.uasset" SILENT=true
+[2021.07.08-23.29.15:300][548]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Saved/BG_White03822E8F47C51B5596C0DC8F29412D85.tmp' to '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/IMAGES/BG_White.uasset'
+[2021.07.08-23.29.15:315][548]AssetCheck: New page: Asset Save: BG_White
+[2021.07.08-23.29.15:316][548]LogContentValidation: Display: Validating FileMediaSource /Game/Wolfi/IMAGES/BG_White.BG_White
+[2021.07.08-23.29.19:279][939]LogAssetEditorSubsystem: Opening Asset editor for MediaTexture /Game/Wolfi/IMAGES/BG_Texture.BG_Texture
+[2021.07.08-23.29.19:301][939]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2021.07.08-23.29.29:849][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/IMAGES/BG_Texture" FILE="../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/IMAGES/BG_Texture.uasset" SILENT=true
+[2021.07.08-23.29.29:863][ 21]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Saved/BG_Texture8CF584744A7766B4E51534AFBB9DCE76.tmp' to '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/IMAGES/BG_Texture.uasset'
+[2021.07.08-23.29.29:878][ 21]AssetCheck: New page: Asset Save: BG_Texture
+[2021.07.08-23.29.29:879][ 21]LogContentValidation: Display: Validating MediaTexture /Game/Wolfi/IMAGES/BG_Texture.BG_Texture
+[2021.07.08-23.29.33:931][408]LogAssetEditorSubsystem: Opening Asset editor for MediaPlayer /Game/Wolfi/IMAGES/BG_Player.BG_Player
+[2021.07.08-23.29.33:972][408]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.07.08-23.29.34:016][408]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2021.07.08-23.29.34:016][408]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2021.07.08-23.29.34:016][408]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2021.07.08-23.29.34:016][408]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2021.07.08-23.29.34:016][408]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2021.07.08-23.29.34:016][408]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2021.07.08-23.29.34:016][408]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.07.08-23.29.34:016][408]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2021.07.08-23.29.34:037][408]LogContentBrowser: Verbose: The majority of assets in the view are of type: FileMediaSource
+[2021.07.08-23.29.36:833][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/IMAGES/BG_Player" FILE="../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/IMAGES/BG_Player.uasset" SILENT=true
+[2021.07.08-23.29.36:835][634]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Saved/BG_Player4595F4AE4DD3AD98FE41BA80AA48FAB4.tmp' to '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/IMAGES/BG_Player.uasset'
+[2021.07.08-23.29.36:856][634]AssetCheck: New page: Asset Save: BG_Player
+[2021.07.08-23.29.36:856][634]LogContentValidation: Display: Validating MediaPlayer /Game/Wolfi/IMAGES/BG_Player.BG_Player
+[2021.07.08-23.29.38:858][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/IMAGES/BG_Player" FILE="../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/IMAGES/BG_Player.uasset" SILENT=true
+[2021.07.08-23.29.38:859][856]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Saved/BG_PlayerCA81E35741B6D2529DCBBC8C006DEE95.tmp' to '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/IMAGES/BG_Player.uasset'
+[2021.07.08-23.29.38:874][856]AssetCheck: New page: Asset Save: BG_Player
+[2021.07.08-23.29.38:874][856]LogContentValidation: Display: Validating MediaPlayer /Game/Wolfi/IMAGES/BG_Player.BG_Player
+[2021.07.08-23.29.39:741][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/IMAGES/BG_Player" FILE="../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/IMAGES/BG_Player.uasset" SILENT=true
+[2021.07.08-23.29.39:742][951]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Saved/BG_PlayerA7C0EA094E25FBF5CEA45691CDB1E58C.tmp' to '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/IMAGES/BG_Player.uasset'
+[2021.07.08-23.29.39:756][951]AssetCheck: New page: Asset Save: BG_Player
+[2021.07.08-23.29.39:756][951]LogContentValidation: Display: Validating MediaPlayer /Game/Wolfi/IMAGES/BG_Player.BG_Player
