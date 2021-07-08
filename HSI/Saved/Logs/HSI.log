@@ -1029,3 +1029,100 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.07.08-23.29.39:742][951]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Saved/BG_PlayerA7C0EA094E25FBF5CEA45691CDB1E58C.tmp' to '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/IMAGES/BG_Player.uasset'
 [2021.07.08-23.29.39:756][951]AssetCheck: New page: Asset Save: BG_Player
 [2021.07.08-23.29.39:756][951]LogContentValidation: Display: Validating MediaPlayer /Game/Wolfi/IMAGES/BG_Player.BG_Player
+[2021.07.08-23.39.14:137][ 55]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Wolfi/UI_Menu.UI_Menu
+[2021.07.08-23.39.22:816][528]BlueprintLog: New page: Compile UI_Menu
+[2021.07.08-23.39.22:928][528]LogUObjectHash: Compacting FUObjectHashTables data took   6.24ms
+[2021.07.08-23.39.23:348][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Menu" FILE="../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Menu.uasset" SILENT=true
+[2021.07.08-23.39.23:376][550]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Menu365875984917E09004639387B5B969C5.tmp' to '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Menu.uasset'
+[2021.07.08-23.39.23:392][550]AssetCheck: New page: Asset Save: UI_Menu
+[2021.07.08-23.39.23:392][550]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Menu.UI_Menu
+[2021.07.08-23.39.29:342][892]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Wolfi/UI_Animation.UI_Animation
+[2021.07.08-23.39.35:864][212]BlueprintLog: New page: Compile UI_Animation
+[2021.07.08-23.39.35:964][212]LogUObjectHash: Compacting FUObjectHashTables data took   6.32ms
+[2021.07.08-23.39.36:290][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Animation" FILE="../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Animation.uasset" SILENT=true
+[2021.07.08-23.39.36:319][223]LogSavePackage: Moving '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Animation2A255954405974C568AA69832DD37270.tmp' to '../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Animation.uasset'
+[2021.07.08-23.39.36:337][223]AssetCheck: New page: Asset Save: UI_Animation
+[2021.07.08-23.39.36:337][223]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Animation.UI_Animation
+[2021.07.08-23.39.37:731][294]LogSlate: Window 'UI_Animation' being destroyed
+[2021.07.08-23.39.37:800][294]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.07.08-23.39.37:800][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.08-23.39.37:811][294]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.07.08-23.39.37:811][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.08-23.39.39:460][382]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
+[2021.07.08-23.39.39:527][382]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Wolfi/M_Wolfi.M_Wolfi
+[2021.07.08-23.39.39:528][382]Cmd: MAP LOAD FILE="../../../../../../Users/Angel/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/M_Wolfi.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.07.08-23.39.39:528][382]LightingResults: New page: Lighting Build
+[2021.07.08-23.39.39:529][382]LoadErrors: New page: Loading map: M_Wolfi.umap
+[2021.07.08-23.39.39:530][382]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: ProceduralMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Terrain_BP_2.ProceduralMesh)
+[2021.07.08-23.39.39:561][382]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.07.08-23.39.39:561][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.08-23.39.39:562][382]MapCheck: New page: Map Check
+[2021.07.08-23.39.39:562][382]LightingResults: New page: Lighting Build
+[2021.07.08-23.39.39:598][382]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.08-23.39.39:602][382]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2021.07.08-23.39.39:603][382]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Wolfi'.
+[2021.07.08-23.39.39:735][382]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.07.08-23.39.39:735][382]LogAIModule: Creating AISystem for world M_Wolfi
+[2021.07.08-23.39.39:778][382]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.07.08-23.39.39:783][382]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.07.08-23.39.39:784][382]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.166ms to complete.
+[2021.07.08-23.39.39:784][382]LogFileHelpers: Loading map 'M_Wolfi' took 0.256
+[2021.07.08-23.39.41:523][474]LogTemp: Repeating last play command: Simulate
+[2021.07.08-23.39.41:533][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.08-23.39.41:535][474]PIE: New page: SIE session: M_Wolfi (Jul 8, 2021, 11:39:41 AM)
+[2021.07.08-23.39.41:537][474]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.07.08-23.39.41:540][474]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.07.08-23.39.41:541][474]LogPlayLevel: Creating play world package: /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.07.08-23.39.41:545][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003733s)
+[2021.07.08-23.39.41:547][474]LogAIModule: Creating AISystem for world M_Wolfi
+[2021.07.08-23.39.41:548][474]LogPlayLevel: PIE: World Init took: (0.002251s)
+[2021.07.08-23.39.41:549][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Wolfi/M_Wolfi.M_Wolfi to /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi (0.007467s)
+[2021.07.08-23.39.41:592][474]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2021.07.08-23.39.41:594][474]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.07.08-23.39.41:595][474]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.08-23.39.41:595][474]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.08-23.39.41:595][474]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.08-23.39.41:595][474]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.08-23.39.41:595][474]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.08-23.39.41:595][474]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.08-23.39.41:595][474]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.08-23.39.41:595][474]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.08-23.39.41:595][474]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.08-23.39.41:595][474]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.08-23.39.41:600][474]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.08-23.39.41:600][474]LogAudioMixer: Display: 1: FrontRight
+[2021.07.08-23.39.41:616][474]LogAudioMixer: Display: Using Audio Device Audífono de los auriculares con micrófono (HyperX Amp Chat)
+[2021.07.08-23.39.41:616][474]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.08-23.39.41:616][474]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.08-23.39.41:617][474]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.08-23.39.41:617][474]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.08-23.39.41:617][474]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.08-23.39.41:617][474]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.08-23.39.41:632][474]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.08-23.39.41:632][474]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.08-23.39.41:632][474]LogInit: FAudioDevice initialized.
+[2021.07.08-23.39.41:632][474]LogAudio: Display: Audio Device (ID: 2) registered with world 'M_Wolfi'.
+[2021.07.08-23.39.41:644][474]LogLoad: Game class is 'GameMode'
+[2021.07.08-23.39.41:645][474]LogWorld: Bringing World /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi up for play (max tick rate 60) at 2021.07.08-17.39.41
+[2021.07.08-23.39.41:647][474]LogWorld: Bringing up level for play took: 0.001871
+[2021.07.08-23.39.41:647][474]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.07.08-23.39.41:652][474]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.08-23.39.41:669][474]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.07.08-23.39.41:670][474]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.08-23.39.41:694][474]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.07.08-23.39.41:694][474]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2021.07.08-23.39.41:694][474]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2021.07.08-23.39.41:698][474]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.07.08-23.39.41:699][474]PIE: Server logged in
+[2021.07.08-23.39.41:703][474]PIE: Play in editor total start time 0.173 seconds.
+[2021.07.08-23.39.43:784][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.08-23.39.43:785][560]LogWorld: BeginTearingDown for /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.07.08-23.39.43:785][560]LogWorld: UWorld::CleanupWorld for M_Wolfi, bSessionEnded=true, bCleanupResources=true
+[2021.07.08-23.39.43:786][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.08-23.39.43:798][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.08-23.39.43:806][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.08-23.39.43:847][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.08-23.39.43:849][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.08-23.39.43:850][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.08-23.39.43:893][560]LogUObjectHash: Compacting FUObjectHashTables data took   6.23ms
+[2021.07.08-23.39.43:910][561]LogPlayLevel: Display: Destroying online subsystem :Context_13
