@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HSI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9121FEB8-30C9-44FA-851F-5FAE1F80C1B8}</UniqueIdentifier>
+      <UniqueIdentifier>{791204CD-2399-4A48-B8D2-F76402BC7802}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HSI.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A29D25D3-7FA5-4DD8-92CD-8CC0201D8701}</UniqueIdentifier>
+      <UniqueIdentifier>{81E13703-A7D9-45D8-9484-4831A3EA9A10}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HSI">
-      <UniqueIdentifier>{5031FD7D-E36E-4D2B-ABFE-04D1D6CDEADD}</UniqueIdentifier>
+      <UniqueIdentifier>{41172AFB-B488-41DA-808F-4D41062B3084}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HSI\HSI.Build.cs">
       <Filter>Source\HSI</Filter>
@@ -39,6 +39,12 @@
       <Filter>Source\HSI</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HSI\HSIGameModeBase.h">
+      <Filter>Source\HSI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HSI\MyActor.cpp">
+      <Filter>Source\HSI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSI\MyActor.h">
       <Filter>Source\HSI</Filter>
     </ClInclude>
   </ItemGroup>
