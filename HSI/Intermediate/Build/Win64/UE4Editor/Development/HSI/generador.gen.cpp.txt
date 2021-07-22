@@ -1,0 +1,5 @@
+D:\github\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\Definitions.HSI.h
+C:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\github\PPA_HSI\HSI\Source\HSI/generador.h
+D:\github\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Inc\HSI\generador.generated.h
