@@ -1,7 +1,7 @@
-D:\github\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\Definitions.HSI.h
-D:\github\PPA_HSI\HSI\Source\HSI\HSIGameModeBase.h
+C:\Users\roriv\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\Definitions.HSI.h
+C:\Users\roriv\Documents\GitHub\PPA_HSI\HSI\Source\HSI\HSIGameModeBase.h
 C:\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\github\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Inc\HSI\HSIGameModeBase.generated.h
+C:\Users\roriv\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Inc\HSI\HSIGameModeBase.generated.h

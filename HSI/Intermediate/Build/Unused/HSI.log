@@ -1,21 +1,3 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\github\PPA_HSI).
-  Parsing headers for HSIEditor
-    Running UnrealHeaderTool "D:\github\PPA_HSI\HSI\HSI.uproject" "D:\github\PPA_HSI\HSI\Intermediate\Build\Win64\HSIEditor\Development\HSIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\roriv\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for HSIEditor in 15.077513 seconds
-  Building HSIEditor...
-  Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 8 processes...
-    [1/5] generator.cpp
-D:\github\PPA_HSI\HSI\Source\HSI\generator.cpp(29): error C2039: 'x': is not a member of 'FVector2D'
-    C:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerController.generated.h(40): note: see declaration of 'FVector2D'
-D:\github\PPA_HSI\HSI\Source\HSI\generator.cpp(30): error C2039: 'y': is not a member of 'FVector2D'
-    C:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerController.generated.h(40): note: see declaration of 'FVector2D'
-D:\github\PPA_HSI\HSI\Source\HSI\generator.cpp(32): error C2664: 'float FVector::DotProduct(const FVector &,const FVector &)': cannot convert argument 1 from 'FVector2D' to 'const FVector &'
-    D:\github\PPA_HSI\HSI\Source\HSI\generator.cpp(32): note: Reason: cannot convert from 'FVector2D' to 'const FVector'
-    D:\github\PPA_HSI\HSI\Source\HSI\generator.cpp(32): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-    C:\UE_4.26\Engine\Source\Runtime\Core\Public\Math/Vector.h(1319): note: see declaration of 'FVector::DotProduct'
-D:\github\PPA_HSI\HSI\Source\HSI\generator.cpp(32): error C3861: 'frac': identifier not found
-D:\github\PPA_HSI\HSI\Source\HSI\generator.cpp(33): error C2039: 'x': is not a member of 'FVector2D'
-    C:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerController.generated.h(40): note: see declaration of 'FVector2D'
-D:\github\PPA_HSI\HSI\Source\HSI\generator.cpp(33): error C2039: 'y': is not a member of 'FVector2D'
-    C:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerController.generated.h(40): note: see declaration of 'FVector2D'
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\roriv\Documents\GitHub\PPA_HSI).
+  Target is up to date
+  Total execution time: 1.25 seconds
