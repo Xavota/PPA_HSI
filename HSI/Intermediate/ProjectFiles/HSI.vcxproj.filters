@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HSI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C080B689-86CE-4A31-AEB0-868AC02B96A3}</UniqueIdentifier>
+      <UniqueIdentifier>{1731FB31-1323-4EAF-8215-21FF868A16DE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HSI.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C24DDCE3-5327-4B9C-82BE-62AF7A2D9F12}</UniqueIdentifier>
+      <UniqueIdentifier>{F0013562-9212-48A6-8464-F6F1F34DA2F6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\HSI">
-      <UniqueIdentifier>{F5228A84-9449-41A4-983A-179806FC225C}</UniqueIdentifier>
+      <UniqueIdentifier>{CE6AD190-C6BC-4F10-9EA9-8A26EBD317F2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HSI\generador.cpp">
       <Filter>Source\HSI</Filter>
@@ -51,6 +54,24 @@
       <Filter>Source\HSI</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HSI\HSIGameModeBase.h">
+      <Filter>Source\HSI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HSI\MyActor.cpp">
+      <Filter>Source\HSI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSI\MyActor.h">
+      <Filter>Source\HSI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HSI\TerrainGenerator_CPP.cpp">
+      <Filter>Source\HSI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSI\TerrainGenerator_CPP.h">
+      <Filter>Source\HSI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HSI\Terrain_CPP.cpp">
+      <Filter>Source\HSI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSI\Terrain_CPP.h">
       <Filter>Source\HSI</Filter>
     </ClInclude>
   </ItemGroup>
