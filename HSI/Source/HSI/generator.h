@@ -37,6 +37,8 @@ public:
 	int pixel(FVector2D uv);
 	int* get();
 	UTexture2D* textura;
+	uint8* Pixels;
+	int32 CurrentPixelIndex = 0;
 	TArray<FColor> colores;
 	UFUNCTION(BlueprintCallable)
 	void groundthruth(int size);
