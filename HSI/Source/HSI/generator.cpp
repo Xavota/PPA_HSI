@@ -4,6 +4,7 @@
 #include "generator.h"
 #include <math.h>
 #include <cmath>
+#include "AssetRegistryModule.h"
 #include "ImageUtils.h"
 // Sets default values
 Agenerator::Agenerator()
@@ -115,30 +116,87 @@ float Agenerator::noise(FVector2D uv) {
 int Agenerator::pixel(FVector2D uv)
 {
     float n = noise(uv * scale) + noise(uv * intensity) * sampleRadius;
-    if (n > bias)
+    Pixels[4 * CurrentPixelIndex] = 0;
+    Pixels[4 * CurrentPixelIndex + 1] = 0;
+    Pixels[4 * CurrentPixelIndex + 2] = 0;
+    Pixels[4 * CurrentPixelIndex + 3] = 255;
+    if (n > bias) {
+        Pixels[4 * CurrentPixelIndex] = 255;
         return 0;
-    else if (n > bias0)
+    }
+        
+    else if (n > bias0) {
+        Pixels[4 * CurrentPixelIndex+1] = 255;
         return 1;
-    else
+    }
+    else {
+        Pixels[4 * CurrentPixelIndex + 2] = 255;
         return 2;
+    }
+        
 }
 
 void Agenerator::groundthruth(int size)
 {
-    out.open("D:/test.csv");
-    EObjectFlags flags;
-    FCreateTexture2DParameters params;
+    FString PackageName = TEXT("/Game/ProceduralTextures/");
+    FString BaseTextureName = FString("Groundthruth");
+    PackageName += BaseTextureName;
+    UPackage* Package = CreatePackage(NULL, *PackageName);
+    GLog->Log("project dir:" + FPaths::ProjectDir());
+    FName TextureName = MakeUniqueObjectName(Package, UTexture2D::StaticClass(), FName(*BaseTextureName));
+    Package->FullyLoad();
+    textura = NewObject<UTexture2D>(Package, TextureName, RF_Public | RF_Standalone | RF_MarkAsRootSet);
 
-    textura=FImageUtils::CreateTexture2D(size,size,colores, textura,"Groundthruth",flags,params);
+    int32 TextureWidth = size;
+    int32 TextureHeight = size;
+    textura->AddToRoot();
+    textura->PlatformData = new FTexturePlatformData();
+    textura->PlatformData->SizeX = TextureWidth;
+    textura->PlatformData->SizeY = TextureHeight;
+    textura->PlatformData->PixelFormat = EPixelFormat::PF_B8G8R8A8;
+    Pixels = new uint8[TextureWidth * TextureHeight * 4];
+    
+    out.open("D:/test.csv");
+    
     gt = new int[size * size];
     for (int i = 0; i < size; i++) {
         for (int o = 0; o < size; o++) {
-            //out << "p " << i << " " << o << std::endl;
             gt[i * size + o] = pixel(FVector2D((float)i/(float)size , (float)o/ (float)size));
             out << gt[i * size + o] << ',';
+            CurrentPixelIndex++;
         }
         out << '\n';
     }
+    //Allocate first mipmap.
+    FTexture2DMipMap* Mip = new FTexture2DMipMap();
+    textura->PlatformData->Mips.Add(Mip);
+    Mip->SizeX = TextureWidth;
+    Mip->SizeY = TextureHeight;
+
+    //Lock the mipmap data so it can be modified
+    Mip->BulkData.Lock(LOCK_READ_WRITE);
+    uint8* TextureData = (uint8*)Mip->BulkData.Realloc(TextureWidth * TextureHeight * 4);
+    //Copy the pixel data into the Texture data
+    FMemory::Memcpy(TextureData, Pixels, sizeof(uint8) * TextureHeight * TextureWidth * 4);
+    Mip->BulkData.Unlock();
+
+
+    //Initialize a new texture
+    textura->Source.Init(TextureWidth, TextureHeight, 1, 1, ETextureSourceFormat::TSF_BGRA8, Pixels);
+    textura->UpdateResource();
+
+    //Mark the package as dirty so the editor will prompt you to save the file if you haven't
+    Package->MarkPackageDirty();
+
+    //Notify the editor that we created a new asset
+    FAssetRegistryModule::AssetCreated(textura);
+
+    //Auto-save the new  asset
+    FString PackageFileName = FPackageName::LongPackageNameToFilename(PackageName, FPackageName::GetAssetPackageExtension());
+    bool bSaved = UPackage::SavePackage(Package, textura, EObjectFlags::RF_Public | EObjectFlags::RF_Standalone, *PackageFileName, GError, nullptr, true, true, SAVE_NoError);
+
+    //Since we don't need access to the pixel data anymore free the memory
+    delete[] Pixels;
 }
 
 UTexture2D* Agenerator::getTexture()
