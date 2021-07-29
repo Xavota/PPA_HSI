@@ -27,7 +27,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void GenerateTerrain(FVector2D _size, FVector2D _tiles, FVector2D _textureTiles,
-						 UMaterial* Material, UTexture2D* ColorMap, float MaxHeight);
+						 UMaterial* _Material, UTexture2D* _InputMap, float _MaxHeight);
 
 private:
 	UPROPERTY(EditAnywhere, Category = TerrainSettings)
@@ -43,10 +43,10 @@ private:
 		UMaterial* Material;
 
 	UPROPERTY(EditAnywhere, Category = TerrainSettings)
-		UTexture2D* ColorMap;
+		UTexture2D* InputMap;
 
-	UPROPERTY(EditAnywhere, Category = TerrainSettings)
-		UTexture2D* HeightMap;
+	//UPROPERTY(EditAnywhere, Category = TerrainSettings)
+		//UTexture2D* HeightMap;
 
 	UPROPERTY(EditAnywhere, Category = TerrainSettings)
 		float MaxHeight;
@@ -61,7 +61,7 @@ private:
 		TArray<FVector> Normals;
 
 	UPROPERTY()
-		TArray<int> Indices;
+		TArray<int32> Indices;
 
 	//UPROPERTY()
 		//TArray<FVector2D> Tangents;
@@ -69,6 +69,6 @@ private:
 	UPROPERTY()
 		UMaterialInstanceDynamic* DynamicMat;
 
-	//UPROPERTY()
-		//class UProceduralMeshComponent* ProceduralMesh;
+	UPROPERTY()
+		class UProceduralMeshComponent* ProceduralMesh;
 };

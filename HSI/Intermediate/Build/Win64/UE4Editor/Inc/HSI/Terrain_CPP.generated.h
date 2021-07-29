@@ -74,14 +74,14 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATerrain_CPP); \
 	FORCEINLINE static uint32 __PPO__Tiles() { return STRUCT_OFFSET(ATerrain_CPP, Tiles); } \
 	FORCEINLINE static uint32 __PPO__TextureTiles() { return STRUCT_OFFSET(ATerrain_CPP, TextureTiles); } \
 	FORCEINLINE static uint32 __PPO__Material() { return STRUCT_OFFSET(ATerrain_CPP, Material); } \
-	FORCEINLINE static uint32 __PPO__ColorMap() { return STRUCT_OFFSET(ATerrain_CPP, ColorMap); } \
-	FORCEINLINE static uint32 __PPO__HeightMap() { return STRUCT_OFFSET(ATerrain_CPP, HeightMap); } \
+	FORCEINLINE static uint32 __PPO__InputMap() { return STRUCT_OFFSET(ATerrain_CPP, InputMap); } \
 	FORCEINLINE static uint32 __PPO__MaxHeight() { return STRUCT_OFFSET(ATerrain_CPP, MaxHeight); } \
 	FORCEINLINE static uint32 __PPO__Vertices() { return STRUCT_OFFSET(ATerrain_CPP, Vertices); } \
 	FORCEINLINE static uint32 __PPO__UVs() { return STRUCT_OFFSET(ATerrain_CPP, UVs); } \
 	FORCEINLINE static uint32 __PPO__Normals() { return STRUCT_OFFSET(ATerrain_CPP, Normals); } \
 	FORCEINLINE static uint32 __PPO__Indices() { return STRUCT_OFFSET(ATerrain_CPP, Indices); } \
-	FORCEINLINE static uint32 __PPO__DynamicMat() { return STRUCT_OFFSET(ATerrain_CPP, DynamicMat); }
+	FORCEINLINE static uint32 __PPO__DynamicMat() { return STRUCT_OFFSET(ATerrain_CPP, DynamicMat); } \
+	FORCEINLINE static uint32 __PPO__ProceduralMesh() { return STRUCT_OFFSET(ATerrain_CPP, ProceduralMesh); }
 
 
 #define HSI_Source_HSI_Terrain_CPP_h_9_PROLOG

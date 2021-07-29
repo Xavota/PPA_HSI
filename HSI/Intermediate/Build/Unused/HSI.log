@@ -1,3 +1,12 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\roriv\Documents\GitHub\PPA_HSI).
-  Target is up to date
-  Total execution time: 1.10 seconds
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI).
+  Building HSIEditor...
+  Using Visual Studio 2019 14.28.29914 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 12 processes...
+    [1/4] Terrain_CPP.cpp
+    [2/4] UE4Editor-HSI-0002.lib
+       Creating library C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI-0002.lib and object C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI-0002.exp
+    [3/4] UE4Editor-HSI-0002.dll
+       Creating library C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI-0002.suppressed.lib and object C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI-0002.suppressed.exp
+    [4/4] HSIEditor.target
+  Total time in Parallel executor: 1,64 seconds
+  Total execution time: 2,45 seconds
