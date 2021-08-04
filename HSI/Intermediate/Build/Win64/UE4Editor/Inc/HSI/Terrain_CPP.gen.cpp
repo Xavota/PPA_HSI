@@ -24,6 +24,13 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 	ENGINE_API UClass* Z_Construct_UClass_UMaterialInstanceDynamic_NoRegister();
 	PROCEDURALMESHCOMPONENT_API UClass* Z_Construct_UClass_UProceduralMeshComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ATerrain_CPP::execGetSize)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FVector2D*)Z_Param__Result=P_THIS->GetSize();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ATerrain_CPP::execGenerateTerrain)
 	{
 		P_GET_STRUCT(FVector2D,Z_Param__size);
@@ -42,6 +49,7 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 		UClass* Class = ATerrain_CPP::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "GenerateTerrain", &ATerrain_CPP::execGenerateTerrain },
+			{ "GetSize", &ATerrain_CPP::execGetSize },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -94,6 +102,38 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ATerrain_CPP_GetSize_Statics
+	{
+		struct Terrain_CPP_eventGetSize_Parms
+		{
+			FVector2D ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ATerrain_CPP_GetSize_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Terrain_CPP_eventGetSize_Parms, ReturnValue), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATerrain_CPP_GetSize_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATerrain_CPP_GetSize_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATerrain_CPP_GetSize_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Terrain_CPP.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATerrain_CPP_GetSize_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATerrain_CPP, nullptr, "GetSize", nullptr, nullptr, sizeof(Terrain_CPP_eventGetSize_Parms), Z_Construct_UFunction_ATerrain_CPP_GetSize_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATerrain_CPP_GetSize_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATerrain_CPP_GetSize_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATerrain_CPP_GetSize_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATerrain_CPP_GetSize()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATerrain_CPP_GetSize_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -170,6 +210,7 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATerrain_CPP_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain, "GenerateTerrain" }, // 1938827916
+		{ &Z_Construct_UFunction_ATerrain_CPP_GetSize, "GetSize" }, // 3143986564
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATerrain_CPP_Statics::Class_MetaDataParams[] = {
@@ -309,7 +350,7 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATerrain_CPP, 2745877932);
+	IMPLEMENT_CLASS(ATerrain_CPP, 262965025);
 	template<> HSI_API UClass* StaticClass<ATerrain_CPP>()
 	{
 		return ATerrain_CPP::StaticClass();

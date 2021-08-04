@@ -27,7 +27,10 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void GenerateTerrain(FVector2D _size, FVector2D _tiles, FVector2D _textureTiles,
-						 UMaterial* _Material, UTexture2D* _InputMap, float _MaxHeight);
+		UMaterial* _Material, UTexture2D* _InputMap, float _MaxHeight);
+
+	UFUNCTION(BlueprintCallable)
+		FVector2D GetSize();
 
 private:
 	UPROPERTY(EditAnywhere, Category = TerrainSettings)

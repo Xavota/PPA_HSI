@@ -19,11 +19,13 @@ class UTexture2D;
 #define HSI_Source_HSI_Terrain_CPP_h_12_SPARSE_DATA
 #define HSI_Source_HSI_Terrain_CPP_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetSize); \
 	DECLARE_FUNCTION(execGenerateTerrain);
 
 
 #define HSI_Source_HSI_Terrain_CPP_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetSize); \
 	DECLARE_FUNCTION(execGenerateTerrain);
 
 
