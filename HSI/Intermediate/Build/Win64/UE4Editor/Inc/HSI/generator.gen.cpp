@@ -28,10 +28,12 @@ void EmptyLinkFunctionForGeneratedCodegenerator() {}
 	}
 	DEFINE_FUNCTION(Agenerator::execgroundthruth)
 	{
-		P_GET_PROPERTY(FIntProperty,Z_Param_size);
+		P_GET_PROPERTY(FIntProperty,Z_Param_sizeX);
+		P_GET_PROPERTY(FIntProperty,Z_Param_sizeY);
+		P_GET_PROPERTY(FStrProperty,Z_Param_proyectPath);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->groundthruth(Z_Param_size);
+		P_THIS->groundthruth(Z_Param_sizeX,Z_Param_sizeY,Z_Param_proyectPath);
 		P_NATIVE_END;
 	}
 	void Agenerator::StaticRegisterNativesAgenerator()
@@ -79,18 +81,26 @@ void EmptyLinkFunctionForGeneratedCodegenerator() {}
 	{
 		struct generator_eventgroundthruth_Parms
 		{
-			int32 size;
+			int32 sizeX;
+			int32 sizeY;
+			FString proyectPath;
 		};
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_size;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_sizeX;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_sizeY;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_proyectPath;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_Agenerator_groundthruth_Statics::NewProp_size = { "size", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(generator_eventgroundthruth_Parms, size), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_Agenerator_groundthruth_Statics::NewProp_sizeX = { "sizeX", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(generator_eventgroundthruth_Parms, sizeX), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_Agenerator_groundthruth_Statics::NewProp_sizeY = { "sizeY", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(generator_eventgroundthruth_Parms, sizeY), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_Agenerator_groundthruth_Statics::NewProp_proyectPath = { "proyectPath", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(generator_eventgroundthruth_Parms, proyectPath), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_Agenerator_groundthruth_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_Agenerator_groundthruth_Statics::NewProp_size,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_Agenerator_groundthruth_Statics::NewProp_sizeX,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_Agenerator_groundthruth_Statics::NewProp_sizeY,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_Agenerator_groundthruth_Statics::NewProp_proyectPath,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_Agenerator_groundthruth_Statics::Function_MetaDataParams[] = {
@@ -127,7 +137,7 @@ void EmptyLinkFunctionForGeneratedCodegenerator() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_Agenerator_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_Agenerator_getTexture, "getTexture" }, // 2467277046
-		{ &Z_Construct_UFunction_Agenerator_groundthruth, "groundthruth" }, // 2244120006
+		{ &Z_Construct_UFunction_Agenerator_groundthruth, "groundthruth" }, // 228219977
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_Agenerator_Statics::Class_MetaDataParams[] = {
@@ -162,7 +172,7 @@ void EmptyLinkFunctionForGeneratedCodegenerator() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Agenerator, 3536571733);
+	IMPLEMENT_CLASS(Agenerator, 280665117);
 	template<> HSI_API UClass* StaticClass<Agenerator>()
 	{
 		return Agenerator::StaticClass();

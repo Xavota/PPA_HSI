@@ -136,33 +136,37 @@ int Agenerator::pixel(FVector2D uv)
         
 }
 
-void Agenerator::groundthruth(int size)
+void Agenerator::groundthruth(int sizeX, int sizeY, FString proyectPath)
 {
-    FString PackageName = TEXT("/Game/ProceduralTextures/");
-    FString BaseTextureName = FString("Groundthruth");
-    PackageName += BaseTextureName;
-    UPackage* Package = CreatePackage(NULL, *PackageName);
-    GLog->Log("project dir:" + FPaths::ProjectDir());
-    FName TextureName = MakeUniqueObjectName(Package, UTexture2D::StaticClass(), FName(*BaseTextureName));
-    Package->FullyLoad();
-    textura = NewObject<UTexture2D>(Package, TextureName, RF_Public | RF_Standalone | RF_MarkAsRootSet);
+    //FString PackageName = TEXT("/Game/ProceduralTextures/");
+    //FString BaseTextureName = FString("Groundthruth");
+    //PackageName += BaseTextureName;
+    //UPackage* Package = CreatePackage(NULL, *PackageName);
+    //GLog->Log("project dir:" + FPaths::ProjectDir());
+    //FName TextureName = MakeUniqueObjectName(Package, UTexture2D::StaticClass(), FName(*BaseTextureName));
+    //Package->FullyLoad();
 
-    int32 TextureWidth = size;
-    int32 TextureHeight = size;
+
+	textura = NewObject<UTexture2D>();// Package, TextureName, RF_Public | RF_Standalone | RF_MarkAsRootSet);
+
+    int32 TextureWidth = sizeX;
+    int32 TextureHeight = sizeY;
     textura->AddToRoot();
     textura->PlatformData = new FTexturePlatformData();
     textura->PlatformData->SizeX = TextureWidth;
     textura->PlatformData->SizeY = TextureHeight;
     textura->PlatformData->PixelFormat = EPixelFormat::PF_B8G8R8A8;
     Pixels = new uint8[TextureWidth * TextureHeight * 4];
+
+	FString CSVPath = proyectPath.Append("/test.csv");
     
-    out.open("D:/test.csv");
+    out.open(TCHAR_TO_ANSI(*CSVPath));
     
-    gt = new int[size * size];
-    for (int i = 0; i < size; i++) {
-        for (int o = 0; o < size; o++) {
-            gt[i * size + o] = pixel(FVector2D((float)i/(float)size , (float)o/ (float)size));
-            out << gt[i * size + o] << ',';
+    gt = new int[sizeX * sizeY];
+    for (int i = 0; i < sizeY; i++) {
+        for (int o = 0; o < sizeX; o++) {
+            gt[i * sizeX + o] = pixel(FVector2D((float)i/(float)sizeX , (float)o/ (float)sizeY));
+            out << gt[i * sizeX + o] << ',';
             CurrentPixelIndex++;
         }
         out << '\n';
@@ -186,14 +190,14 @@ void Agenerator::groundthruth(int size)
     textura->UpdateResource();
 
     //Mark the package as dirty so the editor will prompt you to save the file if you haven't
-    Package->MarkPackageDirty();
+    //Package->MarkPackageDirty();
 
     //Notify the editor that we created a new asset
-    FAssetRegistryModule::AssetCreated(textura);
+    //FAssetRegistryModule::AssetCreated(textura);
 
     //Auto-save the new  asset
-    FString PackageFileName = FPackageName::LongPackageNameToFilename(PackageName, FPackageName::GetAssetPackageExtension());
-    bool bSaved = UPackage::SavePackage(Package, textura, EObjectFlags::RF_Public | EObjectFlags::RF_Standalone, *PackageFileName, GError, nullptr, true, true, SAVE_NoError);
+    //FString PackageFileName = FPackageName::LongPackageNameToFilename(PackageName, FPackageName::GetAssetPackageExtension());
+    //bool bSaved = UPackage::SavePackage(Package, textura, EObjectFlags::RF_Public | EObjectFlags::RF_Standalone, *PackageFileName, GError, nullptr, true, true, SAVE_NoError);
 
     //Since we don't need access to the pixel data anymore free the memory
     delete[] Pixels;

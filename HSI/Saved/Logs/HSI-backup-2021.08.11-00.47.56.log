@@ -1,0 +1,1709 @@
+﻿Log file open, 08/10/21 18:03:43
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: HSI
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.439481
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogXGEController: Cleaning working directory: C:/Users/marad/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.08.10-23.03.43:858][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.08.10-23.03.43:858][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.08.10-23.03.43:858][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.08.10-23.03.43:858][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.08.10-23.03.43:858][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2021.08.10-23.03.43:858][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2021.08.10-23.03.43:858][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2021.08.10-23.03.43:859][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2021.08.10-23.03.43:860][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2021.08.10-23.03.43:860][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2021.08.10-23.03.43:860][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2021.08.10-23.03.43:860][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2021.08.10-23.03.43:860][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2021.08.10-23.03.43:860][  0]LogConfig: Setting CVar [[r.Mobile.ReflectionCaptureCompression:0]]
+[2021.08.10-23.03.43:860][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2021.08.10-23.03.43:860][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2021.08.10-23.03.43:860][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2021.08.10-23.03.43:860][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2021.08.10-23.03.43:860][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2021.08.10-23.03.43:860][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2021.08.10-23.03.43:860][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2021.08.10-23.03.43:861][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2021.08.10-23.03.43:861][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2021.08.10-23.03.43:861][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2021.08.10-23.03.43:861][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2021.08.10-23.03.43:861][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2021.08.10-23.03.43:861][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2021.08.10-23.03.43:861][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2021.08.10-23.03.43:861][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2021.08.10-23.03.43:861][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2021.08.10-23.03.43:861][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2021.08.10-23.03.43:861][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2021.08.10-23.03.43:861][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.08.10-23.03.43:861][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2021.08.10-23.03.43:862][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2021.08.10-23.03.43:862][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2021.08.10-23.03.43:862][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2021.08.10-23.03.43:862][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2021.08.10-23.03.43:862][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.08.10-23.03.43:862][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2021.08.10-23.03.43:862][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2021.08.10-23.03.43:862][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2021.08.10-23.03.43:862][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2021.08.10-23.03.43:862][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2021.08.10-23.03.43:862][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2021.08.10-23.03.43:862][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2021.08.10-23.03.43:863][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2021.08.10-23.03.43:863][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2021.08.10-23.03.43:863][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2021.08.10-23.03.43:863][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2021.08.10-23.03.43:863][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2021.08.10-23.03.43:863][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2021.08.10-23.03.43:863][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2021.08.10-23.03.43:863][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2021.08.10-23.03.43:863][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2021.08.10-23.03.43:863][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2021.08.10-23.03.43:863][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2021.08.10-23.03.43:863][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2021.08.10-23.03.43:863][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2021.08.10-23.03.43:864][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlightsShadow:0]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2021.08.10-23.03.43:865][  0]LogConfig: Setting CVar [[r.Mobile.AmbientOcclusion:0]]
+[2021.08.10-23.03.43:866][  0]LogConfig: Setting CVar [[r.GPUSkin.UnlimitedBoneInfluences:0]]
+[2021.08.10-23.03.43:866][  0]LogConfig: Setting CVar [[r.GPUSkin.UnlimitedBoneInfluencesThreshold:8]]
+[2021.08.10-23.03.43:866][  0]LogConfig: Setting CVar [[r.Mobile.PlanarReflectionMode:0]]
+[2021.08.10-23.03.43:866][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.08.10-23.03.43:866][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.08.10-23.03.43:866][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.08.10-23.03.43:866][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.08.10-23.03.43:866][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.08.10-23.03.43:866][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.08.10-23.03.43:866][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.08.10-23.03.43:866][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.08.10-23.03.43:866][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.08.10-23.03.43:866][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.08.10-23.03.43:866][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.08.10-23.03.43:866][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.08.10-23.03.43:866][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.08.10-23.03.43:867][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.08.10-23.03.43:867][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.08.10-23.03.43:867][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.08.10-23.03.43:867][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.08.10-23.03.43:867][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.08.10-23.03.43:867][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.08.10-23.03.43:867][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.08.10-23.03.43:867][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.08.10-23.03.43:867][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.08.10-23.03.43:867][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.08.10-23.03.43:867][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.08.10-23.03.43:867][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.08.10-23.03.43:867][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.08.10-23.03.43:867][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.08.10-23.03.43:868][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.08.10-23.03.43:868][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.08.10-23.03.43:868][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.08.10-23.03.43:868][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.08.10-23.03.43:868][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.08.10-23.03.43:868][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.08.10-23.03.43:888][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:889][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.08.10-23.03.43:889][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.08.10-23.03.43:889][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:889][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.08.10-23.03.43:889][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:889][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.08.10-23.03.43:889][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.08.10-23.03.43:889][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.08.10-23.03.43:889][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.08.10-23.03.43:889][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.08.10-23.03.43:889][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.08.10-23.03.43:889][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.08.10-23.03.43:889][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.08.10-23.03.43:890][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.08.10-23.03.43:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.08.10-23.03.43:892][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.08.10-23.03.43:892][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.08.10-23.03.43:892][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.08.10-23.03.43:892][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.08.10-23.03.43:892][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.08.10-23.03.43:892][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.08.10-23.03.43:892][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.08.10-23.03.43:892][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.08.10-23.03.43:892][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.08.10-23.03.43:892][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.08.10-23.03.43:892][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:892][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.08.10-23.03.43:892][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.08.10-23.03.43:892][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.08.10-23.03.43:893][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.08.10-23.03.43:893][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.08.10-23.03.43:893][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.08.10-23.03.43:893][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.08.10-23.03.43:893][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.08.10-23.03.43:893][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.08.10-23.03.43:893][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:893][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.08.10-23.03.43:893][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.08.10-23.03.43:893][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.08.10-23.03.43:893][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.08.10-23.03.43:893][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.08.10-23.03.43:893][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.08.10-23.03.43:893][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.08.10-23.03.43:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.08.10-23.03.43:895][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.08.10-23.03.43:895][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.08.10-23.03.43:895][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.08.10-23.03.43:895][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.08.10-23.03.43:895][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:895][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.08.10-23.03.43:895][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.08.10-23.03.43:895][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:895][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.08.10-23.03.43:895][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.08.10-23.03.43:895][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.08.10-23.03.43:895][  0]LogInit: Selected Device Profile: [Windows]
+[2021.08.10-23.03.43:895][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.08.10-23.03.43:895][  0]LogHAL: Display: Platform has ~ 16 GB [17016107008 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.08.10-23.03.43:895][  0]LogInit: Going up to parent DeviceProfile []
+[2021.08.10-23.03.43:896][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:896][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.08.10-23.03.43:896][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.08.10-23.03.43:896][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:896][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.08.10-23.03.43:896][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:896][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.08.10-23.03.43:896][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.08.10-23.03.43:896][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.08.10-23.03.43:896][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.08.10-23.03.43:896][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.08.10-23.03.43:896][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.08.10-23.03.43:896][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.08.10-23.03.43:896][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.08.10-23.03.43:896][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.08.10-23.03.43:896][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.08.10-23.03.43:897][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.08.10-23.03.43:897][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.08.10-23.03.43:897][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.08.10-23.03.43:897][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.08.10-23.03.43:897][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.08.10-23.03.43:897][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.08.10-23.03.43:897][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.08.10-23.03.43:897][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.08.10-23.03.43:897][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:897][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.08.10-23.03.43:897][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.08.10-23.03.43:897][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.08.10-23.03.43:897][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.08.10-23.03.43:897][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.08.10-23.03.43:897][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.08.10-23.03.43:898][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.08.10-23.03.43:899][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.08.10-23.03.43:900][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.08.10-23.03.43:901][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.08.10-23.03.43:902][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.10-23.03.43:902][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.08.10-23.03.43:902][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.08.10-23.03.43:902][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.08.10-23.03.43:902][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.08.10-23.03.43:902][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.08.10-23.03.43:903][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.08.10-23.03.43:903][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.08.10-23.03.43:903][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.08.10-23.03.43:903][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Editor.ini]
+[2021.08.10-23.03.43:903][  0]LogInit: Computer: MSI
+[2021.08.10-23.03.43:903][  0]LogInit: User: marad
+[2021.08.10-23.03.43:903][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.08.10-23.03.43:903][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.08.10-23.03.43:903][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2021.08.10-23.03.43:903][  0]LogMemory: Platform Memory Stats for Windows
+[2021.08.10-23.03.43:903][  0]LogMemory: Process Physical Memory: 133.04 MB used, 133.04 MB peak
+[2021.08.10-23.03.43:903][  0]LogMemory: Process Virtual Memory: 112.47 MB used, 112.47 MB peak
+[2021.08.10-23.03.43:903][  0]LogMemory: Physical Memory: 11869.60 MB used,  4358.23 MB free, 16227.82 MB total
+[2021.08.10-23.03.43:903][  0]LogMemory: Virtual Memory: 134209120.00 MB used,  8610.56 MB free, 134217728.00 MB total
+[2021.08.10-23.03.43:988][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.08.10-23.03.44:159][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.08.10-23.03.44:160][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.08.10-23.03.44:161][  0]LogInit: Overriding language with editor locale configuration option (en).
+[2021.08.10-23.03.44:395][  0]LogInit: Setting process to per monitor DPI aware
+[2021.08.10-23.03.44:447][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.08.10-23.03.44:477][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.08.10-23.03.44:478][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.08.10-23.03.44:718][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.08.10-23.03.44:718][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.08.10-23.03.44:718][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.08.10-23.03.44:718][  0]LogD3D11RHI: D3D11 adapters:
+[2021.08.10-23.03.44:881][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2021.08.10-23.03.44:881][  0]LogD3D11RHI:       5991/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.08.10-23.03.44:955][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.08.10-23.03.44:955][  0]LogD3D11RHI:       128/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.08.10-23.03.44:961][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.08.10-23.03.44:962][  0]LogD3D11RHI:       0/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.08.10-23.03.44:962][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.08.10-23.03.44:972][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.08.10-23.03.44:972][  0]LogD3D11RHI:     GPU DeviceId: 0x2191 (for the marketing name, search the web for "GPU Device Id")
+[2021.08.10-23.03.44:972][  0]LogWindows: EnumDisplayDevices:
+[2021.08.10-23.03.44:972][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.08.10-23.03.44:973][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.08.10-23.03.44:973][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.08.10-23.03.44:974][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2021.08.10-23.03.44:974][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2021.08.10-23.03.44:974][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2021.08.10-23.03.44:974][  0]LogD3D11RHI:   Driver Version: 466.77 (internal:27.21.14.6677, unified:466.77)
+[2021.08.10-23.03.44:974][  0]LogD3D11RHI:      Driver Date: 6-8-2021
+[2021.08.10-23.03.44:974][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2021.08.10-23.03.45:091][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.08.10-23.03.45:091][  0]LogD3D11RHI: Async texture creation enabled
+[2021.08.10-23.03.45:091][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.08.10-23.03.45:118][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.08.10-23.03.45:122][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.08.10-23.03.45:534][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.08.10-23.03.45:568][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.08.10-23.03.45:568][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.08.10-23.03.45:568][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.08.10-23.03.45:568][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.08.10-23.03.45:568][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.08.10-23.03.45:568][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.08.10-23.03.45:568][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.08.10-23.03.45:568][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.08.10-23.03.45:568][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.08.10-23.03.45:568][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.08.10-23.03.45:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.08.10-23.03.45:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.08.10-23.03.45:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.08.10-23.03.45:640][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.08.10-23.03.45:656][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.08.10-23.03.45:670][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.08.10-23.03.45:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.08.10-23.03.45:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.08.10-23.03.45:710][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.08.10-23.03.45:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.08.10-23.03.45:745][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.08.10-23.03.45:760][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.08.10-23.03.45:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.08.10-23.03.45:788][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.08.10-23.03.45:801][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.08.10-23.03.45:823][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.08.10-23.03.45:824][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.08.10-23.03.45:837][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.08.10-23.03.45:852][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.08.10-23.03.45:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.08.10-23.03.45:879][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.08.10-23.03.45:880][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.08.10-23.03.45:898][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.08.10-23.03.46:037][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.08.10-23.03.46:038][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Intermediate/Shaders/WorkingDirectory/1308/).
+[2021.08.10-23.03.46:038][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/marad/AppData/Local/Temp/UnrealShaderWorkingDir/7C53FC3843814774E9190483E02BBD02/'.
+[2021.08.10-23.03.46:038][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.08.10-23.03.46:038][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.08.10-23.03.47:005][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.08.10-23.03.47:057][  0]LogDerivedDataCache: Loaded boot cache 0.05s 77MB C:/Users/marad/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.08.10-23.03.47:058][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/marad/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.08.10-23.03.47:058][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.08.10-23.03.47:058][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.08.10-23.03.47:058][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.08.10-23.03.47:058][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.08.10-23.03.47:070][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.08.10-23.03.47:071][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.08.10-23.03.47:071][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.08.10-23.03.47:084][  0]LogDerivedDataCache: Speed tests for C:/Users/marad/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2021.08.10-23.03.47:084][  0]LogDerivedDataCache: Display: Performance to C:/Users/marad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=234.02MBs, RandomWriteSpeed=108.98MBs. Assigned SpeedClass 'Local'
+[2021.08.10-23.03.47:086][  0]LogDerivedDataCache: Using Local data cache path C:/Users/marad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.08.10-23.03.47:086][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.08.10-23.03.47:087][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.08.10-23.03.47:145][  0]LogSlate: Using FreeType 2.10.0
+[2021.08.10-23.03.47:146][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.08.10-23.03.47:182][  0]LogAssetRegistry: FAssetRegistry took 0.0064 seconds to start up
+[2021.08.10-23.03.47:481][  0]LogInit: Selected Device Profile: [Windows]
+[2021.08.10-23.03.47:481][  0]LogInit: Active device profile: [00000239F931E200][00000239F7C6DAC0 49] Windows
+[2021.08.10-23.03.47:481][  0]LogInit: Profiles: [00000239F931E200][00000239F7C6DAC0 49] Windows, [00000239F92C2C00][00000239F7C71C40 49] WindowsNoEditor, [00000239F931D100][00000239F7C74100 49] WindowsServer, [00000239F92C3C00][00000239F7C78280 49] WindowsClient, [00000239F931C200][00000239F7C7C400 49] IOS, [00000239F92C0B00][00000239F9F28580 49] iPadAir, [00000239F931EF00][00000239F9F2C700 49] iPadAir2, [00000239F9272500][00000239F9F349C0 49] IPadPro, [00000239F9272600][00000239F9F30A00 49] iPadAir3, [00000239F92C0F00][00000239F9F38B80 49] iPadAir4, [00000239F9273E00][00000239F9F3CD00 49] iPadMini2, [00000239F92C0500][00000239F9F40E80 49] iPadMini3, [00000239F9271400][00000239F9F45000 49] iPadMini4, [00000239F92C1900][00000239F9F49180 49] iPadMini5, [00000239F9285E00][00000239F9F51440 49] iPhone6, [00000239F9285F00][00000239F9F4D480 49] iPodTouch6, [00000239F9271B00][00000239F7C69700 49] iPhone7, [00000239F9271A00][00000239F9F55740 49] iPodTouch7, [00000239F9287600][00000239F9F59880 49] iPhone5S, [00000239F9271E00][00000239F9F5D9C0 49] iPhone6Plus, [00000239F9285600][00000239F9F65B40 49] iPhone6S, [00000239F9270E00][00000239F9F69CC0 49] iPhone6SPlus, [00000239F9284700][00000239F9F6C180 49] iPhone7Plus, [00000239F9270A00][00000239F9F70300 49] iPhoneSE, [00000239F9286E00][00000239F9F74480 49] iPhone8, [00000239F9273200][00000239F9F78600 49] iPhone8Plus, [00000239F9284200][00000239F9F7C780 49] iPhoneX, [00000239F9273F00][00000239F9F80900 49] iPhoneXS, [00000239F9286900][00000239F9F84A80 49] iPhoneXSMax, [00000239F9272F00][00000239F9F88C00 49] iPhoneXR, [00000239F9284D00][00000239F9F8CD80 49] iPhone11, [00000239F9272C00][00000239F9F90F00 49] iPhone11Pro, [00000239F9286C00][00000239F9F95080 49] iPhone11ProMax, [00000239F9271C00][00000239F9F99200 49] iPhoneSE2, [00000239F9287E00][00000239F9F9D380 49] iPhone12Mini, [00000239F9273B00][00000239F9FA1500 49] iPhone12, [00000239F9286600][00000239F9FA5680 49] iPhone12Pro, [00000239F9273C00][00000239F9F617C0 49] iPhone12ProMax, [00000239F931CD00][00000239F9FA9900 49] iPadPro105, [00000239F9287500][00000239F9FADA40 49] iPadPro129, [00000239F931F000][00000239F9FB1B80 49] iPadPro97, [00000239F9287700][00000239F9FB9D00 49] iPadPro2_129, [00000239F9270800][00000239F9FBC1C0 49] iPad5, [00000239F9285000][00000239F9FC0340 49] iPad6, [00000239F9272100][00000239F9FC44C0 49] iPad7, [00000239F9287C00][00000239F9FC8640 49] iPad8, [00000239F9272400][00000239F9FCC7C0 49] iPadPro11, [00000239F9285A00][00000239F9FD0940 49] iPadPro2_11, [00000239F9272700][00000239F9FD4AC0 49] iPadPro3_129, [00000239F9285500][00000239F9FD8C40 49] iPadPro4_129, [00000239F9272D00][00000239F9FDCDC0 49] AppleTV, [00000239F9286700][00000239F9FE0F40 49] AppleTV4K, [00000239F9273400][00000239F9FE50C0 49] TVOS, [00000239F9285C00][00000239F9FE9240 49] Mac, [00000239F9272200][00000239F9FED3C0 49] MacClient, [00000239F9287000][00000239F9FF1540 49] MacNoEditor, [00000239F9270C00][00000239F9FF56C0 49] MacServer, [00000239F9287200][00000239F9FB5800 49] Linux, [00000239F9271700][00000239F9FF9940 49] LinuxAArch64, [00000239F9284F00][00000239F9FFDA80 49] LinuxNoEditor, [00000239F9270600][00000239FA001BC0 49] LinuxAArch64NoEditor, [00000239F9284400][00000239FA009D40 49] LinuxClient, [00000239F9271500][00000239FA00C200 49] LinuxAArch64Client, [00000239F9284B00][00000239FA010380 49] LinuxServer, [00000239F9272A00][00000239FA014500 49] LinuxAArch64Server, [00000239F9284C00][00000239FA018680 49] Android, [00000239F9273900][00000239FA01C800 49] Android_Low, [00000239F9285300][00000239FA020980 49] Android_Mid, [00000239F9271200][00000239FA024B00 49] Android_High, [00000239F9285D00][00000239FA028C80 49] Android_Default, [00000239F9271900][00000239FA02CE00 49] Android_Adreno4xx, [00000239F9287800][00000239FA030F80 49] Android_Adreno5xx_Low, [00000239F9272E00][00000239FA035100 49] Android_Adreno5xx, [00000239F9286B00][00000239FA039280 49] Android_Adreno6xx, [00000239F9270400][00000239FA03D400 49] Android_Adreno6xx_Vulkan, [00000239F9287400][00000239FA041580 49] Android_Mali_T6xx, [00000239F9270100][00000239FA045700 49] Android_Mali_T7xx, [00000239F9284900][00000239FA049880 49] Android_Mali_T8xx, [00000239F9273800][00000239FA0059C0 49] Android_Mali_G71, [00000239F9284A00][00000239FA04DB00 49] Android_Mali_G72, [00000239F9271800][00000239FA051C40 49] Android_Mali_G72_Vulkan, [00000239F9287300][00000239FA058100 49] Android_Mali_G76, [00000239F9270D00][00000239FA05C280 49] Android_Mali_G76_Vulkan, [00000239F9285B00][00000239FA060400 49] Android_Mali_G77, [00000239F92C0700][00000239FA064580 49] Android_Mali_G77_Vulkan, [00000239F931FB00][00000239FA068700 49] Android_Vulkan_SM5, [00000239F92C2200][00000239FA06C880 49] Android_PowerVR_G6xxx, [00000239F931E400][00000239FA070A00 49] Android_PowerVR_GT7xxx, [00000239F92C0200][00000239FA074B80 49] Android_PowerVR_GE8xxx, [00000239F931D400][00000239FA078D00 49] Android_PowerVR_GM9xxx, [00000239F92C1200][00000239FA07CE80 49] Android_PowerVR_GM9xxx_Vulkan, [00000239F931EC00][00000239FA081000 49] Android_TegraK1, [00000239F92C2900][00000239FA085180 49] Android_Unknown_Vulkan, [00000239F931F400][00000239FA089300 49] Lumin, [00000239F92C1000][00000239FA08D480 49] Lumin_Desktop, [00000239F931F700][00000239FA0A1600 49] HoloLens, 
+[2021.08.10-23.03.47:638][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.08.10-23.03.47:638][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.08.10-23.03.47:638][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.08.10-23.03.47:638][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.08.10-23.03.47:638][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.08.10-23.03.47:659][  0]LogNetVersion: HSI 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 34038537)
+[2021.08.10-23.03.48:164][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.08.10-23.03.48:247][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.083310 seconds
+[2021.08.10-23.03.48:254][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2021.08.10-23.03.48:254][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2021.08.10-23.03.48:254][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.08.10-23.03.48:721][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.08.10-23.03.48:730][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.08.10-23.03.49:588][  0]SourceControl: Source control is disabled
+[2021.08.10-23.03.49:588][  0]SourceControl: Source control is disabled
+[2021.08.10-23.03.49:596][  0]SourceControl: Source control is disabled
+[2021.08.10-23.03.49:604][  0]SourceControl: Source control is disabled
+[2021.08.10-23.03.49:632][  0]SourceControl: Source control is disabled
+[2021.08.10-23.03.49:639][  0]LogUProjectInfo: Found projects:
+[2021.08.10-23.03.49:984][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.08.10-23.03.50:023][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.08.10-23.03.50:023][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.08.10-23.03.50:227][  0]LogOcInput: OculusInput pre-init called
+[2021.08.10-23.03.50:251][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.08.10-23.03.50:251][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.08.10-23.03.50:269][  0]LogCollectionManager: Loaded 0 collections in 0.002167 seconds
+[2021.08.10-23.03.50:362][  0]LogFileCache: Scanning file cache for directory 'C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Collections/' took 0.00s
+[2021.08.10-23.03.50:362][  0]LogFileCache: Scanning file cache for directory 'C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Developers/marad/Collections/' took 0.00s
+[2021.08.10-23.03.50:362][  0]LogFileCache: Scanning file cache for directory 'C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Collections/' took 0.00s
+[2021.08.10-23.03.50:362][  0]LogEngine: Initializing Engine...
+[2021.08.10-23.03.50:363][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.08.10-23.03.50:364][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.08.10-23.03.50:365][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.08.10-23.03.50:481][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.08.10-23.03.50:500][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.08.10-23.03.50:516][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.08.10-23.03.50:523][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.08.10-23.03.50:523][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.08.10-23.03.50:523][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.10-23.03.50:523][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.10-23.03.50:524][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.10-23.03.50:524][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.10-23.03.50:524][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.10-23.03.50:524][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.10-23.03.50:524][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.10-23.03.50:524][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.10-23.03.50:524][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.10-23.03.50:525][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.10-23.03.50:626][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.10-23.03.50:627][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.08.10-23.03.50:841][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.10-23.03.50:844][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.10-23.03.50:846][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.10-23.03.50:847][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.10-23.03.50:848][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.10-23.03.50:849][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.10-23.03.50:849][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.10-23.03.50:851][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.10-23.03.50:851][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.10-23.03.50:851][  0]LogInit: FAudioDevice initialized.
+[2021.08.10-23.03.50:851][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.08.10-23.03.50:851][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.08.10-23.03.50:901][  0]LogDerivedDataCache: Saved boot cache 0.05s 77MB C:/Users/marad/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.08.10-23.03.50:902][  0]LogInit: Texture streaming: Enabled
+[2021.08.10-23.03.50:924][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.08.10-23.03.50:935][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.08.10-23.03.50:936][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={4F0334AA-4257-27E3-518E-188043ED4A9A}
+[2021.08.10-23.03.50:936][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={3151B306-4AE9-13F4-A227-3BB10676E260}
+[2021.08.10-23.03.50:936][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.08.10-23.03.50:943][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.08.10-23.03.51:001][  0]LogInit: Transaction tracking system initialized
+[2021.08.10-23.03.51:040][  0]BlueprintLog: New page: Editor Load
+[2021.08.10-23.03.51:164][  0]LocalizationService: Localization service is disabled
+[2021.08.10-23.03.51:209][  0]TimingProfiler: Initialize
+[2021.08.10-23.03.51:209][  0]TimingProfiler: OnSessionChanged
+[2021.08.10-23.03.51:209][  0]LoadingProfiler: Initialize
+[2021.08.10-23.03.51:209][  0]LoadingProfiler: OnSessionChanged
+[2021.08.10-23.03.51:210][  0]NetworkingProfiler: Initialize
+[2021.08.10-23.03.51:210][  0]NetworkingProfiler: OnSessionChanged
+[2021.08.10-23.03.51:210][  0]MemoryProfiler: Initialize
+[2021.08.10-23.03.51:210][  0]MemoryProfiler: OnSessionChanged
+[2021.08.10-23.03.51:455][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.08.10-23.03.51:455][  0]LogCook: Display: Mobile HDR setting 1
+[2021.08.10-23.03.51:734][  0]LogFileCache: Scanning file cache for directory 'C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/' took 0.01s
+[2021.08.10-23.03.51:967][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.08.10-23.03.51:973][  0]SourceControl: Source control is disabled
+[2021.08.10-23.03.51:974][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.666
+[2021.08.10-23.03.51:974][  0]Cmd: MAP LOAD FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.10-23.03.51:974][  0]LightingResults: New page: Lighting Build
+[2021.08.10-23.03.51:975][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.08.10-23.03.51:975][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.10-23.03.51:976][  0]MapCheck: New page: Map Check
+[2021.08.10-23.03.51:976][  0]LightingResults: New page: Lighting Build
+[2021.08.10-23.03.51:985][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.08.10-23.03.52:246][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2021.08.10-23.03.52:247][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.08.10-23.03.52:258][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.10-23.03.52:272][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2021.08.10-23.03.52:274][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.10-23.03.52:274][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.203ms to complete.
+[2021.08.10-23.03.52:274][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.300
+[2021.08.10-23.03.52:277][  0]LogUnrealEdMisc: Total Editor Startup Time, took 9.970
+[2021.08.10-23.03.52:454][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.10-23.03.52:466][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.10-23.03.52:476][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.10-23.03.52:488][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.10-23.03.52:508][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0107 seconds. Added 3607 classes and 861 folders.
+[2021.08.10-23.03.52:511][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.08.10-23.03.52:512][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.08.10-23.03.52:512][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:512][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.08.10-23.03.52:513][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2021.08.10-23.03.52:513][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.08.10-23.03.52:514][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:514][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.08.10-23.03.52:514][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2021.08.10-23.03.52:515][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.08.10-23.03.52:515][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:515][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.08.10-23.03.52:515][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2021.08.10-23.03.52:516][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.08.10-23.03.52:516][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:516][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.08.10-23.03.52:516][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2021.08.10-23.03.52:517][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.08.10-23.03.52:517][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:517][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.08.10-23.03.52:518][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2021.08.10-23.03.52:518][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.08.10-23.03.52:518][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:518][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.08.10-23.03.52:519][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2021.08.10-23.03.52:519][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.08.10-23.03.52:519][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:520][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.08.10-23.03.52:520][  0]LogPakFile: OnPakFileMounted2Time == 0.000036
+[2021.08.10-23.03.52:521][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.08.10-23.03.52:521][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:521][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.08.10-23.03.52:521][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2021.08.10-23.03.52:522][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.08.10-23.03.52:522][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:522][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.08.10-23.03.52:522][  0]LogPakFile: OnPakFileMounted2Time == 0.000044
+[2021.08.10-23.03.52:523][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.08.10-23.03.52:523][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:523][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.08.10-23.03.52:523][  0]LogPakFile: OnPakFileMounted2Time == 0.000047
+[2021.08.10-23.03.52:524][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.08.10-23.03.52:524][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:524][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.08.10-23.03.52:524][  0]LogPakFile: OnPakFileMounted2Time == 0.000049
+[2021.08.10-23.03.52:525][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.08.10-23.03.52:525][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:525][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.08.10-23.03.52:525][  0]LogPakFile: OnPakFileMounted2Time == 0.000052
+[2021.08.10-23.03.52:526][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.08.10-23.03.52:526][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:527][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.08.10-23.03.52:527][  0]LogPakFile: OnPakFileMounted2Time == 0.000056
+[2021.08.10-23.03.52:528][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.08.10-23.03.52:528][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:528][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.08.10-23.03.52:528][  0]LogPakFile: OnPakFileMounted2Time == 0.000059
+[2021.08.10-23.03.52:529][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.08.10-23.03.52:530][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:530][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.08.10-23.03.52:530][  0]LogPakFile: OnPakFileMounted2Time == 0.000062
+[2021.08.10-23.03.52:530][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.08.10-23.03.52:531][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:531][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.08.10-23.03.52:531][  0]LogPakFile: OnPakFileMounted2Time == 0.000064
+[2021.08.10-23.03.52:531][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.08.10-23.03.52:532][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:532][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.08.10-23.03.52:532][  0]LogPakFile: OnPakFileMounted2Time == 0.000066
+[2021.08.10-23.03.52:532][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.08.10-23.03.52:533][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:533][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.08.10-23.03.52:533][  0]LogPakFile: OnPakFileMounted2Time == 0.000068
+[2021.08.10-23.03.52:533][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.08.10-23.03.52:533][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:534][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.08.10-23.03.52:534][  0]LogPakFile: OnPakFileMounted2Time == 0.000070
+[2021.08.10-23.03.52:534][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.08.10-23.03.52:535][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:535][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.08.10-23.03.52:535][  0]LogPakFile: OnPakFileMounted2Time == 0.000073
+[2021.08.10-23.03.52:536][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.08.10-23.03.52:536][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:536][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.08.10-23.03.52:536][  0]LogPakFile: OnPakFileMounted2Time == 0.000075
+[2021.08.10-23.03.52:537][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.08.10-23.03.52:537][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:537][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.08.10-23.03.52:537][  0]LogPakFile: OnPakFileMounted2Time == 0.000078
+[2021.08.10-23.03.52:538][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.08.10-23.03.52:538][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:538][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.08.10-23.03.52:538][  0]LogPakFile: OnPakFileMounted2Time == 0.000080
+[2021.08.10-23.03.52:539][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.08.10-23.03.52:539][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:539][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.08.10-23.03.52:539][  0]LogPakFile: OnPakFileMounted2Time == 0.000082
+[2021.08.10-23.03.52:540][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.08.10-23.03.52:540][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:540][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.08.10-23.03.52:540][  0]LogPakFile: OnPakFileMounted2Time == 0.000083
+[2021.08.10-23.03.52:541][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.08.10-23.03.52:541][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.10-23.03.52:541][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.08.10-23.03.52:541][  0]LogPakFile: OnPakFileMounted2Time == 0.000085
+[2021.08.10-23.03.52:606][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.08.10-23.03.52:608][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.08.10-23.03.52:769][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.08.10-23.03.52:772][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.08.10-23.03.52:775][  0]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.08.10-23.03.52:879][  0]LogRenderer: Reallocating scene render targets to support 952x508 Format 10 NumSamples 1 (Frame:1).
+[2021.08.10-23.03.52:930][  0]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.08.10-23.03.53:135][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.08.10-23.03.53:135][  0]LogLoad: (Engine Initialization) Total time: 10.83 seconds
+[2021.08.10-23.03.53:135][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.08.10-23.03.53:135][  0]LogInit: First time updating LLM stats...
+[2021.08.10-23.03.53:182][  0]LogAssetRegistry: Asset discovery search completed in 6.0040 seconds
+[2021.08.10-23.03.53:184][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.08.10-23.03.53:184][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.08.10-23.05.06:894][ 22]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.08.10-23.05.06:919][ 22]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.05.06:990][ 22]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
+[2021.08.10-23.05.08:548][ 22]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.08.10-23.10.54:468][971]LogSlate: Took 0.003077 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.08.10-23.12.38:148][670]LogSlate: Window 'Delete widgets' being destroyed
+[2021.08.10-23.12.39:314][778]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.08.10-23.12.45:957][408]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.10-23.12.45:980][408]LogBlueprint: Error: [AssetLog] C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Content\Wolfi\UI_Configuration.uasset: [Compiler] The current value of the ' In Text ' pin is invalid: 'In Text' in action 'ToString (text)' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2021.08.10-23.12.45:980][408]LogBlueprint: Error: [AssetLog] C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Content\Wolfi\UI_Configuration.uasset: [Compiler] The current value of the ' In Text ' pin is invalid: 'In Text' in action 'ToString (text)' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2021.08.10-23.12.46:045][408]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2021.08.10-23.12.46:160][408]LogSlate: Took 0.000327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.08.10-23.12.46:501][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.12.46:559][434]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_ConfigurationE9BA471B4C4283CCAE86C78329760D7B.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.12.46:592][434]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.12.46:592][434]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.14.09:109][377]LogUObjectHash: Compacting FUObjectHashTables data took   8.18ms
+[2021.08.10-23.14.09:110][377]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.046
+[2021.08.10-23.14.09:111][377]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Wolfi/UI_Configuration] ([1] browsable assets)...
+[2021.08.10-23.14.09:111][377]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolfi/UI_Configuration]
+[2021.08.10-23.14.09:182][377]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration_Auto186C38305491EEC49086B48B8173BC71A.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Autosaves/Game/Wolfi/UI_Configuration_Auto1.uasset'
+[2021.08.10-23.14.09:185][377]LogFileHelpers: Auto-saving content packages took 0.074
+[2021.08.10-23.16.02:257][305]LogEditorTransaction: Undo Delete current selection
+[2021.08.10-23.16.10:711][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.16.10:777][113]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration9176E1BF47516E6BF66E35A0FEDD5291.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.16.10:799][113]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.16.10:799][113]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.16.11:175][147]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.10-23.16.11:249][147]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2021.08.10-23.18.36:175][627]LogEditorTransaction: Undo Set Vector Property
+[2021.08.10-23.18.39:542][812]LogEditorTransaction: Undo Edit Angle
+[2021.08.10-23.18.42:940][  1]LogEditorTransaction: Undo Set Vector Property
+[2021.08.10-23.20.00:571][611]LogEditorTransaction: Undo Set Vector Property
+[2021.08.10-23.20.07:404][  4]LogEditorTransaction: Undo Set Vector Property
+[2021.08.10-23.24.39:957][969]LogUObjectHash: Compacting FUObjectHashTables data took   7.87ms
+[2021.08.10-23.24.39:960][969]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.051
+[2021.08.10-23.24.39:960][969]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Wolfi/UI_Configuration] ([1] browsable assets)...
+[2021.08.10-23.24.39:961][969]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolfi/UI_Configuration]
+[2021.08.10-23.24.40:055][969]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration_Auto225BB20FC4A31FAB750F9D1B4C81BA8C3.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Autosaves/Game/Wolfi/UI_Configuration_Auto2.uasset'
+[2021.08.10-23.24.40:056][969]LogFileHelpers: Auto-saving content packages took 0.097
+[2021.08.10-23.25.28:961][447]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.10-23.25.29:024][447]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2021.08.10-23.25.29:751][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.25.29:810][485]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration3FE8BC234EE6AB14301969A65835A767.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.25.29:837][485]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.25.29:837][485]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.29.11:466][551]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.10-23.29.11:534][551]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2021.08.10-23.29.11:980][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.29.12:040][575]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_ConfigurationF9D5A40C4045C91FB3CE289646303F5B.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.29.12:059][575]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.29.12:059][575]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.29.49:192][692]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.10-23.29.49:261][692]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2021.08.10-23.29.49:690][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.29.49:745][711]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration092707844AF75B5BC4D975BB8C9C2C65.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.29.49:769][711]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.29.49:769][711]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.30.33:123][741]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.10-23.30.33:179][741]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2021.08.10-23.30.33:582][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.30.33:643][759]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_ConfigurationD07D0BA84D4074CF3737788AA487B5C7.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.30.33:669][759]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.30.33:670][759]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.32.39:648][296]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.10-23.32.39:700][296]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2021.08.10-23.32.40:774][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.32.40:814][356]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration82D53BB245B73943474816AE60640F20.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.32.40:832][356]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.32.40:832][356]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.36.38:771][823]LogUObjectHash: Compacting FUObjectHashTables data took   7.34ms
+[2021.08.10-23.36.38:773][823]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.043
+[2021.08.10-23.36.38:774][823]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Wolfi/UI_Configuration] ([1] browsable assets)...
+[2021.08.10-23.36.38:774][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolfi/UI_Configuration]
+[2021.08.10-23.36.38:846][823]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration_Auto32E34D2984F0D9C4287A226A2CD7F726C.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Autosaves/Game/Wolfi/UI_Configuration_Auto3.uasset'
+[2021.08.10-23.36.38:850][823]LogFileHelpers: Auto-saving content packages took 0.077
+[2021.08.10-23.41.44:374][835]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.10-23.41.44:411][835]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2021.08.10-23.41.45:123][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.41.45:163][873]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration689A79FD4C24581F35AFFC9786C87A35.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.41.45:181][873]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.41.45:181][873]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.42.04:546][ 33]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.10-23.42.04:593][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.08.10-23.42.05:222][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.42.05:262][ 66]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration17CBC44D4BC3A05361FA94B71B731E46.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.42.05:283][ 66]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.42.05:283][ 66]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.42.12:835][518]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.10-23.42.12:882][518]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2021.08.10-23.42.13:348][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.42.13:388][541]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration60EEEC9B4CC43AF5E99FADBC597592B7.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.42.13:408][541]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.42.13:408][541]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.42.44:443][390]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.10-23.42.44:490][390]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2021.08.10-23.42.44:927][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.42.44:966][412]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_ConfigurationED78739D40926D55320320B4EE3F911F.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.42.44:983][412]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.42.44:984][412]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.42.49:304][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.42.49:345][669]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_ConfigurationFA5F17FA466B6307B798E7B27CFFE5F9.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.42.49:365][669]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.42.49:365][669]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.42.53:899][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.42.53:940][939]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration4850BE0F45D5ED2D28F340A49EA90192.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.42.53:962][939]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.42.53:962][939]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.44.02:783][ 86]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.10-23.44.02:835][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2021.08.10-23.44.03:801][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.44.03:845][140]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_ConfigurationB20632754B64115C4404EC81420F2F0D.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.44.03:863][140]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.44.03:863][140]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.46.14:875][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.08.10-23.46.14:919][ 12]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Wolfi/M_Wolfi.M_Wolfi
+[2021.08.10-23.46.14:920][ 12]Cmd: MAP LOAD FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/M_Wolfi.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.10-23.46.14:920][ 12]LightingResults: New page: Lighting Build
+[2021.08.10-23.46.14:921][ 12]LoadErrors: New page: Loading map: M_Wolfi.umap
+[2021.08.10-23.46.14:923][ 12]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: ProceduralMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Terrain_BP_2.ProceduralMesh)
+[2021.08.10-23.46.14:926][ 12]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.08.10-23.46.14:927][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.10-23.46.14:928][ 12]MapCheck: New page: Map Check
+[2021.08.10-23.46.14:928][ 12]LightingResults: New page: Lighting Build
+[2021.08.10-23.46.14:948][ 12]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.10-23.46.14:961][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2021.08.10-23.46.14:962][ 12]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Wolfi'.
+[2021.08.10-23.46.15:074][ 12]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.10-23.46.15:075][ 12]LogAIModule: Creating AISystem for world M_Wolfi
+[2021.08.10-23.46.15:101][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.08.10-23.46.15:109][ 12]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.10-23.46.15:110][ 12]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.124ms to complete.
+[2021.08.10-23.46.15:110][ 12]LogFileHelpers: Loading map 'M_Wolfi' took 0.190
+[2021.08.10-23.46.16:509][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.10-23.46.16:550][ 92]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_ConfigurationF886F0B94D6EBEA66A3054B9D9081961.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.10-23.46.16:569][ 92]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.10-23.46.16:570][ 92]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.10-23.46.17:737][161]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.10-23.46.17:750][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.10-23.46.17:751][161]PIE: New page: PIE session: M_Wolfi (Aug 10, 2021, 1:46:17 PM)
+[2021.08.10-23.46.17:758][161]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.08.10-23.46.17:761][161]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.08.10-23.46.17:762][161]LogPlayLevel: Creating play world package: /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.08.10-23.46.17:766][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003184s)
+[2021.08.10-23.46.17:767][161]LogAIModule: Creating AISystem for world M_Wolfi
+[2021.08.10-23.46.17:768][161]LogPlayLevel: PIE: World Init took: (0.002255s)
+[2021.08.10-23.46.17:768][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Wolfi/M_Wolfi.M_Wolfi to /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi (0.006110s)
+[2021.08.10-23.46.17:793][161]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.08.10-23.46.17:794][161]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.08.10-23.46.17:795][161]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.10-23.46.17:795][161]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.10-23.46.17:795][161]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.10-23.46.17:795][161]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.10-23.46.17:795][161]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.10-23.46.17:795][161]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.10-23.46.17:795][161]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.10-23.46.17:796][161]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.10-23.46.17:796][161]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.10-23.46.17:796][161]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.10-23.46.17:801][161]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.10-23.46.17:801][161]LogAudioMixer: Display: 1: FrontRight
+[2021.08.10-23.46.17:847][161]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.10-23.46.17:847][161]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.10-23.46.17:847][161]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.10-23.46.17:847][161]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.10-23.46.17:850][161]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.10-23.46.17:851][161]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.10-23.46.17:851][161]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.10-23.46.17:864][161]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.10-23.46.17:864][161]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.10-23.46.17:864][161]LogInit: FAudioDevice initialized.
+[2021.08.10-23.46.17:864][161]LogAudio: Display: Audio Device (ID: 2) registered with world 'M_Wolfi'.
+[2021.08.10-23.46.17:887][161]LogLoad: Game class is 'GameMode'
+[2021.08.10-23.46.17:888][161]LogWorld: Bringing World /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi up for play (max tick rate 60) at 2021.08.10-18.46.17
+[2021.08.10-23.46.17:890][161]LogWorld: Bringing up level for play took: 0.001573
+[2021.08.10-23.46.17:891][161]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.08.10-23.46.17:908][161]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 20 classes and 0 folders.
+[2021.08.10-23.46.17:909][161]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.10-23.46.17:909][161]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.10-23.46.17:909][161]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.10-23.46.17:941][161]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.10-23.46.17:941][161]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2021.08.10-23.46.17:941][161]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2021.08.10-23.46.17:943][161]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.10-23.46.17:944][161]PIE: Server logged in
+[2021.08.10-23.46.17:946][161]PIE: Play in editor total start time 0.202 seconds.
+[2021.08.10-23.46.24:728][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.10-23.46.24:780][542]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.10-23.46.26:310][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.10-23.46.26:344][634]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.10-23.46.31:561][947]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2021.08.10-23.46.31:561][947]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2021.08.10-23.46.31:562][947]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.08.10-23.46.31:563][947]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.08.10-23.46.31:563][947]LogNet: Browse: /Game/Mara/Scene/Mara_Sc_Test
+[2021.08.10-23.46.31:564][947]LogLoad: LoadMap: /Game/Mara/Scene/Mara_Sc_Test
+[2021.08.10-23.46.31:564][947]LogWorld: BeginTearingDown for /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.08.10-23.46.31:567][947]LogWorld: UWorld::CleanupWorld for M_Wolfi, bSessionEnded=true, bCleanupResources=true
+[2021.08.10-23.46.31:567][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.10-23.46.31:589][947]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.10-23.46.31:678][947]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2021.08.10-23.46.31:727][947]LogAudio: Display: Audio Device (ID: 2) registered with world 'Mara_Sc_Test'.
+[2021.08.10-23.46.31:728][947]LogAIModule: Creating AISystem for world Mara_Sc_Test
+[2021.08.10-23.46.31:729][947]LogLoad: Game class is 'GameMode'
+[2021.08.10-23.46.31:732][947]LogWorld: Bringing World /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test.Mara_Sc_Test up for play (max tick rate 60) at 2021.08.10-18.46.31
+[2021.08.10-23.46.31:733][947]LogWorld: Bringing up level for play took: 0.003394
+[2021.08.10-23.46.31:733][947]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.08.10-23.46.31:735][947]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.10-23.46.31:736][947]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.10-23.46.31:736][947]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.10-23.46.31:736][947]project dir:../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/
+[2021.08.10-23.46.31:874][947]LogTexture: Display: Building textures: ProcTexture_0 (AutoDXT, 1024X1024)
+[2021.08.10-23.46.32:833][947]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/ProcTextureBD9E2ACF4F99EA81529CB197B914E3C3.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/ProceduralTextures/ProcTexture.uasset'
+[2021.08.10-23.46.33:620][947]LogTexture: Display: Building textures: Texture2D_2 (AutoDXT, 1024X1024)
+[2021.08.10-23.46.33:673][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.10-23.46.33:676][947]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.10-23.46.33:677][947]LogLoad: Took 2.112833 seconds to LoadMap(/Game/Mara/Scene/Mara_Sc_Test)
+[2021.08.10-23.46.33:703][948]LogRenderer: Reallocating scene render targets to support 1024x1024 Format 10 NumSamples 1 (Frame:1).
+[2021.08.10-23.46.33:711][948]AssetCheck: New page: Asset Save: multiple assets
+[2021.08.10-23.46.33:711][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_9
+[2021.08.10-23.46.33:711][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_8
+[2021.08.10-23.46.33:711][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_7
+[2021.08.10-23.46.33:711][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_6
+[2021.08.10-23.46.33:711][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_5
+[2021.08.10-23.46.33:712][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_4
+[2021.08.10-23.46.33:712][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_3
+[2021.08.10-23.46.33:712][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_2
+[2021.08.10-23.46.33:712][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_29
+[2021.08.10-23.46.33:712][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_28
+[2021.08.10-23.46.33:712][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_27
+[2021.08.10-23.46.33:712][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_26
+[2021.08.10-23.46.33:712][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_25
+[2021.08.10-23.46.33:712][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_24
+[2021.08.10-23.46.33:713][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_23
+[2021.08.10-23.46.33:713][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_22
+[2021.08.10-23.46.33:713][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_21
+[2021.08.10-23.46.33:713][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_20
+[2021.08.10-23.46.33:713][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_1
+[2021.08.10-23.46.33:713][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_19
+[2021.08.10-23.46.33:714][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_18
+[2021.08.10-23.46.33:714][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_17
+[2021.08.10-23.46.33:714][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_16
+[2021.08.10-23.46.33:714][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_15
+[2021.08.10-23.46.33:714][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_14
+[2021.08.10-23.46.33:714][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_13
+[2021.08.10-23.46.33:714][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_12
+[2021.08.10-23.46.33:714][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_11
+[2021.08.10-23.46.33:714][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_10
+[2021.08.10-23.46.33:714][948]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_0
+[2021.08.10-23.46.33:721][948]LogRenderer: Reallocating scene render targets to support 2048x2048 Format 10 NumSamples 1 (Frame:1).
+[2021.08.10-23.50.46:177][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.10-23.50.46:177][480]LogWorld: BeginTearingDown for /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test
+[2021.08.10-23.50.46:178][480]LogWorld: UWorld::CleanupWorld for Mara_Sc_Test, bSessionEnded=true, bCleanupResources=true
+[2021.08.10-23.50.46:179][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.10-23.50.46:203][480]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.10-23.50.46:211][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.10-23.50.46:238][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.10-23.50.46:241][480]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.10-23.50.46:244][480]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.10-23.50.46:310][480]LogUObjectHash: Compacting FUObjectHashTables data took   8.51ms
+[2021.08.10-23.50.46:351][481]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.08.10-23.50.51:888][793]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.10-23.50.51:898][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.10-23.50.51:898][793]PIE: New page: PIE session: M_Wolfi (Aug 10, 2021, 1:50:51 PM)
+[2021.08.10-23.50.51:898][793]LogPlayLevel: Creating play world package: /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.08.10-23.50.51:900][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001347s)
+[2021.08.10-23.50.51:901][793]LogAIModule: Creating AISystem for world M_Wolfi
+[2021.08.10-23.50.51:901][793]LogPlayLevel: PIE: World Init took: (0.001036s)
+[2021.08.10-23.50.51:901][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Wolfi/M_Wolfi.M_Wolfi to /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi (0.002764s)
+[2021.08.10-23.50.51:929][793]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.08.10-23.50.51:930][793]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.08.10-23.50.51:930][793]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.10-23.50.51:930][793]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.10-23.50.51:930][793]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.10-23.50.51:931][793]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.10-23.50.51:931][793]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.10-23.50.51:931][793]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.10-23.50.51:931][793]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.10-23.50.51:931][793]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.10-23.50.51:932][793]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.10-23.50.51:932][793]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.10-23.50.51:937][793]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.10-23.50.51:937][793]LogAudioMixer: Display: 1: FrontRight
+[2021.08.10-23.50.52:001][793]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.10-23.50.52:002][793]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.10-23.50.52:002][793]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.10-23.50.52:002][793]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.10-23.50.52:003][793]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.10-23.50.52:003][793]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.10-23.50.52:003][793]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.10-23.50.52:027][793]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.10-23.50.52:028][793]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.10-23.50.52:028][793]LogInit: FAudioDevice initialized.
+[2021.08.10-23.50.52:028][793]LogAudio: Display: Audio Device (ID: 3) registered with world 'M_Wolfi'.
+[2021.08.10-23.50.52:044][793]LogLoad: Game class is 'GameMode'
+[2021.08.10-23.50.52:045][793]LogWorld: Bringing World /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi up for play (max tick rate 60) at 2021.08.10-18.50.52
+[2021.08.10-23.50.52:046][793]LogWorld: Bringing up level for play took: 0.000592
+[2021.08.10-23.50.52:046][793]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.08.10-23.50.52:051][793]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.10-23.50.52:051][793]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.10-23.50.52:051][793]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.10-23.50.52:055][793]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.10-23.50.52:055][793]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2021.08.10-23.50.52:055][793]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2021.08.10-23.50.52:056][793]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.10-23.50.52:056][793]PIE: Server logged in
+[2021.08.10-23.50.52:058][793]PIE: Play in editor total start time 0.164 seconds.
+[2021.08.10-23.50.58:879][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.10-23.50.58:918][200]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.10-23.51.02:363][407]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.10-23.51.02:379][407]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.10-23.52.06:234][799]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2021.08.10-23.52.06:234][799]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2021.08.10-23.52.06:236][799]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.08.10-23.52.06:236][799]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.08.10-23.52.06:236][799]LogNet: Browse: /Game/Mara/Scene/Mara_Sc_Test
+[2021.08.10-23.52.06:237][799]LogLoad: LoadMap: /Game/Mara/Scene/Mara_Sc_Test
+[2021.08.10-23.52.06:237][799]LogWorld: BeginTearingDown for /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.08.10-23.52.06:238][799]LogWorld: UWorld::CleanupWorld for M_Wolfi, bSessionEnded=true, bCleanupResources=true
+[2021.08.10-23.52.06:238][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.10-23.52.06:262][799]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.10-23.52.06:266][799]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.08.10-23.52.06:283][799]LogAudio: Display: Audio Device (ID: 3) registered with world 'Mara_Sc_Test'.
+[2021.08.10-23.52.06:285][799]LogAIModule: Creating AISystem for world Mara_Sc_Test
+[2021.08.10-23.52.06:285][799]LogLoad: Game class is 'GameMode'
+[2021.08.10-23.52.06:288][799]LogWorld: Bringing World /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test.Mara_Sc_Test up for play (max tick rate 60) at 2021.08.10-18.52.06
+[2021.08.10-23.52.06:289][799]LogWorld: Bringing up level for play took: 0.002164
+[2021.08.10-23.52.06:289][799]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.08.10-23.52.06:289][799]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.10-23.52.06:289][799]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.10-23.52.06:290][799]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.10-23.52.06:290][799]project dir:../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/
+[2021.08.10-23.52.06:434][799]LogTexture: Display: Building textures: ProcTexture_30 (AutoDXT, 1024X1024)
+[2021.08.10-23.52.07:602][799]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/ProcTextureF762207E4304F961ADB59ABA5AC1B1C4.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/ProceduralTextures/ProcTexture.uasset'
+[2021.08.10-23.52.08:536][799]LogTexture: Display: Building textures: Texture2D_3 (AutoDXT, 1024X1024)
+[2021.08.10-23.52.08:581][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.10-23.52.08:581][799]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.10-23.52.08:582][799]LogLoad: Took 2.344305 seconds to LoadMap(/Game/Mara/Scene/Mara_Sc_Test)
+[2021.08.10-23.52.08:618][800]AssetCheck: New page: Asset Save: multiple assets
+[2021.08.10-23.52.08:618][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_9
+[2021.08.10-23.52.08:618][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_8
+[2021.08.10-23.52.08:618][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_7
+[2021.08.10-23.52.08:618][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_6
+[2021.08.10-23.52.08:619][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_5
+[2021.08.10-23.52.08:619][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_4
+[2021.08.10-23.52.08:619][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_3
+[2021.08.10-23.52.08:619][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_2
+[2021.08.10-23.52.08:619][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_29
+[2021.08.10-23.52.08:619][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_28
+[2021.08.10-23.52.08:620][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_27
+[2021.08.10-23.52.08:620][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_26
+[2021.08.10-23.52.08:620][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_25
+[2021.08.10-23.52.08:620][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_24
+[2021.08.10-23.52.08:620][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_23
+[2021.08.10-23.52.08:620][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_22
+[2021.08.10-23.52.08:620][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_21
+[2021.08.10-23.52.08:620][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_20
+[2021.08.10-23.52.08:621][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_1
+[2021.08.10-23.52.08:621][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_19
+[2021.08.10-23.52.08:621][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_18
+[2021.08.10-23.52.08:621][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_17
+[2021.08.10-23.52.08:621][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_16
+[2021.08.10-23.52.08:621][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_15
+[2021.08.10-23.52.08:621][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_14
+[2021.08.10-23.52.08:621][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_13
+[2021.08.10-23.52.08:621][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_12
+[2021.08.10-23.52.08:622][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_11
+[2021.08.10-23.52.08:622][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_10
+[2021.08.10-23.52.08:622][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_0
+[2021.08.10-23.52.08:622][800]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_30
+[2021.08.11-00.05.20:086][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.11-00.05.20:086][949]LogWorld: BeginTearingDown for /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test
+[2021.08.11-00.05.20:087][949]LogWorld: UWorld::CleanupWorld for Mara_Sc_Test, bSessionEnded=true, bCleanupResources=true
+[2021.08.11-00.05.20:087][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.11-00.05.20:101][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.11-00.05.20:105][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.11-00.05.20:130][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.11-00.05.20:130][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.11-00.05.20:132][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.11-00.05.20:207][949]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2021.08.11-00.05.20:248][950]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.08.11-00.05.26:432][308]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Wolfi/UI_Player.UI_Player
+[2021.08.11-00.05.29:313][436]LogSlate: Window 'UI_Player' being destroyed
+[2021.08.11-00.05.30:669][515]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.11-00.06.25:285][334]BlueprintLog: New page: Compile UI_Player_2
+[2021.08.11-00.06.25:332][334]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2021.08.11-00.06.26:253][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player_2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset" SILENT=true
+[2021.08.11-00.06.26:278][383]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Player_2FA536C274170447A01133591C62EB4EB.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset'
+[2021.08.11-00.06.26:294][383]AssetCheck: New page: Asset Save: UI_Player_2
+[2021.08.11-00.06.26:294][383]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.11-00.07.18:395][427]LogSlate: Took 0.007844 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.08.11-00.07.31:387][202]BlueprintLog: New page: Compile UI_Player_2
+[2021.08.11-00.07.31:456][202]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2021.08.11-00.07.31:921][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player_2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset" SILENT=true
+[2021.08.11-00.07.31:951][225]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Player_2CED4A6F844A87829E0A337957363414D.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset'
+[2021.08.11-00.07.31:978][225]AssetCheck: New page: Asset Save: UI_Player_2
+[2021.08.11-00.07.31:979][225]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.11-00.07.49:158][252]BlueprintLog: New page: Compile UI_Player_2
+[2021.08.11-00.07.49:220][252]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2021.08.11-00.07.49:809][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player_2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset" SILENT=true
+[2021.08.11-00.07.49:836][284]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Player_2FEA53B3C4227633D152350809341EBE3.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset'
+[2021.08.11-00.07.49:856][284]AssetCheck: New page: Asset Save: UI_Player_2
+[2021.08.11-00.07.49:857][284]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.11-00.07.53:809][513]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Wolfi/MainGameInstance.MainGameInstance
+[2021.08.11-00.08.07:389][265]BlueprintLog: New page: Compile MainGameInstance
+[2021.08.11-00.08.07:468][265]LogUObjectHash: Compacting FUObjectHashTables data took   5.70ms
+[2021.08.11-00.08.08:329][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/MainGameInstance" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/MainGameInstance.uasset" SILENT=true
+[2021.08.11-00.08.08:380][293]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/MainGameInstance130EC46041590F3C08554586E3E798B2.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/MainGameInstance.uasset'
+[2021.08.11-00.08.08:399][293]AssetCheck: New page: Asset Save: MainGameInstance
+[2021.08.11-00.08.08:399][293]LogContentValidation: Display: Validating Blueprint /Game/Wolfi/MainGameInstance.MainGameInstance
+[2021.08.11-00.08.52:536][892]BlueprintLog: New page: Compile MainGameInstance
+[2021.08.11-00.08.52:639][892]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2021.08.11-00.08.53:257][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/MainGameInstance" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/MainGameInstance.uasset" SILENT=true
+[2021.08.11-00.08.53:308][909]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/MainGameInstance562ED69B47E8C511A41D029B06D814A4.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/MainGameInstance.uasset'
+[2021.08.11-00.08.53:326][909]AssetCheck: New page: Asset Save: MainGameInstance
+[2021.08.11-00.08.53:326][909]LogContentValidation: Display: Validating Blueprint /Game/Wolfi/MainGameInstance.MainGameInstance
+[2021.08.11-00.09.44:307][912]BlueprintLog: New page: Compile UI_Player_2
+[2021.08.11-00.09.44:375][912]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2021.08.11-00.09.44:667][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player_2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset" SILENT=true
+[2021.08.11-00.09.44:695][926]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Player_28DD8851C46F454D5FB37B1AACC71EE4C.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset'
+[2021.08.11-00.09.44:727][926]AssetCheck: New page: Asset Save: UI_Player_2
+[2021.08.11-00.09.44:727][926]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.11-00.10.13:127][618]BlueprintLog: New page: Compile UI_Player_2
+[2021.08.11-00.10.13:187][618]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2021.08.11-00.10.13:588][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player_2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset" SILENT=true
+[2021.08.11-00.10.13:611][639]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Player_26B8C622C461856BD98AFA49A83FDD3CC.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset'
+[2021.08.11-00.10.13:625][639]AssetCheck: New page: Asset Save: UI_Player_2
+[2021.08.11-00.10.13:625][639]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.11-00.12.36:007][613]BlueprintLog: New page: Compile UI_Player_2
+[2021.08.11-00.12.36:076][613]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2021.08.11-00.12.36:512][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player_2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset" SILENT=true
+[2021.08.11-00.12.36:538][635]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Player_2D54D7992489D263D5827C497B4BE964B.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset'
+[2021.08.11-00.12.36:560][635]AssetCheck: New page: Asset Save: UI_Player_2
+[2021.08.11-00.12.36:561][635]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.11-00.12.41:240][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player_2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset" SILENT=true
+[2021.08.11-00.12.41:270][901]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Player_260D6AAB54B215070ED7E8F8DA21F00AE.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset'
+[2021.08.11-00.12.41:292][901]AssetCheck: New page: Asset Save: UI_Player_2
+[2021.08.11-00.12.41:292][901]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.11-00.13.17:696][ 46]BlueprintLog: New page: Compile UI_Player_2
+[2021.08.11-00.13.17:758][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2021.08.11-00.13.18:140][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player_2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset" SILENT=true
+[2021.08.11-00.13.18:168][ 65]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Player_2613F966B4798D6826F54C6869186D33D.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset'
+[2021.08.11-00.13.18:188][ 65]AssetCheck: New page: Asset Save: UI_Player_2
+[2021.08.11-00.13.18:188][ 65]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.11-00.13.24:507][428]BlueprintLog: New page: Compile UI_Player_2
+[2021.08.11-00.13.24:574][428]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2021.08.11-00.13.25:069][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player_2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset" SILENT=true
+[2021.08.11-00.13.25:098][453]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Player_25CBDE0354322ABB2477E12B1F47EDBBE.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset'
+[2021.08.11-00.13.25:115][453]AssetCheck: New page: Asset Save: UI_Player_2
+[2021.08.11-00.13.25:115][453]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.11-00.13.31:521][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player_2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset" SILENT=true
+[2021.08.11-00.13.31:550][833]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Player_2515A816D4707A031111B39B11919D011.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset'
+[2021.08.11-00.13.31:570][833]AssetCheck: New page: Asset Save: UI_Player_2
+[2021.08.11-00.13.31:570][833]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.11-00.13.45:726][637]LogEditorTransaction: Undo Drag and Drop Widget
+[2021.08.11-00.14.01:376][563]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.11-00.14.01:454][563]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2021.08.11-00.14.01:956][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.11-00.14.02:008][587]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration8FBB355E4C9E8EB6A6E859A1022098D5.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.11-00.14.02:027][587]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.11-00.14.02:028][587]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.11-00.14.51:012][415]LogEditorTransaction: Undo Paste clipboard contents
+[2021.08.11-00.16.30:482][102]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.11-00.16.30:576][102]LogUObjectHash: Compacting FUObjectHashTables data took   5.77ms
+[2021.08.11-00.16.31:115][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.11-00.16.31:180][116]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration2F2DE63F4D3E04DC26E8979B576A898C.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.11-00.16.31:200][116]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.11-00.16.31:200][116]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.11-00.17.49:211][702]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.11-00.17.49:297][702]LogUObjectHash: Compacting FUObjectHashTables data took   5.67ms
+[2021.08.11-00.17.49:642][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.11-00.17.49:702][716]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_ConfigurationC80FFE8D41F7DE170116E594B2D3651A.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.11-00.17.49:732][716]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.11-00.17.49:733][716]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.11-00.17.50:702][774]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.11-00.17.50:715][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.11-00.17.50:715][774]PIE: New page: PIE session: M_Wolfi (Aug 10, 2021, 2:17:50 PM)
+[2021.08.11-00.17.50:716][774]LogPlayLevel: Creating play world package: /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.08.11-00.17.50:718][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002168s)
+[2021.08.11-00.17.50:719][774]LogAIModule: Creating AISystem for world M_Wolfi
+[2021.08.11-00.17.50:719][774]LogPlayLevel: PIE: World Init took: (0.001347s)
+[2021.08.11-00.17.50:720][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Wolfi/M_Wolfi.M_Wolfi to /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi (0.004008s)
+[2021.08.11-00.17.50:762][774]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2021.08.11-00.17.50:762][774]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.08.11-00.17.50:763][774]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.11-00.17.50:763][774]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.11-00.17.50:763][774]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.11-00.17.50:763][774]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.11-00.17.50:763][774]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.11-00.17.50:763][774]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.11-00.17.50:763][774]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.11-00.17.50:764][774]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.11-00.17.50:765][774]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.11-00.17.50:765][774]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.11-00.17.50:770][774]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.11-00.17.50:771][774]LogAudioMixer: Display: 1: FrontRight
+[2021.08.11-00.17.50:825][774]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.11-00.17.50:826][774]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.11-00.17.50:826][774]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.11-00.17.50:826][774]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.11-00.17.50:826][774]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.11-00.17.50:826][774]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.11-00.17.50:826][774]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.11-00.17.50:844][774]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.11-00.17.50:844][774]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.11-00.17.50:844][774]LogInit: FAudioDevice initialized.
+[2021.08.11-00.17.50:845][774]LogAudio: Display: Audio Device (ID: 4) registered with world 'M_Wolfi'.
+[2021.08.11-00.17.50:863][774]LogLoad: Game class is 'GameMode'
+[2021.08.11-00.17.50:865][774]LogWorld: Bringing World /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi up for play (max tick rate 60) at 2021.08.10-19.17.50
+[2021.08.11-00.17.50:865][774]LogWorld: Bringing up level for play took: 0.000927
+[2021.08.11-00.17.50:866][774]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.08.11-00.17.50:869][774]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.11-00.17.50:870][774]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.11-00.17.50:870][774]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.11-00.17.50:873][774]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.11-00.17.50:874][774]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2021.08.11-00.17.50:874][774]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2021.08.11-00.17.50:874][774]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.11-00.17.50:874][774]PIE: Server logged in
+[2021.08.11-00.17.50:875][774]PIE: Play in editor total start time 0.164 seconds.
+[2021.08.11-00.17.57:701][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.11-00.17.57:746][182]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.11-00.17.59:207][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.11-00.17.59:244][270]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.11-00.18.00:971][374]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2021.08.11-00.18.00:972][374]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2021.08.11-00.18.00:973][374]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.08.11-00.18.00:974][374]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.08.11-00.18.00:976][374]LogNet: Browse: /Game/Mara/Scene/Mara_Sc_Test
+[2021.08.11-00.18.00:976][374]LogLoad: LoadMap: /Game/Mara/Scene/Mara_Sc_Test
+[2021.08.11-00.18.00:976][374]LogWorld: BeginTearingDown for /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.08.11-00.18.00:977][374]LogWorld: UWorld::CleanupWorld for M_Wolfi, bSessionEnded=true, bCleanupResources=true
+[2021.08.11-00.18.00:977][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.11-00.18.01:014][374]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.11-00.18.01:019][374]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2021.08.11-00.18.01:047][374]LogAudio: Display: Audio Device (ID: 4) registered with world 'Mara_Sc_Test'.
+[2021.08.11-00.18.01:048][374]LogAIModule: Creating AISystem for world Mara_Sc_Test
+[2021.08.11-00.18.01:049][374]LogLoad: Game class is 'GameMode'
+[2021.08.11-00.18.01:052][374]LogWorld: Bringing World /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test.Mara_Sc_Test up for play (max tick rate 60) at 2021.08.10-19.18.01
+[2021.08.11-00.18.01:052][374]LogWorld: Bringing up level for play took: 0.002509
+[2021.08.11-00.18.01:053][374]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.08.11-00.18.01:053][374]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.11-00.18.01:053][374]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.11-00.18.01:053][374]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.11-00.18.01:053][374]project dir:../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/
+[2021.08.11-00.18.01:196][374]LogTexture: Display: Building textures: ProcTexture_31 (AutoDXT, 1024X1024)
+[2021.08.11-00.18.02:395][374]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/ProcTexture6DD375A649C4DB6380D64F85F08FCDAE.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/ProceduralTextures/ProcTexture.uasset'
+[2021.08.11-00.18.03:374][374]LogTexture: Display: Building textures: Texture2D_4 (AutoDXT, 1024X1024)
+[2021.08.11-00.18.03:403][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.11-00.18.03:405][374]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.11-00.18.03:405][374]LogLoad: Took 2.428488 seconds to LoadMap(/Game/Mara/Scene/Mara_Sc_Test)
+[2021.08.11-00.18.03:436][375]AssetCheck: New page: Asset Save: multiple assets
+[2021.08.11-00.18.03:437][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_9
+[2021.08.11-00.18.03:437][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_8
+[2021.08.11-00.18.03:437][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_7
+[2021.08.11-00.18.03:437][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_6
+[2021.08.11-00.18.03:437][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_5
+[2021.08.11-00.18.03:437][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_4
+[2021.08.11-00.18.03:438][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_3
+[2021.08.11-00.18.03:438][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_2
+[2021.08.11-00.18.03:438][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_29
+[2021.08.11-00.18.03:438][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_28
+[2021.08.11-00.18.03:438][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_27
+[2021.08.11-00.18.03:438][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_26
+[2021.08.11-00.18.03:438][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_25
+[2021.08.11-00.18.03:438][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_24
+[2021.08.11-00.18.03:438][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_23
+[2021.08.11-00.18.03:439][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_22
+[2021.08.11-00.18.03:439][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_21
+[2021.08.11-00.18.03:439][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_20
+[2021.08.11-00.18.03:439][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_1
+[2021.08.11-00.18.03:439][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_19
+[2021.08.11-00.18.03:439][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_18
+[2021.08.11-00.18.03:439][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_17
+[2021.08.11-00.18.03:439][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_16
+[2021.08.11-00.18.03:439][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_15
+[2021.08.11-00.18.03:440][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_14
+[2021.08.11-00.18.03:440][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_13
+[2021.08.11-00.18.03:440][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_12
+[2021.08.11-00.18.03:440][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_11
+[2021.08.11-00.18.03:440][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_10
+[2021.08.11-00.18.03:440][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_0
+[2021.08.11-00.18.03:440][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_30
+[2021.08.11-00.18.03:440][375]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_31
+[2021.08.11-00.18.20:016][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.11-00.18.20:016][352]LogWorld: BeginTearingDown for /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test
+[2021.08.11-00.18.20:016][352]LogWorld: UWorld::CleanupWorld for Mara_Sc_Test, bSessionEnded=true, bCleanupResources=true
+[2021.08.11-00.18.20:016][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.11-00.18.20:029][352]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.11-00.18.20:035][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.11-00.18.20:068][352]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.11-00.18.20:069][352]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.11-00.18.20:070][352]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.11-00.18.20:129][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.11-00.18.20:134][352]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.08.11-00.18.20:164][353]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.08.11-00.18.51:758][207]LogEditorTransaction: Undo Move Node
+[2021.08.11-00.18.52:331][232]LogEditorTransaction: Undo Create Pin Link
+[2021.08.11-00.18.52:961][268]LogEditorTransaction: Undo Delete current selection
+[2021.08.11-00.18.53:512][299]LogEditorTransaction: Undo Delete current selection
+[2021.08.11-00.18.54:301][346]LogEditorTransaction: Undo Move Node
+[2021.08.11-00.18.54:928][382]LogEditorTransaction: Undo Add Node
+[2021.08.11-00.19.24:424][118]BlueprintLog: New page: Compile UI_Player_2
+[2021.08.11-00.19.24:475][118]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2021.08.11-00.19.25:207][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player_2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset" SILENT=true
+[2021.08.11-00.19.25:239][159]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Player_2AD439B67462FD0450C22CB8DE2830E41.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset'
+[2021.08.11-00.19.25:267][159]AssetCheck: New page: Asset Save: UI_Player_2
+[2021.08.11-00.19.25:268][159]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.11-00.19.26:694][242]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.11-00.19.26:706][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.11-00.19.26:706][242]PIE: New page: PIE session: M_Wolfi (Aug 10, 2021, 2:19:26 PM)
+[2021.08.11-00.19.26:706][242]LogPlayLevel: Creating play world package: /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.08.11-00.19.26:708][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001608s)
+[2021.08.11-00.19.26:709][242]LogAIModule: Creating AISystem for world M_Wolfi
+[2021.08.11-00.19.26:709][242]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2021.08.11-00.19.26:710][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Wolfi/M_Wolfi.M_Wolfi to /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi (0.003144s)
+[2021.08.11-00.19.26:750][242]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2021.08.11-00.19.26:751][242]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.08.11-00.19.26:751][242]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.11-00.19.26:751][242]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.11-00.19.26:751][242]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.11-00.19.26:751][242]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.11-00.19.26:752][242]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.11-00.19.26:752][242]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.11-00.19.26:752][242]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.11-00.19.26:752][242]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.11-00.19.26:752][242]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.11-00.19.26:753][242]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.11-00.19.26:757][242]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.11-00.19.26:757][242]LogAudioMixer: Display: 1: FrontRight
+[2021.08.11-00.19.26:839][242]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.11-00.19.26:840][242]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.11-00.19.26:840][242]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.11-00.19.26:840][242]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.11-00.19.26:840][242]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.11-00.19.26:841][242]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.11-00.19.26:841][242]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.11-00.19.26:864][242]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.11-00.19.26:864][242]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.11-00.19.26:864][242]LogInit: FAudioDevice initialized.
+[2021.08.11-00.19.26:865][242]LogAudio: Display: Audio Device (ID: 5) registered with world 'M_Wolfi'.
+[2021.08.11-00.19.26:882][242]LogLoad: Game class is 'GameMode'
+[2021.08.11-00.19.26:883][242]LogWorld: Bringing World /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi up for play (max tick rate 60) at 2021.08.10-19.19.26
+[2021.08.11-00.19.26:883][242]LogWorld: Bringing up level for play took: 0.000851
+[2021.08.11-00.19.26:884][242]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.08.11-00.19.26:888][242]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.11-00.19.26:888][242]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.11-00.19.26:888][242]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.11-00.19.26:892][242]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.11-00.19.26:892][242]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2021.08.11-00.19.26:892][242]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2021.08.11-00.19.26:892][242]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.11-00.19.26:892][242]PIE: Server logged in
+[2021.08.11-00.19.26:894][242]PIE: Play in editor total start time 0.192 seconds.
+[2021.08.11-00.19.33:681][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.11-00.19.33:738][647]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.11-00.19.35:152][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.11-00.19.35:194][732]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.11-00.19.39:644][999]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2021.08.11-00.19.39:645][999]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2021.08.11-00.19.39:646][999]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.08.11-00.19.39:647][999]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.08.11-00.19.39:647][999]LogNet: Browse: /Game/Mara/Scene/Mara_Sc_Test
+[2021.08.11-00.19.39:647][999]LogLoad: LoadMap: /Game/Mara/Scene/Mara_Sc_Test
+[2021.08.11-00.19.39:647][999]LogWorld: BeginTearingDown for /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.08.11-00.19.39:648][999]LogWorld: UWorld::CleanupWorld for M_Wolfi, bSessionEnded=true, bCleanupResources=true
+[2021.08.11-00.19.39:648][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.11-00.19.39:681][999]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.11-00.19.39:686][999]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.08.11-00.19.39:710][999]LogAudio: Display: Audio Device (ID: 5) registered with world 'Mara_Sc_Test'.
+[2021.08.11-00.19.39:711][999]LogAIModule: Creating AISystem for world Mara_Sc_Test
+[2021.08.11-00.19.39:712][999]LogLoad: Game class is 'GameMode'
+[2021.08.11-00.19.39:715][999]LogWorld: Bringing World /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test.Mara_Sc_Test up for play (max tick rate 60) at 2021.08.10-19.19.39
+[2021.08.11-00.19.39:716][999]LogWorld: Bringing up level for play took: 0.003080
+[2021.08.11-00.19.39:716][999]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.08.11-00.19.39:716][999]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.11-00.19.39:717][999]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.11-00.19.39:717][999]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.11-00.19.39:717][999]project dir:../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/
+[2021.08.11-00.19.39:874][999]LogTexture: Display: Building textures: ProcTexture_32 (AutoDXT, 1024X1024)
+[2021.08.11-00.19.41:147][999]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/ProcTextureA5ADCA884471151CC5215889F21F6287.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/ProceduralTextures/ProcTexture.uasset'
+[2021.08.11-00.19.42:119][999]LogTexture: Display: Building textures: Texture2D_5 (AutoDXT, 1024X1024)
+[2021.08.11-00.19.42:156][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.11-00.19.42:157][999]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.11-00.19.42:157][999]LogLoad: Took 2.510166 seconds to LoadMap(/Game/Mara/Scene/Mara_Sc_Test)
+[2021.08.11-00.19.42:194][  0]AssetCheck: New page: Asset Save: multiple assets
+[2021.08.11-00.19.42:194][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_9
+[2021.08.11-00.19.42:194][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_8
+[2021.08.11-00.19.42:194][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_7
+[2021.08.11-00.19.42:195][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_6
+[2021.08.11-00.19.42:195][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_5
+[2021.08.11-00.19.42:195][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_4
+[2021.08.11-00.19.42:195][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_3
+[2021.08.11-00.19.42:195][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_2
+[2021.08.11-00.19.42:196][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_29
+[2021.08.11-00.19.42:196][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_28
+[2021.08.11-00.19.42:196][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_27
+[2021.08.11-00.19.42:196][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_26
+[2021.08.11-00.19.42:196][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_25
+[2021.08.11-00.19.42:196][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_24
+[2021.08.11-00.19.42:196][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_23
+[2021.08.11-00.19.42:197][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_22
+[2021.08.11-00.19.42:197][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_21
+[2021.08.11-00.19.42:197][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_20
+[2021.08.11-00.19.42:197][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_1
+[2021.08.11-00.19.42:197][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_19
+[2021.08.11-00.19.42:197][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_18
+[2021.08.11-00.19.42:197][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_17
+[2021.08.11-00.19.42:198][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_16
+[2021.08.11-00.19.42:198][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_15
+[2021.08.11-00.19.42:198][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_14
+[2021.08.11-00.19.42:198][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_13
+[2021.08.11-00.19.42:198][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_12
+[2021.08.11-00.19.42:198][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_11
+[2021.08.11-00.19.42:199][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_10
+[2021.08.11-00.19.42:199][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_0
+[2021.08.11-00.19.42:199][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_30
+[2021.08.11-00.19.42:199][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_32
+[2021.08.11-00.19.42:199][  0]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_31
+[2021.08.11-00.19.51:270][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.11-00.19.51:270][530]LogWorld: BeginTearingDown for /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test
+[2021.08.11-00.19.51:270][530]LogWorld: UWorld::CleanupWorld for Mara_Sc_Test, bSessionEnded=true, bCleanupResources=true
+[2021.08.11-00.19.51:271][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.11-00.19.51:289][530]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.11-00.19.51:295][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.11-00.19.51:331][530]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.11-00.19.51:331][530]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.11-00.19.51:333][530]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.11-00.19.51:395][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.11-00.19.51:400][530]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.08.11-00.19.51:435][531]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.08.11-00.43.40:540][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.08.11-00.43.40:541][  1]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Wolfi/M_Wolfi' took 0.038
+[2021.08.11-00.43.40:542][  1]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Wolfi/UI_Configuration] ([2] browsable assets)...
+[2021.08.11-00.43.40:542][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/Wolfi/UI_Configuration]
+[2021.08.11-00.43.40:590][  1]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration_Auto4F3C9E32A449858996A2E16B4FDABBE3D.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Autosaves/Game/Wolfi/UI_Configuration_Auto4.uasset'
+[2021.08.11-00.43.40:593][  1]LogFileHelpers: Auto-saving content packages took 0.051
+[2021.08.11-00.46.03:913][486]LogSlate: Window 'Color Picker' being destroyed
+[2021.08.11-00.46.29:965][ 45]LogSlate: Window 'Color Picker' being destroyed
+[2021.08.11-00.46.45:526][973]LogSlate: Window 'Color Picker' being destroyed
+[2021.08.11-00.46.47:545][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.11-00.46.47:595][ 93]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_ConfigurationF9636A31429572A4F732F69D3EA27C6C.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.11-00.46.47:614][ 93]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.11-00.46.47:614][ 93]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.11-00.46.47:875][109]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.11-00.46.47:940][109]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.08.11-00.47.41:625][318]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.11-00.47.41:690][318]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2021.08.11-00.47.42:270][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.11-00.47.42:320][345]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration3ADF7D1742581B0E81488480E5A52330.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.11-00.47.42:336][345]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.11-00.47.42:336][345]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.11-00.47.43:532][416]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.11-00.47.43:543][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.11-00.47.43:543][416]PIE: New page: PIE session: M_Wolfi (Aug 10, 2021, 2:47:43 PM)
+[2021.08.11-00.47.43:544][416]LogPlayLevel: Creating play world package: /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.08.11-00.47.43:545][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001430s)
+[2021.08.11-00.47.43:546][416]LogAIModule: Creating AISystem for world M_Wolfi
+[2021.08.11-00.47.43:546][416]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2021.08.11-00.47.43:546][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Wolfi/M_Wolfi.M_Wolfi to /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi (0.002843s)
+[2021.08.11-00.47.43:581][416]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2021.08.11-00.47.43:582][416]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.08.11-00.47.43:582][416]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.11-00.47.43:582][416]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.11-00.47.43:582][416]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.11-00.47.43:582][416]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.11-00.47.43:582][416]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.11-00.47.43:582][416]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.11-00.47.43:582][416]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.11-00.47.43:582][416]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.11-00.47.43:583][416]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.11-00.47.43:583][416]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.11-00.47.43:587][416]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.11-00.47.43:587][416]LogAudioMixer: Display: 1: FrontRight
+[2021.08.11-00.47.43:631][416]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.11-00.47.43:631][416]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.11-00.47.43:631][416]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.11-00.47.43:631][416]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.11-00.47.43:632][416]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.11-00.47.43:632][416]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.11-00.47.43:632][416]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.11-00.47.43:648][416]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.11-00.47.43:648][416]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.11-00.47.43:648][416]LogInit: FAudioDevice initialized.
+[2021.08.11-00.47.43:648][416]LogAudio: Display: Audio Device (ID: 6) registered with world 'M_Wolfi'.
+[2021.08.11-00.47.43:664][416]LogLoad: Game class is 'GameMode'
+[2021.08.11-00.47.43:665][416]LogWorld: Bringing World /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi up for play (max tick rate 60) at 2021.08.10-19.47.43
+[2021.08.11-00.47.43:666][416]LogWorld: Bringing up level for play took: 0.000542
+[2021.08.11-00.47.43:666][416]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.08.11-00.47.43:669][416]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.11-00.47.43:669][416]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.11-00.47.43:669][416]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.11-00.47.43:672][416]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.11-00.47.43:672][416]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2021.08.11-00.47.43:672][416]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2021.08.11-00.47.43:672][416]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.11-00.47.43:673][416]PIE: Server logged in
+[2021.08.11-00.47.43:674][416]PIE: Play in editor total start time 0.134 seconds.
+[2021.08.11-00.47.50:527][826]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.11-00.47.50:565][826]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.11-00.47.52:106][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.11-00.47.52:144][919]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.11-00.47.56:738][195]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2021.08.11-00.47.56:738][195]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2021.08.11-00.47.56:739][195]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.08.11-00.47.56:739][195]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.08.11-00.47.56:740][195]LogNet: Browse: /Game/Mara/Scene/Mara_Sc_Test
+[2021.08.11-00.47.56:740][195]LogLoad: LoadMap: /Game/Mara/Scene/Mara_Sc_Test
+[2021.08.11-00.47.56:740][195]LogWorld: BeginTearingDown for /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.08.11-00.47.56:740][195]LogWorld: UWorld::CleanupWorld for M_Wolfi, bSessionEnded=true, bCleanupResources=true
+[2021.08.11-00.47.56:741][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.11-00.47.56:790][195]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.11-00.47.56:796][195]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.08.11-00.47.56:798][195]LogLoad: Error: Previously active world /Engine/Transient.World_36 not cleaned up by garbage collection!
+[2021.08.11-00.47.56:798][195]LogLoad: Error: Once a world has become active, it cannot be reused and must be destroyed and reloaded. World referenced by:
