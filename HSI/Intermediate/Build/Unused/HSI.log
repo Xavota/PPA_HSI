@@ -1,3 +1,2 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI).
-  Target is up to date
-  Total execution time: 0,89 seconds
+﻿  The system cannot find the path specified.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.26\Engine\Build\BatchFiles\Build.bat" HSIEditor Win64 Development -Project="D:\github\PPA_HSI\HSI\HSI.uproject" -WaitMutex -FromMsBuild" exited with code 3.

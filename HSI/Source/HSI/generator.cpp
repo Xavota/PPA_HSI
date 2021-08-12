@@ -164,9 +164,12 @@ void Agenerator::groundthruth(int sizeX, int sizeY, FString proyectPath)
     
     gt = new int[sizeX * sizeY];
     for (int i = 0; i < sizeY; i++) {
-        for (int o = 0; o < sizeX; o++) {
+        gt[i * sizeX + 0] = pixel(FVector2D((float)i / (float)sizeX, 0.0f / (float)sizeY));
+        out << gt[i * sizeX] << ',';
+        CurrentPixelIndex++;
+        for (int o = 1; o < sizeX; o++) {
             gt[i * sizeX + o] = pixel(FVector2D((float)i/(float)sizeX , (float)o/ (float)sizeY));
-            out << gt[i * sizeX + o] << ',';
+            out << ',' << gt[i * sizeX + o] ;
             CurrentPixelIndex++;
         }
         out << '\n';
