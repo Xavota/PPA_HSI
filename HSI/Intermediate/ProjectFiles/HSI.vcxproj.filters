@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HSI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B3B7629E-2C08-4BC7-9995-FD14CD2585D5}</UniqueIdentifier>
+      <UniqueIdentifier>{DF36E2D3-6566-4B42-A31A-F03799FDA7AF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HSI.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BF71F2F2-09B1-4260-9D65-B7F2EAE54CAA}</UniqueIdentifier>
+      <UniqueIdentifier>{B35DAE63-06BE-4A25-8A70-F31A7781E1DF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HSI">
-      <UniqueIdentifier>{4ABD7CAD-6429-49B5-A006-922B850A6C2D}</UniqueIdentifier>
+      <UniqueIdentifier>{D32F83CC-EB9D-4325-BBF0-890632FC01D3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\HSI\generador.cpp">
       <Filter>Source\HSI</Filter>
