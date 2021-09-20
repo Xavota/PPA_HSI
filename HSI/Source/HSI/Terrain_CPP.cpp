@@ -84,3 +84,8 @@ void ATerrain_CPP::GenerateTerrain(FVector2D _size, FVector2D _tiles, FVector2D 
 	ProceduralMesh->SetMaterial(0, DynamicMat);
 }
 
+FVector2D ATerrain_CPP::GetSize()
+{
+	return Size;
+}
+

@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "HSI",
-			"Path": "C:\\Users\\marad\\OneDrive\\Documents\\GitHub\\PPA_HSI\\HSI\\Source\\HSI.Target.cs",
+			"Path": "C:\\Users\\simam\\Documents\\GitHub\\PPA_HSI\\HSI\\Source\\HSI.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "HSIEditor",
-			"Path": "C:\\Users\\marad\\OneDrive\\Documents\\GitHub\\PPA_HSI\\HSI\\Source\\HSIEditor.Target.cs",
+			"Path": "C:\\Users\\simam\\Documents\\GitHub\\PPA_HSI\\HSI\\Source\\HSIEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

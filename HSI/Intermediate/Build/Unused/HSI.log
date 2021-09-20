@@ -1,12 +1,36 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI).
+﻿  Cleaning HSIEditor and UnrealHeaderTool binaries...
+UnrealBuildTool : error : Unable to delete C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\HSIEditor\Development (Unable to delete \\?\C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\HSIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h)
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI).
+  Creating makefile for HSIEditor (game project files are newer)
+  Parsing headers for HSIEditor
+    Running UnrealHeaderTool "C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\HSI.uproject" "C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\HSIEditor\Development\HSIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\marad\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for HSIEditor in 22,4639743 seconds
   Building HSIEditor...
-  Using Visual Studio 2019 14.28.29914 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] Terrain_CPP.cpp
-    [2/4] UE4Editor-HSI-0002.lib
-       Creating library C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI-0002.lib and object C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI-0002.exp
-    [3/4] UE4Editor-HSI-0002.dll
-       Creating library C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI-0002.suppressed.lib and object C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI-0002.suppressed.exp
-    [4/4] HSIEditor.target
-  Total time in Parallel executor: 1,64 seconds
-  Total execution time: 2,45 seconds
+  Using Visual Studio 2019 14.29.30040 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 19 actions with 12 processes...
+    [1/19] Default.rc2
+    [2/19] SharedPCH.Engine.ShadowErrors.cpp
+    [3/19] generador.cpp
+    [4/19] HSI.cpp
+    [5/19] generador.gen.cpp
+    [6/19] HSIGameModeBase.cpp
+    [7/19] MyActor.cpp
+    [8/19] HSIGameModeBase.gen.cpp
+    [9/19] Terrain_CPP.cpp
+    [10/19] HSI.init.gen.cpp
+    [11/19] TerrainGenerator_CPP.cpp
+C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Source\HSI\TerrainGenerator_CPP.cpp(37): warning C4996: 'CreatePackage': Use CreatePackage overload that does not take the first Outer parameter. Specifying non-null outers for UPackages is no longer supported. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    [12/19] MyActor.gen.cpp
+    [13/19] generator.gen.cpp
+    [14/19] TerrainGenerator_CPP.gen.cpp
+    [15/19] Terrain_CPP.gen.cpp
+    [16/19] generator.cpp
+C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Source\HSI\generator.cpp(144): warning C4996: 'CreatePackage': Use CreatePackage overload that does not take the first Outer parameter. Specifying non-null outers for UPackages is no longer supported. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    [17/19] UE4Editor-HSI-0001.lib
+       Creating library C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI-0001.lib and object C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI-0001.exp
+    [18/19] UE4Editor-HSI-0001.dll
+       Creating library C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI-0001.suppressed.lib and object C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI-0001.suppressed.exp
+    [19/19] HSIEditor.target
+  Total time in Parallel executor: 48,19 seconds
+  Total execution time: 74,70 seconds
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(51,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.26\Engine\Build\BatchFiles\Rebuild.bat" HSIEditor Win64 Development -Project="C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\HSI.uproject" -WaitMutex -FromMsBuild" exited with code -1.
