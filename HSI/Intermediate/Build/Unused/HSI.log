@@ -1,18 +1,31 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI).
-  Invalidating makefile for HSIEditor (LDAssistant.uplugin has been added)
+﻿  Creating makefile for HSIEditor (build metadata has changed)
   Parsing headers for HSIEditor
-    Running UnrealHeaderTool "C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\HSI.uproject" "C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\HSIEditor\Development\HSIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\marad\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for HSIEditor in 22,5103915 seconds
+    Running UnrealHeaderTool "C:\HSI\HSI.uproject" "C:\HSI\Intermediate\Build\Win64\HSIEditor\Development\HSIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\roriv\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for HSIEditor in 45.2417069 seconds
   Building HSIEditor...
-  Using Visual Studio 2019 14.29.30040 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 12 processes...
-    [1/6] HSI.init.gen.cpp
-    [2/6] generator.gen.cpp
-    [3/6] generator.cpp
-    [4/6] UE4Editor-HSI.lib
-       Creating library C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI.lib and object C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI.exp
-    [5/6] UE4Editor-HSI.dll
-       Creating library C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI.suppressed.lib and object C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI.suppressed.exp
-    [6/6] HSIEditor.target
-  Total time in Parallel executor: 9,83 seconds
-  Total execution time: 37,37 seconds
+  Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 19 actions with 8 processes...
+    [1/19] Default.rc2
+    [2/19] SharedPCH.Engine.ShadowErrors.cpp
+    [3/19] HSI.cpp
+    [4/19] generador.cpp
+    [5/19] HSIGameModeBase.cpp
+    [6/19] MyActor.gen.cpp
+    [7/19] Terrain_CPP.cpp
+    [8/19] TerrainGenerator_CPP.gen.cpp
+    [9/19] Terrain_CPP.gen.cpp
+    [10/19] generator.cpp
+    [11/19] generador.gen.cpp
+    [12/19] TerrainGenerator_CPP.cpp
+C:\HSI\Source\HSI\TerrainGenerator_CPP.cpp(37): warning C4996: 'CreatePackage': Use CreatePackage overload that does not take the first Outer parameter. Specifying non-null outers for UPackages is no longer supported. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    [13/19] HSI.init.gen.cpp
+    [14/19] generator.gen.cpp
+    [15/19] MyActor.cpp
+    [16/19] HSIGameModeBase.gen.cpp
+    [17/19] UE4Editor-HSI.lib
+       Creating library C:\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI.lib and object C:\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI.exp
+    [18/19] UE4Editor-HSI.dll
+       Creating library C:\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI.suppressed.lib and object C:\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI.suppressed.exp
+    [19/19] HSIEditor.target
+  Total time in Parallel executor: 70.30 seconds
+  Total execution time: 135.48 seconds

@@ -1,5 +1,5 @@
-C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\Definitions.HSI.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Source\HSI/MyActor.h
-C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Inc\HSI\MyActor.generated.h
+C:\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\Definitions.HSI.h
+C:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\HSI\Source\HSI/MyActor.h
+C:\HSI\Intermediate\Build\Win64\UE4Editor\Inc\HSI\MyActor.generated.h
