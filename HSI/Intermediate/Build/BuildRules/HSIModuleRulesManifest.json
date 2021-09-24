@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\github\\PPA_HSI\\HSI\\Source\\HSI\\HSI.Build.cs",
-		"D:\\github\\PPA_HSI\\HSI\\Source\\HSI.Target.cs",
-		"D:\\github\\PPA_HSI\\HSI\\Source\\HSIEditor.Target.cs"
+		"C:\\Users\\Angel\\Documents\\GitHub\\PPA_HSI\\HSI\\Source\\HSI\\HSI.Build.cs",
+		"C:\\Users\\Angel\\Documents\\GitHub\\PPA_HSI\\HSI\\Source\\HSI.Target.cs",
+		"C:\\Users\\Angel\\Documents\\GitHub\\PPA_HSI\\HSI\\Source\\HSIEditor.Target.cs"
 	],
 	"EngineVersion": "4.26.2"
 }
