@@ -1,0 +1,1800 @@
+﻿Log file open, 08/05/21 14:53:25
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: HSI
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.273045
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.08.05-19.53.26:289][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.08.05-19.53.26:289][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.08.05-19.53.26:289][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.08.05-19.53.26:289][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.08.05-19.53.26:289][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2021.08.05-19.53.26:289][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2021.08.05-19.53.26:289][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2021.08.05-19.53.26:289][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2021.08.05-19.53.26:289][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2021.08.05-19.53.26:289][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2021.08.05-19.53.26:289][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2021.08.05-19.53.26:289][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2021.08.05-19.53.26:289][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.Mobile.ReflectionCaptureCompression:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2021.08.05-19.53.26:290][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlightsShadow:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.Mobile.AmbientOcclusion:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.GPUSkin.UnlimitedBoneInfluences:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.GPUSkin.UnlimitedBoneInfluencesThreshold:8]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[r.Mobile.PlanarReflectionMode:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.08.05-19.53.26:291][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.08.05-19.53.26:291][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.08.05-19.53.26:291][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.08.05-19.53.26:302][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.08.05-19.53.26:302][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.08.05-19.53.26:303][  0]LogInit: Selected Device Profile: [Windows]
+[2021.08.05-19.53.26:303][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.08.05-19.53.26:303][  0]LogHAL: Display: Platform has ~ 16 GB [17016107008 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.08.05-19.53.26:303][  0]LogInit: Going up to parent DeviceProfile []
+[2021.08.05-19.53.26:303][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.08.05-19.53.26:303][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.08.05-19.53.26:304][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.08.05-19.53.26:305][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.08.05-19.53.26:305][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.08.05-19.53.26:305][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.08.05-19.53.26:305][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.08.05-19.53.26:305][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Editor.ini]
+[2021.08.05-19.53.26:305][  0]LogInit: Computer: MSI
+[2021.08.05-19.53.26:305][  0]LogInit: User: marad
+[2021.08.05-19.53.26:305][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.08.05-19.53.26:305][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.08.05-19.53.26:305][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2021.08.05-19.53.26:305][  0]LogMemory: Platform Memory Stats for Windows
+[2021.08.05-19.53.26:305][  0]LogMemory: Process Physical Memory: 133.48 MB used, 133.48 MB peak
+[2021.08.05-19.53.26:305][  0]LogMemory: Process Virtual Memory: 112.87 MB used, 112.87 MB peak
+[2021.08.05-19.53.26:305][  0]LogMemory: Physical Memory: 7970.72 MB used,  8257.11 MB free, 16227.82 MB total
+[2021.08.05-19.53.26:305][  0]LogMemory: Virtual Memory: 134210088.00 MB used,  7640.65 MB free, 134217728.00 MB total
+[2021.08.05-19.53.26:367][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.08.05-19.53.26:413][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.08.05-19.53.26:414][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.08.05-19.53.26:414][  0]LogInit: Overriding language with editor locale configuration option (en).
+[2021.08.05-19.53.26:602][  0]LogInit: Setting process to per monitor DPI aware
+[2021.08.05-19.53.26:622][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.08.05-19.53.26:634][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.08.05-19.53.26:634][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.08.05-19.53.26:829][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.08.05-19.53.26:830][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.08.05-19.53.26:830][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.08.05-19.53.26:830][  0]LogD3D11RHI: D3D11 adapters:
+[2021.08.05-19.53.26:967][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2021.08.05-19.53.26:967][  0]LogD3D11RHI:       5991/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.08.05-19.53.27:022][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.08.05-19.53.27:022][  0]LogD3D11RHI:       128/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.08.05-19.53.27:024][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.08.05-19.53.27:025][  0]LogD3D11RHI:       0/0/8113 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.08.05-19.53.27:025][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.08.05-19.53.27:033][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.08.05-19.53.27:033][  0]LogD3D11RHI:     GPU DeviceId: 0x2191 (for the marketing name, search the web for "GPU Device Id")
+[2021.08.05-19.53.27:033][  0]LogWindows: EnumDisplayDevices:
+[2021.08.05-19.53.27:034][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.08.05-19.53.27:034][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.08.05-19.53.27:034][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.08.05-19.53.27:034][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2021.08.05-19.53.27:034][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2021.08.05-19.53.27:034][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2021.08.05-19.53.27:034][  0]LogD3D11RHI:   Driver Version: 466.77 (internal:27.21.14.6677, unified:466.77)
+[2021.08.05-19.53.27:035][  0]LogD3D11RHI:      Driver Date: 6-8-2021
+[2021.08.05-19.53.27:035][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2021.08.05-19.53.27:131][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.08.05-19.53.27:131][  0]LogD3D11RHI: Async texture creation enabled
+[2021.08.05-19.53.27:131][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.08.05-19.53.27:151][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.08.05-19.53.27:153][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.08.05-19.53.27:500][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.08.05-19.53.27:522][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.08.05-19.53.27:522][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.08.05-19.53.27:523][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.08.05-19.53.27:523][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.08.05-19.53.27:523][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.08.05-19.53.27:523][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.08.05-19.53.27:523][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.08.05-19.53.27:523][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.08.05-19.53.27:523][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.08.05-19.53.27:523][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.08.05-19.53.27:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.08.05-19.53.27:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.08.05-19.53.27:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.08.05-19.53.27:573][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.08.05-19.53.27:583][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.08.05-19.53.27:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.08.05-19.53.27:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.08.05-19.53.27:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.08.05-19.53.27:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.08.05-19.53.27:651][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.08.05-19.53.27:651][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.08.05-19.53.27:660][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.08.05-19.53.27:672][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.08.05-19.53.27:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.08.05-19.53.27:691][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.08.05-19.53.27:709][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.08.05-19.53.27:709][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.08.05-19.53.27:719][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.08.05-19.53.27:732][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.08.05-19.53.27:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.08.05-19.53.27:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.08.05-19.53.27:751][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.08.05-19.53.27:759][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.08.05-19.53.27:832][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.08.05-19.53.27:832][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Intermediate/Shaders/WorkingDirectory/29200/).
+[2021.08.05-19.53.27:832][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/marad/AppData/Local/Temp/UnrealShaderWorkingDir/73178D3C4BEEC610767DD7A4E1365FC0/'.
+[2021.08.05-19.53.27:832][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.08.05-19.53.27:832][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.08.05-19.53.28:806][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.08.05-19.53.28:870][  0]LogDerivedDataCache: Loaded boot cache 0.06s 77MB C:/Users/marad/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.08.05-19.53.28:870][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/marad/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.08.05-19.53.28:870][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.08.05-19.53.28:870][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.08.05-19.53.28:870][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.08.05-19.53.28:870][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.08.05-19.53.28:882][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.08.05-19.53.28:883][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.08.05-19.53.28:883][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.08.05-19.53.28:897][  0]LogDerivedDataCache: Speed tests for C:/Users/marad/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2021.08.05-19.53.28:897][  0]LogDerivedDataCache: Display: Performance to C:/Users/marad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=193.27MBs, RandomWriteSpeed=99.22MBs. Assigned SpeedClass 'Local'
+[2021.08.05-19.53.28:898][  0]LogDerivedDataCache: Using Local data cache path C:/Users/marad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.08.05-19.53.28:898][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.08.05-19.53.28:898][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.08.05-19.53.28:951][  0]LogSlate: Using FreeType 2.10.0
+[2021.08.05-19.53.28:952][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.08.05-19.53.28:987][  0]LogAssetRegistry: FAssetRegistry took 0.0087 seconds to start up
+[2021.08.05-19.53.29:285][  0]LogInit: Selected Device Profile: [Windows]
+[2021.08.05-19.53.29:285][  0]LogInit: Active device profile: [00000298CA0DA200][00000298C931A0C0 49] Windows
+[2021.08.05-19.53.29:285][  0]LogInit: Profiles: [00000298CA0DA200][00000298C931A0C0 49] Windows, [00000298CA06EC00][00000298CB5CC240 49] WindowsNoEditor, [00000298CA0D9100][00000298CB5D03C0 49] WindowsServer, [00000298CA06FC00][00000298CB5D4540 49] WindowsClient, [00000298CA0D8200][00000298CB5D86C0 49] IOS, [00000298CA06CB00][00000298CB5DC840 49] iPadAir, [00000298CA0DAF00][00000298CB5E09C0 49] iPadAir2, [00000298CA022500][00000298CB5E8C80 49] IPadPro, [00000298CA022600][00000298CB5E4CC0 49] iPadAir3, [00000298CA06CF00][00000298CB5ECE40 49] iPadAir4, [00000298CA023E00][00000298CB5F0FC0 49] iPadMini2, [00000298CA06C500][00000298CB5F5140 49] iPadMini3, [00000298CA021400][00000298CB5F92C0 49] iPadMini4, [00000298CA06D900][00000298CB5FD440 49] iPadMini5, [00000298CA05DE00][00000298CB5C96C0 49] iPhone6, [00000298CA05DF00][00000298CB601700 49] iPodTouch6, [00000298CA021B00][00000298CB609940 49] iPhone7, [00000298CA021A00][00000298CB605980 49] iPodTouch7, [00000298CA05F600][00000298CB60DAC0 49] iPhone5S, [00000298CA021E00][00000298CB615C40 49] iPhone6Plus, [00000298CA05D600][00000298CB618100 49] iPhone6S, [00000298CA020E00][00000298CB61C280 49] iPhone6SPlus, [00000298CA05C700][00000298CB620400 49] iPhone7Plus, [00000298CA020A00][00000298CB624580 49] iPhoneSE, [00000298CA05EE00][00000298CB628700 49] iPhone8, [00000298CA023200][00000298CB62C880 49] iPhone8Plus, [00000298CA05C200][00000298CB630A00 49] iPhoneX, [00000298CA023F00][00000298CB634B80 49] iPhoneXS, [00000298CA05E900][00000298CB638D00 49] iPhoneXSMax, [00000298CA022F00][00000298CB63CE80 49] iPhoneXR, [00000298CA05CD00][00000298CB641000 49] iPhone11, [00000298CA022C00][00000298CB645180 49] iPhone11Pro, [00000298CA05EC00][00000298CB649300 49] iPhone11ProMax, [00000298CA021C00][00000298CB65F480 49] iPhoneSE2, [00000298CA05FE00][00000298CB663600 49] iPhone12Mini, [00000298CA023B00][00000298CB611740 49] iPhone12, [00000298CA05E600][00000298CB677880 49] iPhone12Pro, [00000298CA023C00][00000298CB6A79C0 49] iPhone12ProMax, [00000298CA0D8D00][00000298CB6B7B00 49] iPadPro105, [00000298CA05F500][00000298CB6D7C80 49] iPadPro129, [00000298CA0DB000][00000298CB6FA140 49] iPadPro97, [00000298CA05F700][00000298CB6FE2C0 49] iPadPro2_129, [00000298CA020800][00000298CB702440 49] iPad5, [00000298CA05D000][00000298CB7065C0 49] iPad6, [00000298CA022100][00000298CB70A740 49] iPad7, [00000298CA05FC00][00000298CB7128C0 49] iPad8, [00000298CA022400][00000298CB716A40 49] iPadPro11, [00000298CA05DA00][00000298CB71ABC0 49] iPadPro2_11, [00000298CA022700][00000298CB722D40 49] iPadPro3_129, [00000298CA05D500][00000298CB726EC0 49] iPadPro4_129, [00000298CA022D00][00000298CB72B040 49] AppleTV, [00000298CA05E700][00000298CB7411C0 49] AppleTV4K, [00000298CA023400][00000298CB745340 49] TVOS, [00000298CA05DC00][00000298CB7494C0 49] Mac, [00000298CA022200][00000298CB74D640 49] MacClient, [00000298CA05F000][00000298CB7517C0 49] MacNoEditor, [00000298CA020C00][00000298CB6D3900 49] MacServer, [00000298CA05F200][00000298CB755A40 49] Linux, [00000298CA021700][00000298CB759B80 49] LinuxAArch64, [00000298CA05CF00][00000298CB779D00 49] LinuxNoEditor, [00000298CA020600][00000298CB77C1C0 49] LinuxAArch64NoEditor, [00000298CA05C400][00000298CB780340 49] LinuxClient, [00000298CA021500][00000298CB7844C0 49] LinuxAArch64Client, [00000298CA05CB00][00000298CB788640 49] LinuxServer, [00000298CA022A00][00000298CB78C7C0 49] LinuxAArch64Server, [00000298CA05CC00][00000298CB7B0940 49] Android, [00000298CA023900][00000298CB7B4AC0 49] Android_Low, [00000298CA05D300][00000298CB7B8C40 49] Android_Mid, [00000298CA021200][00000298CB7BCDC0 49] Android_High, [00000298CA05DD00][00000298CB7C0F40 49] Android_Default, [00000298CA021900][00000298CB7C50C0 49] Android_Adreno4xx, [00000298CA05F800][00000298CB7C9240 49] Android_Adreno5xx_Low, [00000298CA022E00][00000298CB7CD3C0 49] Android_Adreno5xx, [00000298CA05EB00][00000298CB7D1540 49] Android_Adreno6xx, [00000298CA020400][00000298CB7D56C0 49] Android_Adreno6xx_Vulkan, [00000298CA05F400][00000298CB7D9840 49] Android_Mali_T6xx, [00000298CA020100][00000298CB775980 49] Android_Mali_T7xx, [00000298CA05C900][00000298CB7DDAC0 49] Android_Mali_T8xx, [00000298CA023800][00000298CB7E1C00 49] Android_Mali_G71, [00000298CA05CA00][00000298CB7E80C0 49] Android_Mali_G72, [00000298CA021800][00000298CB7EC240 49] Android_Mali_G72_Vulkan, [00000298CA05F300][00000298CB7F03C0 49] Android_Mali_G76, [00000298CA020D00][00000298CB7F4540 49] Android_Mali_G76_Vulkan, [00000298CA05DB00][00000298CB7F86C0 49] Android_Mali_G77, [00000298CA06C700][00000298CB7FC840 49] Android_Mali_G77_Vulkan, [00000298CA0DBB00][00000298CB8009C0 49] Android_Vulkan_SM5, [00000298CA06E200][00000298CB804B40 49] Android_PowerVR_G6xxx, [00000298CA0DA400][00000298CB808CC0 49] Android_PowerVR_GT7xxx, [00000298CA06C200][00000298CB80CE40 49] Android_PowerVR_GE8xxx, [00000298CA0D9400][00000298CB810FC0 49] Android_PowerVR_GM9xxx, [00000298CA06D200][00000298CB815140 49] Android_PowerVR_GM9xxx_Vulkan, [00000298CA0DAC00][00000298CB8192C0 49] Android_TegraK1, [00000298CA06E900][00000298CB81D440 49] Android_Unknown_Vulkan, [00000298CA0DB400][00000298CB8215C0 49] Lumin, [00000298CA06D000][00000298CB825740 49] Lumin_Desktop, [00000298CA0DB700][00000298CB8298C0 49] HoloLens, 
+[2021.08.05-19.53.29:419][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.08.05-19.53.29:419][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.08.05-19.53.29:419][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.08.05-19.53.29:419][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.08.05-19.53.29:419][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.08.05-19.53.29:435][  0]LogNetVersion: HSI 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 34038537)
+[2021.08.05-19.53.29:952][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.08.05-19.53.30:051][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.098271 seconds
+[2021.08.05-19.53.30:060][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2021.08.05-19.53.30:060][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2021.08.05-19.53.30:060][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.08.05-19.53.30:447][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.08.05-19.53.30:451][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.08.05-19.53.30:556][  0]SourceControl: Source control is disabled
+[2021.08.05-19.53.30:556][  0]SourceControl: Source control is disabled
+[2021.08.05-19.53.30:559][  0]SourceControl: Source control is disabled
+[2021.08.05-19.53.30:562][  0]SourceControl: Source control is disabled
+[2021.08.05-19.53.30:567][  0]SourceControl: Source control is disabled
+[2021.08.05-19.53.30:584][  0]LogUProjectInfo: Found projects:
+[2021.08.05-19.53.30:805][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.08.05-19.53.30:815][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.08.05-19.53.30:815][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.08.05-19.53.30:865][  0]LogCollectionManager: Loaded 0 collections in 0.001544 seconds
+[2021.08.05-19.53.30:888][  0]LogFileCache: Scanning file cache for directory 'C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Collections/' took 0.00s
+[2021.08.05-19.53.30:888][  0]LogFileCache: Scanning file cache for directory 'C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Developers/marad/Collections/' took 0.00s
+[2021.08.05-19.53.30:888][  0]LogFileCache: Scanning file cache for directory 'C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Collections/' took 0.00s
+[2021.08.05-19.53.30:888][  0]LogOcInput: OculusInput pre-init called
+[2021.08.05-19.53.30:901][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.08.05-19.53.30:901][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.08.05-19.53.30:948][  0]LogEngine: Initializing Engine...
+[2021.08.05-19.53.30:949][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.08.05-19.53.30:950][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.08.05-19.53.30:951][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.08.05-19.53.31:053][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.08.05-19.53.31:060][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.08.05-19.53.31:077][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.08.05-19.53.31:080][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.08.05-19.53.31:080][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.08.05-19.53.31:080][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.05-19.53.31:080][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.05-19.53.31:080][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.05-19.53.31:080][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.05-19.53.31:080][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.05-19.53.31:080][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.05-19.53.31:080][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.05-19.53.31:080][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.05-19.53.31:081][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.05-19.53.31:081][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.05-19.53.31:155][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.05-19.53.31:155][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.08.05-19.53.31:305][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.05-19.53.31:308][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.05-19.53.31:309][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.05-19.53.31:309][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.05-19.53.31:310][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.05-19.53.31:310][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.05-19.53.31:310][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.05-19.53.31:311][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.05-19.53.31:311][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.05-19.53.31:311][  0]LogInit: FAudioDevice initialized.
+[2021.08.05-19.53.31:311][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.08.05-19.53.31:312][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.08.05-19.53.31:356][  0]LogDerivedDataCache: Saved boot cache 0.04s 77MB C:/Users/marad/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.08.05-19.53.31:356][  0]LogInit: Texture streaming: Enabled
+[2021.08.05-19.53.31:367][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.08.05-19.53.31:372][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.08.05-19.53.31:372][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.08.05-19.53.31:378][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.08.05-19.53.31:425][  0]LogInit: Transaction tracking system initialized
+[2021.08.05-19.53.31:447][  0]BlueprintLog: New page: Editor Load
+[2021.08.05-19.53.31:534][  0]LocalizationService: Localization service is disabled
+[2021.08.05-19.53.31:558][  0]TimingProfiler: Initialize
+[2021.08.05-19.53.31:558][  0]TimingProfiler: OnSessionChanged
+[2021.08.05-19.53.31:558][  0]LoadingProfiler: Initialize
+[2021.08.05-19.53.31:558][  0]LoadingProfiler: OnSessionChanged
+[2021.08.05-19.53.31:558][  0]NetworkingProfiler: Initialize
+[2021.08.05-19.53.31:558][  0]NetworkingProfiler: OnSessionChanged
+[2021.08.05-19.53.31:558][  0]MemoryProfiler: Initialize
+[2021.08.05-19.53.31:558][  0]MemoryProfiler: OnSessionChanged
+[2021.08.05-19.53.31:714][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.08.05-19.53.31:714][  0]LogCook: Display: Mobile HDR setting 1
+[2021.08.05-19.53.31:878][  0]LogFileCache: Scanning file cache for directory 'C:/Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/' took 0.01s
+[2021.08.05-19.53.32:100][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.08.05-19.53.32:107][  0]SourceControl: Source control is disabled
+[2021.08.05-19.53.32:107][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.935
+[2021.08.05-19.53.32:107][  0]Cmd: MAP LOAD FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.05-19.53.32:108][  0]LightingResults: New page: Lighting Build
+[2021.08.05-19.53.32:109][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-19.53.32:109][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-19.53.32:109][  0]MapCheck: New page: Map Check
+[2021.08.05-19.53.32:109][  0]LightingResults: New page: Lighting Build
+[2021.08.05-19.53.32:116][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.08.05-19.53.32:284][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2021.08.05-19.53.32:285][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.08.05-19.53.32:293][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.05-19.53.32:301][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.08.05-19.53.32:303][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.05-19.53.32:303][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.184ms to complete.
+[2021.08.05-19.53.32:303][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.196
+[2021.08.05-19.53.32:310][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.138
+[2021.08.05-19.53.32:457][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.05-19.53.32:462][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.05-19.53.32:468][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.05-19.53.32:473][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.05-19.53.32:502][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0085 seconds. Added 3607 classes and 861 folders.
+[2021.08.05-19.53.32:508][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.08.05-19.53.32:512][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.08.05-19.53.32:512][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:512][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.08.05-19.53.32:512][  0]LogPakFile: OnPakFileMounted2Time == 0.000006
+[2021.08.05-19.53.32:514][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.08.05-19.53.32:514][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:514][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.08.05-19.53.32:514][  0]LogPakFile: OnPakFileMounted2Time == 0.000010
+[2021.08.05-19.53.32:516][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.08.05-19.53.32:516][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:516][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.08.05-19.53.32:516][  0]LogPakFile: OnPakFileMounted2Time == 0.000012
+[2021.08.05-19.53.32:517][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.08.05-19.53.32:517][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:517][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.08.05-19.53.32:517][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2021.08.05-19.53.32:519][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.08.05-19.53.32:519][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:519][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.08.05-19.53.32:519][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2021.08.05-19.53.32:520][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.08.05-19.53.32:520][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:520][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.08.05-19.53.32:520][  0]LogPakFile: OnPakFileMounted2Time == 0.000016
+[2021.08.05-19.53.32:521][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.08.05-19.53.32:521][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:521][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.08.05-19.53.32:521][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2021.08.05-19.53.32:523][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.08.05-19.53.32:523][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:523][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.08.05-19.53.32:523][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2021.08.05-19.53.32:525][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.08.05-19.53.32:525][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:525][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.08.05-19.53.32:525][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2021.08.05-19.53.32:525][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.08.05-19.53.32:525][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:525][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.08.05-19.53.32:525][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2021.08.05-19.53.32:527][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.08.05-19.53.32:527][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:527][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.08.05-19.53.32:527][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2021.08.05-19.53.32:528][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.08.05-19.53.32:528][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:528][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.08.05-19.53.32:528][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2021.08.05-19.53.32:529][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.08.05-19.53.32:529][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:529][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.08.05-19.53.32:529][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2021.08.05-19.53.32:531][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.08.05-19.53.32:531][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:531][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.08.05-19.53.32:531][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2021.08.05-19.53.32:532][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.08.05-19.53.32:532][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:532][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.08.05-19.53.32:532][  0]LogPakFile: OnPakFileMounted2Time == 0.000031
+[2021.08.05-19.53.32:534][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.08.05-19.53.32:534][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:534][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.08.05-19.53.32:534][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2021.08.05-19.53.32:535][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.08.05-19.53.32:535][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:535][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.08.05-19.53.32:535][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2021.08.05-19.53.32:536][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.08.05-19.53.32:536][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:536][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.08.05-19.53.32:536][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2021.08.05-19.53.32:537][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.08.05-19.53.32:537][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:537][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.08.05-19.53.32:537][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2021.08.05-19.53.32:539][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.08.05-19.53.32:539][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:539][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.08.05-19.53.32:539][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2021.08.05-19.53.32:540][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.08.05-19.53.32:540][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:540][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.08.05-19.53.32:540][  0]LogPakFile: OnPakFileMounted2Time == 0.000040
+[2021.08.05-19.53.32:541][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.08.05-19.53.32:541][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:541][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.08.05-19.53.32:541][  0]LogPakFile: OnPakFileMounted2Time == 0.000041
+[2021.08.05-19.53.32:543][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.08.05-19.53.32:543][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:543][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.08.05-19.53.32:543][  0]LogPakFile: OnPakFileMounted2Time == 0.000042
+[2021.08.05-19.53.32:544][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.08.05-19.53.32:544][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:544][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.08.05-19.53.32:544][  0]LogPakFile: OnPakFileMounted2Time == 0.000044
+[2021.08.05-19.53.32:546][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.08.05-19.53.32:546][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:546][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.08.05-19.53.32:546][  0]LogPakFile: OnPakFileMounted2Time == 0.000045
+[2021.08.05-19.53.32:547][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.08.05-19.53.32:547][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.08.05-19.53.32:547][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.08.05-19.53.32:547][  0]LogPakFile: OnPakFileMounted2Time == 0.000046
+[2021.08.05-19.53.32:661][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.08.05-19.53.32:665][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2021.08.05-19.53.32:856][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.08.05-19.53.32:861][  0]LogSlate: Took 0.000349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.08.05-19.53.32:865][  0]LogSlate: Took 0.000499 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.08.05-19.53.32:960][  0]LogRenderer: Reallocating scene render targets to support 952x508 Format 10 NumSamples 1 (Frame:1).
+[2021.08.05-19.53.33:012][  0]LogSlate: Took 0.000722 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.08.05-19.53.33:167][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.08.05-19.53.33:167][  0]LogLoad: (Engine Initialization) Total time: 8.00 seconds
+[2021.08.05-19.53.33:167][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.08.05-19.53.33:167][  0]LogInit: First time updating LLM stats...
+[2021.08.05-19.53.33:188][  0]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.08.05-19.53.33:229][  0]LogAssetRegistry: Asset discovery search completed in 4.2453 seconds
+[2021.08.05-19.53.33:230][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.08.05-19.53.33:231][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.08.05-19.53.34:200][ 52]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.08.05-19.54.55:121][387]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Sime/MyChar2.MyChar2
+[2021.08.05-19.54.55:347][387]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
+[2021.08.05-19.54.56:237][387]LogLinker: Warning: Failed to load '/Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test:PersistentLevel.Mara_Sc_Test': Can't resolve asset name
+[2021.08.05-19.54.56:250][387]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.08.05-19.54.58:018][482]LogSlate: Took 0.000986 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.08.05-19.54.58:088][486]LogSlate: Window 'MyChar2' being destroyed
+[2021.08.05-19.54.58:103][487]LogRenderer: Reallocating scene render targets to support 1192x636 Format 10 NumSamples 1 (Frame:232).
+[2021.08.05-19.55.03:435][803]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.08.05-19.55.03:609][803]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test
+[2021.08.05-19.55.03:609][803]Cmd: MAP LOAD FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.05-19.55.03:609][803]LightingResults: New page: Lighting Build
+[2021.08.05-19.55.03:609][803]LoadErrors: New page: Loading map: Mara_Sc_Test.umap
+[2021.08.05-19.55.03:610][803]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: ProceduralMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Terrain_BP_2.ProceduralMesh)
+[2021.08.05-19.55.03:642][803]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-19.55.03:642][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-19.55.03:642][803]MapCheck: New page: Map Check
+[2021.08.05-19.55.03:642][803]LightingResults: New page: Lighting Build
+[2021.08.05-19.55.03:657][803]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.05-19.55.03:662][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.08.05-19.55.03:667][803]LogAudio: Display: Audio Device (ID: 1) registered with world 'Mara_Sc_Test'.
+[2021.08.05-19.55.03:745][803]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.05-19.55.03:745][803]LogAIModule: Creating AISystem for world Mara_Sc_Test
+[2021.08.05-19.55.03:765][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.08.05-19.55.03:771][803]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.05-19.55.03:772][803]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.128ms to complete.
+[2021.08.05-19.55.03:772][803]LogFileHelpers: Loading map 'Mara_Sc_Test' took 0.163
+[2021.08.05-19.55.11:935][286]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test:PersistentLevel.Mara_Sc_Test
+[2021.08.05-19.55.30:148][357]BlueprintLog: New page: Compile Mara_Sc_Test
+[2021.08.05-19.55.30:186][357]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.08.05-19.55.30:706][385]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.08.05-19.55.30:722][385]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Mara_Sc_TestBD5ADA2A48FE2D655FDA92A47A1FF71E.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc_Test.umap'
+[2021.08.05-19.55.30:732][385]LogFileHelpers: Saving map 'Mara_Sc_Test' took 0.046
+[2021.08.05-19.55.30:744][385]AssetCheck: New page: Asset Save: Mara_Sc_Test
+[2021.08.05-19.55.30:745][385]LogContentValidation: Display: Validating World /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test
+[2021.08.05-19.55.39:325][900]BlueprintLog: New page: Compile Mara_Sc_Test
+[2021.08.05-19.55.39:358][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.08.05-19.55.39:889][929]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.08.05-19.55.39:903][929]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Mara_Sc_TestF7D1D90C4CF051FE658D548E2E96438E.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc_Test.umap'
+[2021.08.05-19.55.39:912][929]LogFileHelpers: Saving map 'Mara_Sc_Test' took 0.044
+[2021.08.05-19.55.39:923][929]AssetCheck: New page: Asset Save: Mara_Sc_Test
+[2021.08.05-19.55.39:923][929]LogContentValidation: Display: Validating World /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test
+[2021.08.05-19.56.32:341][245]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.05-19.56.32:353][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.05-19.56.32:353][245]PIE: New page: PIE session: Mara_Sc_Test (Aug 5, 2021, 9:56:32 AM)
+[2021.08.05-19.56.32:355][245]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.08.05-19.56.32:356][245]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.08.05-19.56.32:356][245]LogPlayLevel: Creating play world package: /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test
+[2021.08.05-19.56.32:358][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002261s)
+[2021.08.05-19.56.32:359][245]LogAIModule: Creating AISystem for world Mara_Sc_Test
+[2021.08.05-19.56.32:359][245]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2021.08.05-19.56.32:359][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test to /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test.Mara_Sc_Test (0.003322s)
+[2021.08.05-19.56.32:378][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2021.08.05-19.56.32:379][245]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.08.05-19.56.32:379][245]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.05-19.56.32:379][245]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.05-19.56.32:379][245]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.05-19.56.32:379][245]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.05-19.56.32:379][245]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.05-19.56.32:379][245]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.05-19.56.32:379][245]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.05-19.56.32:379][245]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.05-19.56.32:380][245]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.05-19.56.32:380][245]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.05-19.56.32:383][245]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.05-19.56.32:383][245]LogAudioMixer: Display: 1: FrontRight
+[2021.08.05-19.56.32:414][245]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.05-19.56.32:414][245]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.05-19.56.32:415][245]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.05-19.56.32:415][245]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.05-19.56.32:415][245]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.05-19.56.32:415][245]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.05-19.56.32:415][245]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.05-19.56.32:428][245]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.05-19.56.32:428][245]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.05-19.56.32:428][245]LogInit: FAudioDevice initialized.
+[2021.08.05-19.56.32:428][245]LogAudio: Display: Audio Device (ID: 2) registered with world 'Mara_Sc_Test'.
+[2021.08.05-19.56.32:437][245]LogLoad: Game class is 'GameMode'
+[2021.08.05-19.56.32:440][245]LogWorld: Bringing World /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test.Mara_Sc_Test up for play (max tick rate 60) at 2021.08.05-14.56.32
+[2021.08.05-19.56.32:440][245]LogWorld: Bringing up level for play took: 0.000625
+[2021.08.05-19.56.32:440][245]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.08.05-19.56.32:449][245]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.08.05-19.56.32:449][245]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.05-19.56.32:449][245]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.05-19.56.32:449][245]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.05-19.56.32:450][245]project dir:../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/
+[2021.08.05-19.56.32:561][245]LogTexture: Display: Building textures: ProcTexture_0 (AutoDXT, 1024X1024)
+[2021.08.05-19.56.33:129][245]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/ProcTextureFFA28F544470C919DF150FBB006F5E30.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/ProceduralTextures/ProcTexture.uasset'
+[2021.08.05-19.56.33:289][245]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.05-19.56.33:289][245]PIE: Server logged in
+[2021.08.05-19.56.33:291][245]PIE: Play in editor total start time 0.942 seconds.
+[2021.08.05-19.56.33:416][246]AssetCheck: New page: Asset Save: multiple assets
+[2021.08.05-19.56.33:416][246]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_7
+[2021.08.05-19.56.33:416][246]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_6
+[2021.08.05-19.56.33:416][246]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_5
+[2021.08.05-19.56.33:416][246]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_4
+[2021.08.05-19.56.33:416][246]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_3
+[2021.08.05-19.56.33:416][246]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_2
+[2021.08.05-19.56.33:416][246]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_1
+[2021.08.05-19.56.33:416][246]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_0
+[2021.08.05-19.56.33:726][247]LogRenderer: Reallocating scene render targets to support 1192x1920 Format 10 NumSamples 1 (Frame:1).
+[2021.08.05-19.56.33:726][247]LogRenderer: Reallocating scene render targets to support 2160x3840 Format 10 NumSamples 1 (Frame:1).
+[2021.08.05-19.56.50:528][603]LogBlueprintUserMessages: [MyChar2_2] Saved Image 1
+[2021.08.05-19.56.51:118][603]LogBlueprintUserMessages: [MyChar2_2] Saved Imaged 2
+[2021.08.05-19.57.27:744][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.05-19.57.27:744][753]LogWorld: BeginTearingDown for /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test
+[2021.08.05-19.57.27:746][753]LogWorld: UWorld::CleanupWorld for Mara_Sc_Test, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-19.57.27:746][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-19.57.27:757][753]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.05-19.57.27:761][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-19.57.27:784][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.05-19.57.27:784][753]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.05-19.57.27:785][753]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.05-19.57.27:856][753]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2021.08.05-19.57.27:909][754]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.08.05-19.57.50:770][632]BlueprintLog: New page: Compile Mara_Sc_Test
+[2021.08.05-19.57.50:819][632]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2021.08.05-19.57.51:486][668]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.08.05-19.57.51:501][668]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Mara_Sc_TestB1F1887647FA938992B94BA4A6D1FC05.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc_Test.umap'
+[2021.08.05-19.57.51:510][668]LogFileHelpers: Saving map 'Mara_Sc_Test' took 0.050
+[2021.08.05-19.57.51:523][668]AssetCheck: New page: Asset Save: Mara_Sc_Test
+[2021.08.05-19.57.51:523][668]LogContentValidation: Display: Validating World /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test
+[2021.08.05-19.57.52:521][720]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.05-19.57.52:531][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.05-19.57.52:531][720]PIE: New page: PIE session: Mara_Sc_Test (Aug 5, 2021, 9:57:52 AM)
+[2021.08.05-19.57.52:531][720]LogPlayLevel: Creating play world package: /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test
+[2021.08.05-19.57.52:533][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002287s)
+[2021.08.05-19.57.52:534][720]LogAIModule: Creating AISystem for world Mara_Sc_Test
+[2021.08.05-19.57.52:534][720]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2021.08.05-19.57.52:534][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test to /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test.Mara_Sc_Test (0.003249s)
+[2021.08.05-19.57.52:558][720]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.08.05-19.57.52:560][720]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.08.05-19.57.52:561][720]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.05-19.57.52:561][720]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.05-19.57.52:561][720]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.05-19.57.52:561][720]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.05-19.57.52:561][720]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.05-19.57.52:561][720]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.05-19.57.52:561][720]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.05-19.57.52:561][720]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.05-19.57.52:561][720]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.05-19.57.52:561][720]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.05-19.57.52:565][720]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.05-19.57.52:565][720]LogAudioMixer: Display: 1: FrontRight
+[2021.08.05-19.57.52:599][720]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.05-19.57.52:599][720]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.05-19.57.52:599][720]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.05-19.57.52:599][720]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.05-19.57.52:600][720]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.05-19.57.52:600][720]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.05-19.57.52:600][720]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.05-19.57.52:613][720]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.05-19.57.52:613][720]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.05-19.57.52:613][720]LogInit: FAudioDevice initialized.
+[2021.08.05-19.57.52:613][720]LogAudio: Display: Audio Device (ID: 3) registered with world 'Mara_Sc_Test'.
+[2021.08.05-19.57.52:620][720]LogLoad: Game class is 'GameMode'
+[2021.08.05-19.57.52:621][720]LogWorld: Bringing World /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test.Mara_Sc_Test up for play (max tick rate 60) at 2021.08.05-14.57.52
+[2021.08.05-19.57.52:621][720]LogWorld: Bringing up level for play took: 0.000599
+[2021.08.05-19.57.52:621][720]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.08.05-19.57.52:623][720]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.05-19.57.52:623][720]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.05-19.57.52:623][720]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.05-19.57.52:623][720]project dir:../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/
+[2021.08.05-19.57.52:762][720]LogTexture: Display: Building textures: ProcTexture_8 (AutoDXT, 1024X1024)
+[2021.08.05-19.57.53:381][720]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/ProcTextureDBD079C243014E98157C68B576388EE4.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/ProceduralTextures/ProcTexture.uasset'
+[2021.08.05-19.57.53:538][720]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.05-19.57.53:538][720]PIE: Server logged in
+[2021.08.05-19.57.53:539][720]PIE: Play in editor total start time 1.011 seconds.
+[2021.08.05-19.57.53:708][721]AssetCheck: New page: Asset Save: multiple assets
+[2021.08.05-19.57.53:708][721]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_7
+[2021.08.05-19.57.53:708][721]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_6
+[2021.08.05-19.57.53:708][721]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_5
+[2021.08.05-19.57.53:708][721]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_4
+[2021.08.05-19.57.53:708][721]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_3
+[2021.08.05-19.57.53:708][721]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_2
+[2021.08.05-19.57.53:708][721]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_1
+[2021.08.05-19.57.53:708][721]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_0
+[2021.08.05-19.57.53:708][721]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_8
+[2021.08.05-19.57.53:741][721]LogRenderer: Reallocating scene render targets to support 3840x3840 Format 10 NumSamples 1 (Frame:1).
+[2021.08.05-19.57.59:873][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.05-19.57.59:873][865]LogWorld: BeginTearingDown for /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test
+[2021.08.05-19.57.59:873][865]LogWorld: UWorld::CleanupWorld for Mara_Sc_Test, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-19.57.59:874][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-19.57.59:914][865]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.05-19.57.59:918][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-19.57.59:940][865]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.05-19.57.59:940][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.05-19.57.59:941][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.05-19.57.59:980][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.05-19.57.59:988][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.08.05-19.58.00:023][866]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.08.05-19.58.04:731][111]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Mara/Materials/Terrain_M.Terrain_M
+[2021.08.05-19.58.04:734][111]LogMaterial: Display: Missing cached shader map for material Terrain_M, compiling. 
+[2021.08.05-19.58.05:148][111]LogMaterial: Display: Missing cached shader map for material Terrain_M, compiling. 
+[2021.08.05-19.58.05:162][111]LogMaterial: Display: Missing cached shader map for material Terrain_M, compiling. 
+[2021.08.05-19.58.05:176][111]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 22
+[2021.08.05-19.58.05:176][111]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 21
+[2021.08.05-19.58.05:176][111]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 20
+[2021.08.05-19.58.05:176][111]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2021.08.05-19.58.05:176][111]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 18
+[2021.08.05-19.58.05:176][111]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2021.08.05-19.58.05:176][111]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 16
+[2021.08.05-19.58.05:176][111]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 15
+[2021.08.05-19.58.05:180][111]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2021.08.05-19.58.05:185][111]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_1, compiling. 
+[2021.08.05-19.58.05:190][111]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_2, compiling. 
+[2021.08.05-19.58.05:194][111]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_3, compiling. 
+[2021.08.05-19.58.05:199][111]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_3, compiling. 
+[2021.08.05-19.58.05:203][111]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2021.08.05-19.58.05:208][111]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2021.08.05-19.58.05:212][111]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2021.08.05-19.58.05:216][111]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling. 
+[2021.08.05-19.58.05:220][111]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2021.08.05-19.58.05:224][111]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_8, compiling. 
+[2021.08.05-19.58.05:228][111]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_5, compiling. 
+[2021.08.05-19.58.06:026][147]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 62
+[2021.08.05-19.58.06:070][149]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 61
+[2021.08.05-19.58.06:373][167]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 60
+[2021.08.05-19.58.06:390][168]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 59
+[2021.08.05-19.58.06:441][171]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 58
+[2021.08.05-19.58.06:474][173]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 57
+[2021.08.05-19.58.06:762][190]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 56
+[2021.08.05-19.58.06:879][197]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 55
+[2021.08.05-19.58.06:914][199]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 54
+[2021.08.05-19.58.06:985][203]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 53
+[2021.08.05-19.58.07:184][215]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 52
+[2021.08.05-19.58.07:233][218]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 51
+[2021.08.05-19.58.07:450][231]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 50
+[2021.08.05-19.58.07:558][237]LogMaterial: Display: Missing cached shader map for material Terrain_M, compiling. 
+[2021.08.05-19.58.07:593][238]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 57
+[2021.08.05-19.58.07:606][239]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 56
+[2021.08.05-19.58.07:656][242]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 55
+[2021.08.05-19.58.07:785][248]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 54
+[2021.08.05-19.58.07:942][257]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 53
+[2021.08.05-19.58.08:028][261]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 52
+[2021.08.05-19.58.08:060][262]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 51
+[2021.08.05-19.58.08:324][278]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 50
+[2021.08.05-19.58.08:493][287]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 49
+[2021.08.05-19.58.08:529][289]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 48
+[2021.08.05-19.58.08:614][294]LogMaterialEditor: Saving and Compiling material Terrain_M
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 47
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 46
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 45
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 44
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 43
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 42
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 41
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 40
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 39
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 38
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 37
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 36
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 35
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 34
+[2021.08.05-19.58.09:930][294]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 33
+[2021.08.05-19.58.09:950][294]LogMaterial: Display: Missing cached shader map for material Terrain_M, compiling. 
+[2021.08.05-19.58.10:050][294]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 32
+[2021.08.05-19.58.10:054][294]LogMaterial: Display: Missing cached shader map for material Terrain_M, compiling. 
+[2021.08.05-19.58.10:086][294]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 31
+[2021.08.05-19.58.10:138][294]LogUObjectHash: Compacting FUObjectHashTables data took   6.21ms
+[2021.08.05-19.58.10:153][294]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 42
+[2021.08.05-19.58.10:154][294]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.08.05-19.58.10:716][294]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 43
+[2021.08.05-19.58.10:716][294]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 42
+[2021.08.05-19.58.10:716][294]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 41
+[2021.08.05-19.58.10:716][294]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 40
+[2021.08.05-19.58.10:716][294]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 39
+[2021.08.05-19.58.11:271][294]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 38
+[2021.08.05-19.58.11:271][294]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 37
+[2021.08.05-19.58.11:271][294]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 36
+[2021.08.05-19.58.11:271][294]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 35
+[2021.08.05-19.58.11:271][294]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 34
+[2021.08.05-19.58.11:271][294]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 33
+[2021.08.05-19.58.11:271][294]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 32
+[2021.08.05-19.58.11:271][294]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 31
+[2021.08.05-19.58.11:830][294]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 30
+[2021.08.05-19.58.11:830][294]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 29
+[2021.08.05-19.58.11:830][294]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 28
+[2021.08.05-19.58.11:830][294]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 27
+[2021.08.05-19.58.11:830][294]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 26
+[2021.08.05-19.58.11:830][294]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 25
+[2021.08.05-19.58.11:830][294]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 24
+[2021.08.05-19.58.11:830][294]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 23
+[2021.08.05-19.58.12:388][294]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 22
+[2021.08.05-19.58.12:388][294]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 21
+[2021.08.05-19.58.12:388][294]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 20
+[2021.08.05-19.58.12:388][294]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 19
+[2021.08.05-19.58.12:388][294]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 18
+[2021.08.05-19.58.12:945][294]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2021.08.05-19.58.12:945][294]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 16
+[2021.08.05-19.58.12:945][294]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 15
+[2021.08.05-19.58.12:945][294]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
+[2021.08.05-19.58.12:945][294]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2021.08.05-19.58.12:945][294]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 12
+[2021.08.05-19.58.13:364][294]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2021.08.05-19.58.13:364][294]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2021.08.05-19.58.13:364][294]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.08.05-19.58.13:364][294]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2021.08.05-19.58.13:364][294]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.08.05-19.58.13:364][294]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.08.05-19.58.13:364][294]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2021.08.05-19.58.13:376][294]TextureStreamingBuild: Display: Compiling optional shaders took 3.235 seconds.
+[2021.08.05-19.58.13:476][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.08.05-19.58.14:085][294]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.08.05-19.58.14:577][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mara/Materials/Terrain_M" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Materials/Terrain_M.uasset" SILENT=true
+[2021.08.05-19.58.14:592][294]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Terrain_MDA514A3241E5844CBDD83388152FD822.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Materials/Terrain_M.uasset'
+[2021.08.05-19.58.14:615][294]AssetCheck: New page: Asset Save: Terrain_M
+[2021.08.05-19.58.14:615][294]LogContentValidation: Display: Validating Material /Game/Mara/Materials/Terrain_M.Terrain_M
+[2021.08.05-19.58.14:616][294]MaterialEditorStats: Base pass shader: 118 instructions
+[2021.08.05-19.58.14:616][294]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 186 instructions
+[2021.08.05-19.58.14:616][294]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.08.05-19.58.14:616][294]MaterialEditorStats: Texture samplers: 7/16
+[2021.08.05-19.58.14:616][294]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2021.08.05-19.58.14:616][294]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.08.05-19.58.14:621][294]LogSlate: Took 0.000625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.08.05-19.58.16:926][399]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.05-19.58.16:934][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.05-19.58.16:934][399]PIE: New page: PIE session: Mara_Sc_Test (Aug 5, 2021, 9:58:16 AM)
+[2021.08.05-19.58.16:934][399]LogPlayLevel: Creating play world package: /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test
+[2021.08.05-19.58.16:937][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002361s)
+[2021.08.05-19.58.16:937][399]LogAIModule: Creating AISystem for world Mara_Sc_Test
+[2021.08.05-19.58.16:937][399]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2021.08.05-19.58.16:938][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test to /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test.Mara_Sc_Test (0.003320s)
+[2021.08.05-19.58.16:963][399]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2021.08.05-19.58.16:964][399]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.08.05-19.58.16:964][399]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.05-19.58.16:964][399]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.05-19.58.16:964][399]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.05-19.58.16:964][399]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.05-19.58.16:964][399]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.05-19.58.16:964][399]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.05-19.58.16:964][399]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.05-19.58.16:964][399]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.05-19.58.16:965][399]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.05-19.58.16:965][399]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.05-19.58.16:968][399]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.05-19.58.16:968][399]LogAudioMixer: Display: 1: FrontRight
+[2021.08.05-19.58.17:004][399]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.05-19.58.17:004][399]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.05-19.58.17:004][399]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.05-19.58.17:004][399]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.05-19.58.17:005][399]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.05-19.58.17:005][399]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.05-19.58.17:005][399]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.05-19.58.17:019][399]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.05-19.58.17:019][399]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.05-19.58.17:019][399]LogInit: FAudioDevice initialized.
+[2021.08.05-19.58.17:019][399]LogAudio: Display: Audio Device (ID: 4) registered with world 'Mara_Sc_Test'.
+[2021.08.05-19.58.17:027][399]LogLoad: Game class is 'GameMode'
+[2021.08.05-19.58.17:028][399]LogWorld: Bringing World /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test.Mara_Sc_Test up for play (max tick rate 60) at 2021.08.05-14.58.17
+[2021.08.05-19.58.17:029][399]LogWorld: Bringing up level for play took: 0.000620
+[2021.08.05-19.58.17:029][399]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.08.05-19.58.17:030][399]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.05-19.58.17:030][399]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.05-19.58.17:030][399]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.05-19.58.17:030][399]project dir:../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/
+[2021.08.05-19.58.17:165][399]LogTexture: Display: Building textures: ProcTexture_9 (AutoDXT, 1024X1024)
+[2021.08.05-19.58.17:881][399]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/ProcTexture13BD241F42817AE04A3AEAB02FFAE641.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/ProceduralTextures/ProcTexture.uasset'
+[2021.08.05-19.58.18:017][399]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.05-19.58.18:017][399]PIE: Server logged in
+[2021.08.05-19.58.18:019][399]PIE: Play in editor total start time 1.088 seconds.
+[2021.08.05-19.58.18:176][400]AssetCheck: New page: Asset Save: multiple assets
+[2021.08.05-19.58.18:176][400]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_7
+[2021.08.05-19.58.18:177][400]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_6
+[2021.08.05-19.58.18:177][400]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_5
+[2021.08.05-19.58.18:177][400]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_4
+[2021.08.05-19.58.18:177][400]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_3
+[2021.08.05-19.58.18:177][400]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_2
+[2021.08.05-19.58.18:177][400]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_1
+[2021.08.05-19.58.18:177][400]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_0
+[2021.08.05-19.58.18:177][400]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_9
+[2021.08.05-19.58.18:177][400]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_8
+[2021.08.05-19.58.55:463][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.05-19.58.55:463][154]LogWorld: BeginTearingDown for /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test
+[2021.08.05-19.58.55:464][154]LogWorld: UWorld::CleanupWorld for Mara_Sc_Test, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-19.58.55:464][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-19.58.55:537][154]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.05-19.58.55:550][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-19.58.55:592][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.05-19.58.55:593][154]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.05-19.58.55:594][154]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.05-19.58.55:624][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.08.05-19.58.55:660][155]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.08.05-19.59.47:299][203]LogSlate: Took 0.006847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.08.05-19.59.51:652][459]BlueprintLog: New page: Compile MyChar2
+[2021.08.05-19.59.51:717][459]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2021.08.05-20.00.52:409][ 64]BlueprintLog: New page: Compile MyChar2
+[2021.08.05-20.00.52:470][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2021.08.05-20.00.52:954][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sime/MyChar2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Sime/MyChar2.uasset" SILENT=true
+[2021.08.05-20.00.53:003][ 88]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/MyChar290105763480392A6367364BC5FA198A8.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Sime/MyChar2.uasset'
+[2021.08.05-20.00.53:021][ 88]AssetCheck: New page: Asset Save: MyChar2
+[2021.08.05-20.00.53:021][ 88]LogContentValidation: Display: Validating Blueprint /Game/Sime/MyChar2.MyChar2
+[2021.08.05-20.01.40:236][903]BlueprintLog: New page: Compile MyChar2
+[2021.08.05-20.01.40:296][903]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2021.08.05-20.01.40:744][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sime/MyChar2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Sime/MyChar2.uasset" SILENT=true
+[2021.08.05-20.01.40:808][925]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/MyChar272E9AAF64ED4258E73CB67ABC37830B3.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Sime/MyChar2.uasset'
+[2021.08.05-20.01.40:829][925]AssetCheck: New page: Asset Save: MyChar2
+[2021.08.05-20.01.40:829][925]LogContentValidation: Display: Validating Blueprint /Game/Sime/MyChar2.MyChar2
+[2021.08.05-20.01.51:498][557]LogEditorTransaction: Undo Align Middle
+[2021.08.05-20.01.51:516][557]LogMaterial: Display: Missing cached shader map for material Terrain_M, compiling. 
+[2021.08.05-20.01.51:530][557]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.08.05-20.01.51:530][557]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.08.05-20.01.51:530][557]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.08.05-20.01.51:530][557]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.08.05-20.01.51:530][557]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.08.05-20.01.51:530][557]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.08.05-20.01.51:530][557]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.08.05-20.01.51:530][557]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.08.05-20.01.52:632][600]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.08.05-20.01.53:201][634]MaterialEditorStats: Base pass shader: 118 instructions
+[2021.08.05-20.01.53:201][634]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 186 instructions
+[2021.08.05-20.01.53:201][634]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.08.05-20.01.53:201][634]MaterialEditorStats: Texture samplers: 6/16
+[2021.08.05-20.01.53:201][634]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2021.08.05-20.01.53:201][634]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.08.05-20.01.54:851][731]LogEditorTransaction: Undo Move Node
+[2021.08.05-20.01.54:864][731]LogMaterial: Display: Missing cached shader map for material Terrain_M, compiling. 
+[2021.08.05-20.01.55:019][732]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.08.05-20.01.55:019][732]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.08.05-20.01.55:019][732]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.08.05-20.01.55:019][732]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.08.05-20.01.55:019][732]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.08.05-20.01.55:019][732]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.08.05-20.01.55:019][732]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.08.05-20.01.55:019][732]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.08.05-20.01.55:601][755]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.08.05-20.01.56:160][787]MaterialEditorStats: Base pass shader: 118 instructions
+[2021.08.05-20.01.56:161][787]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 186 instructions
+[2021.08.05-20.01.56:161][787]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.08.05-20.01.56:161][787]MaterialEditorStats: Texture samplers: 6/16
+[2021.08.05-20.01.56:161][787]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2021.08.05-20.01.56:161][787]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.08.05-20.03.01:923][709]BlueprintLog: New page: Compile MyChar2
+[2021.08.05-20.03.01:983][709]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2021.08.05-20.03.02:381][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sime/MyChar2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Sime/MyChar2.uasset" SILENT=true
+[2021.08.05-20.03.02:429][728]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/MyChar297644F554FFDA7FF4EE75FBAE9117A02.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Sime/MyChar2.uasset'
+[2021.08.05-20.03.02:450][728]AssetCheck: New page: Asset Save: MyChar2
+[2021.08.05-20.03.02:451][728]LogContentValidation: Display: Validating Blueprint /Game/Sime/MyChar2.MyChar2
+[2021.08.05-20.04.43:463][692]BlueprintLog: New page: Compile MyChar2
+[2021.08.05-20.04.43:526][692]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2021.08.05-20.04.43:912][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sime/MyChar2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Sime/MyChar2.uasset" SILENT=true
+[2021.08.05-20.04.43:960][711]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/MyChar23C4038B340353423D489368D2BCB31F1.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Sime/MyChar2.uasset'
+[2021.08.05-20.04.43:978][711]AssetCheck: New page: Asset Save: MyChar2
+[2021.08.05-20.04.43:978][711]LogContentValidation: Display: Validating Blueprint /Game/Sime/MyChar2.MyChar2
+[2021.08.05-20.04.46:515][850]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.05-20.04.46:524][850]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.05-20.04.46:524][850]PIE: New page: PIE session: Mara_Sc_Test (Aug 5, 2021, 10:04:46 AM)
+[2021.08.05-20.04.46:550][850]LogPlayLevel: Creating play world package: /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test
+[2021.08.05-20.04.46:553][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002362s)
+[2021.08.05-20.04.46:553][850]LogAIModule: Creating AISystem for world Mara_Sc_Test
+[2021.08.05-20.04.46:554][850]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2021.08.05-20.04.46:554][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test to /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test.Mara_Sc_Test (0.003428s)
+[2021.08.05-20.04.46:580][850]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2021.08.05-20.04.46:580][850]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.08.05-20.04.46:580][850]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.05-20.04.46:580][850]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.05-20.04.46:580][850]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.05-20.04.46:580][850]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.05-20.04.46:580][850]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.05-20.04.46:580][850]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.05-20.04.46:580][850]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.05-20.04.46:580][850]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.05-20.04.46:581][850]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.05-20.04.46:581][850]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.05-20.04.46:584][850]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.05-20.04.46:584][850]LogAudioMixer: Display: 1: FrontRight
+[2021.08.05-20.04.46:619][850]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.05-20.04.46:619][850]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.05-20.04.46:619][850]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.05-20.04.46:619][850]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.05-20.04.46:620][850]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.05-20.04.46:620][850]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.05-20.04.46:620][850]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.05-20.04.46:633][850]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.05-20.04.46:633][850]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.05-20.04.46:633][850]LogInit: FAudioDevice initialized.
+[2021.08.05-20.04.46:633][850]LogAudio: Display: Audio Device (ID: 5) registered with world 'Mara_Sc_Test'.
+[2021.08.05-20.04.46:642][850]LogLoad: Game class is 'GameMode'
+[2021.08.05-20.04.46:643][850]LogWorld: Bringing World /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test.Mara_Sc_Test up for play (max tick rate 60) at 2021.08.05-15.04.46
+[2021.08.05-20.04.46:644][850]LogWorld: Bringing up level for play took: 0.000512
+[2021.08.05-20.04.46:644][850]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.08.05-20.04.46:645][850]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.05-20.04.46:645][850]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.05-20.04.46:645][850]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.05-20.04.46:645][850]project dir:../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/
+[2021.08.05-20.04.46:755][850]LogTexture: Display: Building textures: ProcTexture_10 (AutoDXT, 1024X1024)
+[2021.08.05-20.04.47:406][850]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/ProcTexture822B74BA4A91E8A0422AB7BD0602A4F2.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/ProceduralTextures/ProcTexture.uasset'
+[2021.08.05-20.04.47:536][850]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.05-20.04.47:536][850]PIE: Server logged in
+[2021.08.05-20.04.47:537][850]PIE: Play in editor total start time 1.016 seconds.
+[2021.08.05-20.04.47:664][851]AssetCheck: New page: Asset Save: multiple assets
+[2021.08.05-20.04.47:664][851]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_7
+[2021.08.05-20.04.47:664][851]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_6
+[2021.08.05-20.04.47:665][851]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_5
+[2021.08.05-20.04.47:665][851]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_4
+[2021.08.05-20.04.47:665][851]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_3
+[2021.08.05-20.04.47:665][851]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_2
+[2021.08.05-20.04.47:665][851]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_1
+[2021.08.05-20.04.47:665][851]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_0
+[2021.08.05-20.04.47:665][851]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_9
+[2021.08.05-20.04.47:665][851]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_8
+[2021.08.05-20.04.47:665][851]LogContentValidation: Display: Validating Texture2D /Game/ProceduralTextures/ProcTexture.ProcTexture_10
+[2021.08.05-20.04.53:659][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.05-20.04.53:660][  0]LogWorld: BeginTearingDown for /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test
+[2021.08.05-20.04.53:660][  0]LogWorld: UWorld::CleanupWorld for Mara_Sc_Test, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-20.04.53:661][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-20.04.53:704][  0]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.05-20.04.53:709][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-20.04.53:732][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.05-20.04.53:732][  0]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.05-20.04.53:733][  0]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.05-20.04.53:759][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.05-20.04.53:768][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.08.05-20.04.53:803][  1]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.08.05-20.04.56:520][150]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.08.05-20.04.56:539][150]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Mara_Sc_Test646BB7234EC0D39212AC4FB0D1CC0811.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc_Test.umap'
+[2021.08.05-20.04.56:568][150]AssetCheck: New page: Asset Save: Mara_Sc_Test
+[2021.08.05-20.04.56:568][150]LogContentValidation: Display: Validating World /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test
+[2021.08.05-20.05.05:600][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sime/MyChar2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Sime/MyChar2.uasset" SILENT=true
+[2021.08.05-20.05.05:653][689]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/MyChar2664BAB364B9933DF6373798923404F07.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Sime/MyChar2.uasset'
+[2021.08.05-20.05.05:682][689]AssetCheck: New page: Asset Save: MyChar2
+[2021.08.05-20.05.05:682][689]LogContentValidation: Display: Validating Blueprint /Game/Sime/MyChar2.MyChar2
+[2021.08.05-20.14.56:960][686]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2021.08.05-20.14.56:963][686]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Mara/Scene/Mara_Sc_Test' took 0.048
+[2021.08.05-20.14.56:965][686]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sime/MyChar2] ([2] browsable assets)...
+[2021.08.05-20.14.56:965][686]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sime/MyChar2]
+[2021.08.05-20.14.56:965][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sime/MyChar2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Autosaves/Game/Sime/MyChar2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.08.05-20.14.57:034][686]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/MyChar2_Auto14E7F14E94B9EDB54A34107A375266190.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Autosaves/Game/Sime/MyChar2_Auto1.uasset'
+[2021.08.05-20.14.57:037][686]LogFileHelpers: Auto-saving content packages took 0.074
+[2021.08.05-20.19.10:565][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sime/MyChar2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Sime/MyChar2.uasset" SILENT=true
+[2021.08.05-20.19.10:610][552]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/MyChar27E9B6C4D4A8F812CB4DB2192BAFA3591.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Sime/MyChar2.uasset'
+[2021.08.05-20.19.10:630][552]AssetCheck: New page: Asset Save: MyChar2
+[2021.08.05-20.19.10:630][552]LogContentValidation: Display: Validating Blueprint /Game/Sime/MyChar2.MyChar2
+[2021.08.05-21.20.52:190][729]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.05-21.21.19:826][206]LogSlate: Took 0.013132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.08.05-21.22.20:338][345]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetMathLibrary::BooleanAND' [No se ha encontrado el elemento.]
+[2021.08.05-21.23.27:942][777]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.05-21.23.28:116][777]LogUObjectHash: Compacting FUObjectHashTables data took   7.64ms
+[2021.08.05-21.23.28:562][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.05-21.23.28:611][786]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration98816092468ADD86E8A0D6810F2DEDEB.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.05-21.23.28:655][786]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.05-21.23.28:655][786]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.05-21.24.05:613][479]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.05-21.27.09:757][735]BlueprintLog: New page: Compile UI_Player_2
+[2021.08.05-21.27.09:836][735]LogUObjectHash: Compacting FUObjectHashTables data took   6.24ms
+[2021.08.05-21.27.10:703][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player_2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset" SILENT=true
+[2021.08.05-21.27.10:720][781]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Player_2A9113F6C45AB2A43914EE29B6A345B1C.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset'
+[2021.08.05-21.27.10:747][781]AssetCheck: New page: Asset Save: UI_Player_2
+[2021.08.05-21.27.10:747][781]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.05-21.27.34:851][191]BlueprintLog: New page: Compile UI_Player_2
+[2021.08.05-21.27.34:930][191]LogUObjectHash: Compacting FUObjectHashTables data took   7.43ms
+[2021.08.05-21.27.35:623][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player_2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset" SILENT=true
+[2021.08.05-21.27.35:639][227]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Player_2BF715C5D4E70DE50B2293A97AD925C3E.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset'
+[2021.08.05-21.27.35:664][227]AssetCheck: New page: Asset Save: UI_Player_2
+[2021.08.05-21.27.35:664][227]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.05-21.27.37:556][331]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Wolfi/UI_Player.UI_Player
+[2021.08.05-21.28.37:637][841]LogEditorTransaction: Undo Remove Widget
+[2021.08.05-21.28.37:644][841]LogMaterial: Display: Missing cached shader map for material Terrain_M, compiling. 
+[2021.08.05-21.28.37:697][842]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.08.05-21.28.37:697][842]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.08.05-21.28.37:697][842]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.08.05-21.28.37:697][842]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.08.05-21.28.37:698][842]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.08.05-21.28.37:698][842]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.08.05-21.28.37:698][842]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.08.05-21.28.37:698][842]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.08.05-21.28.37:999][852]LogEditorTransaction: Undo Remove Widget
+[2021.08.05-21.28.38:014][852]LogMaterial: Display: Missing cached shader map for material Terrain_M, compiling. 
+[2021.08.05-21.28.39:053][900]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2021.08.05-21.28.39:054][900]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2021.08.05-21.28.39:419][921]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 7
+[2021.08.05-21.28.39:601][930]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2021.08.05-21.28.39:648][933]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2021.08.05-21.28.39:698][936]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.08.05-21.28.39:733][938]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.08.05-21.28.39:750][939]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2021.08.05-21.28.40:388][976]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.08.05-21.28.41:211][ 25]MaterialEditorStats: Base pass shader: 118 instructions
+[2021.08.05-21.28.41:211][ 25]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 186 instructions
+[2021.08.05-21.28.41:211][ 25]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.08.05-21.28.41:211][ 25]MaterialEditorStats: Texture samplers: 6/16
+[2021.08.05-21.28.41:211][ 25]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2021.08.05-21.28.41:211][ 25]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.08.05-21.28.42:497][ 72]BlueprintLog: New page: Compile UI_Player
+[2021.08.05-21.28.42:793][ 72]LogUObjectHash: Compacting FUObjectHashTables data took  32.73ms
+[2021.08.05-21.28.43:508][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player.uasset" SILENT=true
+[2021.08.05-21.28.43:708][ 79]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_PlayerF7F040AB47C69BFCEA622EA78DBF025E.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player.uasset'
+[2021.08.05-21.28.43:808][ 79]AssetCheck: New page: Asset Save: UI_Player
+[2021.08.05-21.28.43:808][ 79]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player.UI_Player
+[2021.08.05-21.31.49:310][ 41]BlueprintLog: New page: Compile UI_Player_2
+[2021.08.05-21.31.49:385][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   7.47ms
+[2021.08.05-21.31.49:888][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Player_2" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset" SILENT=true
+[2021.08.05-21.31.49:914][ 68]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Player_261840CDC48588E1F163802B62A35048D.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Player_2.uasset'
+[2021.08.05-21.31.49:945][ 68]AssetCheck: New page: Asset Save: UI_Player_2
+[2021.08.05-21.31.49:945][ 68]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Player_2.UI_Player_2
+[2021.08.05-21.32.19:061][798]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Wolfi/UI_Menu.UI_Menu
+[2021.08.05-21.32.47:325][415]LogContentBrowser: Attempting asset rename: Mara_Sc_Test -> Mara_Sc_Test
+[2021.08.05-21.32.51:184][639]BlueprintLog: New page: Compile UI_Configuration
+[2021.08.05-21.32.51:266][639]LogUObjectHash: Compacting FUObjectHashTables data took   8.68ms
+[2021.08.05-21.32.51:625][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wolfi/UI_Configuration" FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset" SILENT=true
+[2021.08.05-21.32.51:683][655]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/UI_Configuration0BFBA30849BA08D476F6A0A6B713FFC0.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/UI_Configuration.uasset'
+[2021.08.05-21.32.51:713][655]AssetCheck: New page: Asset Save: UI_Configuration
+[2021.08.05-21.32.51:713][655]LogContentValidation: Display: Validating WidgetBlueprint /Game/Wolfi/UI_Configuration.UI_Configuration
+[2021.08.05-21.32.53:754][764]LogUObjectHash: Compacting FUObjectHashTables data took   9.40ms
+[2021.08.05-21.32.53:809][764]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Mara/Scene/Mara_Sc.Mara_Sc
+[2021.08.05-21.32.53:811][764]Cmd: MAP LOAD FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.05-21.32.53:811][764]LightingResults: New page: Lighting Build
+[2021.08.05-21.32.53:813][764]LoadErrors: New page: Loading map: Mara_Sc.umap
+[2021.08.05-21.32.53:813][764]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: ProceduralMeshComponent /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test:PersistentLevel.Terrain_BP_2.ProceduralMesh)
+[2021.08.05-21.32.53:814][764]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: ProceduralMeshComponent /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test:PersistentLevel.Terrain_CPP_BP_2.GeneratedMesh)
+[2021.08.05-21.32.53:855][764]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.32.53:855][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.32.54:018][764]LogWorld: UWorld::CleanupWorld for Mara_Sc_Test, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.32.54:018][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.32.54:018][764]MapCheck: New page: Map Check
+[2021.08.05-21.32.54:019][764]LightingResults: New page: Lighting Build
+[2021.08.05-21.32.54:069][764]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.05-21.32.54:088][764]LogUObjectHash: Compacting FUObjectHashTables data took   5.97ms
+[2021.08.05-21.32.54:092][764]LogAudio: Display: Audio Device (ID: 1) registered with world 'Mara_Sc'.
+[2021.08.05-21.32.54:240][764]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.05-21.32.54:240][764]LogAIModule: Creating AISystem for world Mara_Sc
+[2021.08.05-21.32.54:295][764]LogUObjectHash: Compacting FUObjectHashTables data took   5.79ms
+[2021.08.05-21.32.54:307][764]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.05-21.32.54:307][764]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.208ms to complete.
+[2021.08.05-21.32.54:307][764]LogFileHelpers: Loading map 'Mara_Sc' took 0.498
+[2021.08.05-21.32.56:119][811]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Mara/Scene/Mara_Sc.Mara_Sc:PersistentLevel.Mara_Sc
+[2021.08.05-21.33.48:325][891]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2021.08.05-21.33.53:851][891]LogSlate: Window 'Save Content' being destroyed
+[2021.08.05-21.33.53:906][891]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test
+[2021.08.05-21.33.53:906][891]Cmd: MAP LOAD FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.05-21.33.53:906][891]LightingResults: New page: Lighting Build
+[2021.08.05-21.33.53:906][891]LoadErrors: New page: Loading map: Mara_Sc_Test.umap
+[2021.08.05-21.33.53:907][891]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: ProceduralMeshComponent /Game/Mara/Scene/Mara_Sc.Mara_Sc:PersistentLevel.Terrain_BP_2.ProceduralMesh)
+[2021.08.05-21.33.53:937][891]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.33.53:937][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.33.53:987][891]LogWorld: UWorld::CleanupWorld for Mara_Sc, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.33.53:987][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.33.53:987][891]MapCheck: New page: Map Check
+[2021.08.05-21.33.53:987][891]LightingResults: New page: Lighting Build
+[2021.08.05-21.33.54:039][891]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.05-21.33.54:050][891]LogUObjectHash: Compacting FUObjectHashTables data took   6.64ms
+[2021.08.05-21.33.54:051][891]LogAudio: Display: Audio Device (ID: 1) registered with world 'Mara_Sc_Test'.
+[2021.08.05-21.33.54:178][891]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.05-21.33.54:179][891]LogAIModule: Creating AISystem for world Mara_Sc_Test
+[2021.08.05-21.33.54:231][891]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2021.08.05-21.33.54:241][891]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.05-21.33.54:241][891]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.17ms to complete.
+[2021.08.05-21.33.54:241][891]LogFileHelpers: Loading map 'Mara_Sc_Test' took 0.336
+[2021.08.05-21.33.58:092][ 87]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test:PersistentLevel.Mara_Sc_Test
+[2021.08.05-21.34.01:296][252]LogProperty: Warning: Illegal TEXT reference to a private object in external package (Terrain_BP_C /Game/Mara/Scene/Mara_Sc.Mara_Sc:PersistentLevel.Terrain_BP_2) from referencer (K2Node_Literal /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test:PersistentLevel.Mara_Sc_Test.EventGraph.K2Node_Literal_0).  Import failed...
+[2021.08.05-21.34.01:296][252]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'Terrain_BP_C'"/Game/Mara/Scene/Mara_Sc.Mara_Sc:PersistentLevel.Terrain_BP_2"''
+[2021.08.05-21.34.12:549][904]BlueprintLog: New page: Compile Mara_Sc_Test
+[2021.08.05-21.34.12:553][904]LogBlueprint: Error: [AssetLog] C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Content\Mara\Scene\Mara_Sc_Test.umap: [Compiler] In use pin  New Var 0  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2021.08.05-21.34.12:554][904]LogBlueprint: Warning: [AssetLog] C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Content\Mara\Scene\Mara_Sc_Test.umap: [Compiler] Node  Unknown  is not referencing a valid level actor
+[2021.08.05-21.34.12:656][904]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2021.08.05-21.34.13:336][937]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2021.08.05-21.34.13:369][937]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Mara_Sc_Test49F78FDC4B2CD231527B929806F2133A.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc_Test.umap'
+[2021.08.05-21.34.13:386][937]LogFileHelpers: Saving map 'Mara_Sc_Test' took 0.108
+[2021.08.05-21.34.13:411][937]AssetCheck: New page: Asset Save: Mara_Sc_Test
+[2021.08.05-21.34.13:411][937]LogContentValidation: Display: Validating World /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test
+[2021.08.05-21.34.29:573][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2021.08.05-21.34.29:599][886]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Mara/Scene/Mara_Sc.Mara_Sc
+[2021.08.05-21.34.29:599][886]Cmd: MAP LOAD FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.05-21.34.29:599][886]LightingResults: New page: Lighting Build
+[2021.08.05-21.34.29:599][886]LoadErrors: New page: Loading map: Mara_Sc.umap
+[2021.08.05-21.34.29:599][886]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: ProceduralMeshComponent /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test:PersistentLevel.Terrain_BP_2.ProceduralMesh)
+[2021.08.05-21.34.29:599][886]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: ProceduralMeshComponent /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test:PersistentLevel.Terrain_CPP_BP_2.GeneratedMesh)
+[2021.08.05-21.34.29:632][886]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.34.29:632][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.34.29:681][886]LogWorld: UWorld::CleanupWorld for Mara_Sc_Test, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.34.29:681][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.34.29:681][886]MapCheck: New page: Map Check
+[2021.08.05-21.34.29:681][886]LightingResults: New page: Lighting Build
+[2021.08.05-21.34.29:730][886]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.05-21.34.29:741][886]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2021.08.05-21.34.29:742][886]LogAudio: Display: Audio Device (ID: 1) registered with world 'Mara_Sc'.
+[2021.08.05-21.34.29:871][886]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.05-21.34.29:871][886]LogAIModule: Creating AISystem for world Mara_Sc
+[2021.08.05-21.34.29:924][886]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2021.08.05-21.34.29:934][886]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.05-21.34.29:934][886]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.173ms to complete.
+[2021.08.05-21.34.29:934][886]LogFileHelpers: Loading map 'Mara_Sc' took 0.335
+[2021.08.05-21.34.31:309][941]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Mara/Scene/Mara_Sc.Mara_Sc:PersistentLevel.Mara_Sc
+[2021.08.05-21.34.40:480][447]LogUObjectHash: Compacting FUObjectHashTables data took   5.90ms
+[2021.08.05-21.34.40:512][447]LogBlueprint: Error: [AssetLog] C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Content\Mara\Scene\Mara_Sc_Test.umap: [Compiler] In use pin  New Var 0  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2021.08.05-21.34.40:513][447]LogBlueprint: Warning: [AssetLog] C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Content\Mara\Scene\Mara_Sc_Test.umap: [Compiler] Node  Unknown  is not referencing a valid level actor
+[2021.08.05-21.34.40:525][447]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test
+[2021.08.05-21.34.40:525][447]Cmd: MAP LOAD FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.05-21.34.40:526][447]LightingResults: New page: Lighting Build
+[2021.08.05-21.34.40:526][447]LoadErrors: New page: Loading map: Mara_Sc_Test.umap
+[2021.08.05-21.34.40:526][447]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: ProceduralMeshComponent /Game/Mara/Scene/Mara_Sc.Mara_Sc:PersistentLevel.Terrain_BP_2.ProceduralMesh)
+[2021.08.05-21.34.40:554][447]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.34.40:554][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.34.40:603][447]LogWorld: UWorld::CleanupWorld for Mara_Sc, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.34.40:603][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.34.40:604][447]MapCheck: New page: Map Check
+[2021.08.05-21.34.40:604][447]LightingResults: New page: Lighting Build
+[2021.08.05-21.34.40:652][447]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.05-21.34.40:662][447]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2021.08.05-21.34.40:663][447]LogAudio: Display: Audio Device (ID: 1) registered with world 'Mara_Sc_Test'.
+[2021.08.05-21.34.40:784][447]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.05-21.34.40:784][447]LogAIModule: Creating AISystem for world Mara_Sc_Test
+[2021.08.05-21.34.40:838][447]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2021.08.05-21.34.40:848][447]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.05-21.34.40:849][447]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.28ms to complete.
+[2021.08.05-21.34.40:849][447]LogFileHelpers: Loading map 'Mara_Sc_Test' took 0.323
+[2021.08.05-21.34.42:618][530]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test:PersistentLevel.Mara_Sc_Test
+[2021.08.05-21.35.07:166][955]BlueprintLog: New page: Compile Mara_Sc_Test
+[2021.08.05-21.35.07:171][955]LogBlueprint: Error: [AssetLog] C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Content\Mara\Scene\Mara_Sc_Test.umap: [Compiler] This blueprint (self) is not a generator, therefore ' Target ' must have a connection.
+[2021.08.05-21.35.07:171][955]LogBlueprint: Warning: [AssetLog] C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Content\Mara\Scene\Mara_Sc_Test.umap: [Compiler] Node  Unknown  is not referencing a valid level actor
+[2021.08.05-21.35.07:272][955]LogUObjectHash: Compacting FUObjectHashTables data took   6.74ms
+[2021.08.05-21.35.07:655][969]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2021.08.05-21.35.07:691][969]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Mara_Sc_Test89917FCC45743EFDA0D1BB9B317C8107.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc_Test.umap'
+[2021.08.05-21.35.07:707][969]LogFileHelpers: Saving map 'Mara_Sc_Test' took 0.114
+[2021.08.05-21.35.07:725][969]AssetCheck: New page: Asset Save: Mara_Sc_Test
+[2021.08.05-21.35.07:725][969]LogContentValidation: Display: Validating World /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test
+[2021.08.05-21.35.09:704][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2021.08.05-21.35.09:746][ 76]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Mara/Scene/Mara_Sc.Mara_Sc
+[2021.08.05-21.35.09:746][ 76]Cmd: MAP LOAD FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.05-21.35.09:746][ 76]LightingResults: New page: Lighting Build
+[2021.08.05-21.35.09:746][ 76]LoadErrors: New page: Loading map: Mara_Sc.umap
+[2021.08.05-21.35.09:747][ 76]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: ProceduralMeshComponent /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test:PersistentLevel.Terrain_BP_2.ProceduralMesh)
+[2021.08.05-21.35.09:747][ 76]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: ProceduralMeshComponent /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test:PersistentLevel.Terrain_CPP_BP_2.GeneratedMesh)
+[2021.08.05-21.35.09:776][ 76]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.35.09:776][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.35.09:823][ 76]LogWorld: UWorld::CleanupWorld for Mara_Sc_Test, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.35.09:823][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.35.09:823][ 76]MapCheck: New page: Map Check
+[2021.08.05-21.35.09:824][ 76]LightingResults: New page: Lighting Build
+[2021.08.05-21.35.09:871][ 76]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.05-21.35.09:881][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2021.08.05-21.35.09:881][ 76]LogAudio: Display: Audio Device (ID: 1) registered with world 'Mara_Sc'.
+[2021.08.05-21.35.10:007][ 76]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.05-21.35.10:007][ 76]LogAIModule: Creating AISystem for world Mara_Sc
+[2021.08.05-21.35.10:060][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2021.08.05-21.35.10:069][ 76]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.05-21.35.10:070][ 76]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.188ms to complete.
+[2021.08.05-21.35.10:070][ 76]LogFileHelpers: Loading map 'Mara_Sc' took 0.324
+[2021.08.05-21.35.12:873][227]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Mara/Scene/Mara_Sc.Mara_Sc:PersistentLevel.Mara_Sc
+[2021.08.05-21.35.36:744][406]LogEditorTransaction: Undo Move Node
+[2021.08.05-21.35.36:754][406]LogMaterial: Display: Missing cached shader map for material Terrain_M, compiling. 
+[2021.08.05-21.35.36:770][406]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.08.05-21.35.36:770][406]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.08.05-21.35.36:770][406]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.08.05-21.35.36:770][406]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.08.05-21.35.36:770][406]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.08.05-21.35.36:771][406]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.08.05-21.35.36:771][406]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.08.05-21.35.36:771][406]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.08.05-21.35.38:221][444]BlueprintLog: New page: Compile Mara_Sc
+[2021.08.05-21.35.38:643][444]LogUObjectHash: Compacting FUObjectHashTables data took  27.79ms
+[2021.08.05-21.35.39:094][444]LogUObjectHash: Compacting FUObjectHashTables data took  23.80ms
+[2021.08.05-21.35.39:291][444]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Mara_Sc7C7028FA482B5A0B4F5F57B168AEF250.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc.umap'
+[2021.08.05-21.35.39:367][444]LogFileHelpers: Saving map 'Mara_Sc' took 0.515
+[2021.08.05-21.35.39:508][444]AssetCheck: New page: Asset Save: Mara_Sc
+[2021.08.05-21.35.39:508][444]LogContentValidation: Display: Validating World /Game/Mara/Scene/Mara_Sc.Mara_Sc
+[2021.08.05-21.35.40:291][475]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.08.05-21.35.41:873][555]MaterialEditorStats: Base pass shader: 118 instructions
+[2021.08.05-21.35.41:873][555]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 186 instructions
+[2021.08.05-21.35.41:873][555]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.08.05-21.35.41:873][555]MaterialEditorStats: Texture samplers: 6/16
+[2021.08.05-21.35.41:873][555]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2021.08.05-21.35.41:873][555]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.08.05-21.35.43:819][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2021.08.05-21.35.43:853][649]LogBlueprint: Error: [AssetLog] C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Content\Mara\Scene\Mara_Sc_Test.umap: [Compiler] This blueprint (self) is not a generator, therefore ' Target ' must have a connection.
+[2021.08.05-21.35.43:853][649]LogBlueprint: Warning: [AssetLog] C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Content\Mara\Scene\Mara_Sc_Test.umap: [Compiler] Node  Unknown  is not referencing a valid level actor
+[2021.08.05-21.35.43:864][649]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test
+[2021.08.05-21.35.43:864][649]Cmd: MAP LOAD FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.05-21.35.43:864][649]LightingResults: New page: Lighting Build
+[2021.08.05-21.35.43:864][649]LoadErrors: New page: Loading map: Mara_Sc_Test.umap
+[2021.08.05-21.35.43:864][649]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: ProceduralMeshComponent /Game/Mara/Scene/Mara_Sc.Mara_Sc:PersistentLevel.Terrain_BP_2.ProceduralMesh)
+[2021.08.05-21.35.43:895][649]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.35.43:895][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.35.43:955][649]LogWorld: UWorld::CleanupWorld for Mara_Sc, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.35.43:955][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.35.43:956][649]MapCheck: New page: Map Check
+[2021.08.05-21.35.43:956][649]LightingResults: New page: Lighting Build
+[2021.08.05-21.35.44:016][649]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.05-21.35.44:030][649]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2021.08.05-21.35.44:030][649]LogAudio: Display: Audio Device (ID: 1) registered with world 'Mara_Sc_Test'.
+[2021.08.05-21.35.44:219][649]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.05-21.35.44:219][649]LogAIModule: Creating AISystem for world Mara_Sc_Test
+[2021.08.05-21.35.44:289][649]LogUObjectHash: Compacting FUObjectHashTables data took   8.01ms
+[2021.08.05-21.35.44:305][649]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.05-21.35.44:305][649]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.309ms to complete.
+[2021.08.05-21.35.44:305][649]LogFileHelpers: Loading map 'Mara_Sc_Test' took 0.441
+[2021.08.05-21.35.45:840][702]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test:PersistentLevel.Mara_Sc_Test
+[2021.08.05-21.36.08:200][990]BlueprintLog: New page: Compile Mara_Sc_Test
+[2021.08.05-21.36.08:203][990]LogBlueprint: Warning: [AssetLog] C:\Users\marad\OneDrive\Documents\GitHub\PPA_HSI\HSI\Content\Mara\Scene\Mara_Sc_Test.umap: [Compiler] Node  Unknown  is not referencing a valid level actor
+[2021.08.05-21.36.08:298][990]LogUObjectHash: Compacting FUObjectHashTables data took   6.44ms
+[2021.08.05-21.36.09:116][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2021.08.05-21.36.09:151][ 29]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Mara_Sc_Test128E0AE64451B548C79D14A2F27C890E.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc_Test.umap'
+[2021.08.05-21.36.09:168][ 29]LogFileHelpers: Saving map 'Mara_Sc_Test' took 0.109
+[2021.08.05-21.36.09:194][ 29]AssetCheck: New page: Asset Save: Mara_Sc_Test
+[2021.08.05-21.36.09:194][ 29]LogContentValidation: Display: Validating World /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test
+[2021.08.05-21.37.10:914][662]BlueprintLog: New page: Compile Mara_Sc_Test
+[2021.08.05-21.37.11:012][662]LogUObjectHash: Compacting FUObjectHashTables data took   6.21ms
+[2021.08.05-21.37.11:575][687]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2021.08.05-21.37.11:618][687]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Mara_Sc_TestFB286F704C453FA7AB0B8E803B034043.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc_Test.umap'
+[2021.08.05-21.37.11:633][687]LogFileHelpers: Saving map 'Mara_Sc_Test' took 0.120
+[2021.08.05-21.37.11:657][687]AssetCheck: New page: Asset Save: Mara_Sc_Test
+[2021.08.05-21.37.11:657][687]LogContentValidation: Display: Validating World /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test
+[2021.08.05-21.37.16:875][985]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2021.08.05-21.37.16:907][985]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/Mara_Sc_Test9D92A321472DAA7CD4F728A5FB01A83E.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Mara/Scene/Mara_Sc_Test.umap'
+[2021.08.05-21.37.16:942][985]AssetCheck: New page: Asset Save: Mara_Sc_Test
+[2021.08.05-21.37.16:942][985]LogContentValidation: Display: Validating World /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test
+[2021.08.05-21.37.20:916][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2021.08.05-21.37.20:973][217]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Wolfi/M_Wolfi.M_Wolfi
+[2021.08.05-21.37.20:973][217]Cmd: MAP LOAD FILE="../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/M_Wolfi.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.05-21.37.20:973][217]LightingResults: New page: Lighting Build
+[2021.08.05-21.37.20:973][217]LoadErrors: New page: Loading map: M_Wolfi.umap
+[2021.08.05-21.37.20:973][217]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: ProceduralMeshComponent /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test:PersistentLevel.Terrain_BP_2.ProceduralMesh)
+[2021.08.05-21.37.20:973][217]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: ProceduralMeshComponent /Game/Mara/Scene/Mara_Sc_Test.Mara_Sc_Test:PersistentLevel.Terrain_CPP_BP_2.GeneratedMesh)
+[2021.08.05-21.37.21:002][217]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.37.21:002][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.37.21:046][217]LogWorld: UWorld::CleanupWorld for Mara_Sc_Test, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.37.21:046][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.37.21:046][217]MapCheck: New page: Map Check
+[2021.08.05-21.37.21:047][217]LightingResults: New page: Lighting Build
+[2021.08.05-21.37.21:094][217]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.05-21.37.21:105][217]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2021.08.05-21.37.21:105][217]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Wolfi'.
+[2021.08.05-21.37.21:229][217]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.05-21.37.21:229][217]LogAIModule: Creating AISystem for world M_Wolfi
+[2021.08.05-21.37.21:284][217]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2021.08.05-21.37.21:295][217]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.05-21.37.21:296][217]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.186ms to complete.
+[2021.08.05-21.37.21:296][217]LogFileHelpers: Loading map 'M_Wolfi' took 0.323
+[2021.08.05-21.37.22:053][254]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.05-21.37.22:071][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.05-21.37.22:071][254]PIE: New page: PIE session: M_Wolfi (Aug 5, 2021, 11:37:22 AM)
+[2021.08.05-21.37.22:107][254]LogPlayLevel: Creating play world package: /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.08.05-21.37.22:109][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001628s)
+[2021.08.05-21.37.22:110][254]LogAIModule: Creating AISystem for world M_Wolfi
+[2021.08.05-21.37.22:110][254]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2021.08.05-21.37.22:110][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Wolfi/M_Wolfi.M_Wolfi to /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi (0.002863s)
+[2021.08.05-21.37.22:162][254]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2021.08.05-21.37.22:163][254]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.08.05-21.37.22:164][254]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.05-21.37.22:164][254]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.05-21.37.22:164][254]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.05-21.37.22:164][254]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.05-21.37.22:164][254]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.05-21.37.22:164][254]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.05-21.37.22:164][254]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.05-21.37.22:164][254]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.05-21.37.22:164][254]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.05-21.37.22:164][254]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.05-21.37.22:171][254]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.05-21.37.22:171][254]LogAudioMixer: Display: 1: FrontRight
+[2021.08.05-21.37.22:218][254]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.05-21.37.22:219][254]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.05-21.37.22:219][254]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.05-21.37.22:219][254]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.05-21.37.22:219][254]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.05-21.37.22:219][254]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.05-21.37.22:219][254]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.05-21.37.22:242][254]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.05-21.37.22:242][254]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.05-21.37.22:242][254]LogInit: FAudioDevice initialized.
+[2021.08.05-21.37.22:242][254]LogAudio: Display: Audio Device (ID: 6) registered with world 'M_Wolfi'.
+[2021.08.05-21.37.22:263][254]LogLoad: Game class is 'GameMode'
+[2021.08.05-21.37.22:264][254]LogWorld: Bringing World /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi up for play (max tick rate 60) at 2021.08.05-16.37.22
+[2021.08.05-21.37.22:265][254]LogWorld: Bringing up level for play took: 0.000538
+[2021.08.05-21.37.22:265][254]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.08.05-21.37.22:268][254]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.05-21.37.22:268][254]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.05-21.37.22:268][254]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.05-21.37.22:288][254]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.05-21.37.22:288][254]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2021.08.05-21.37.22:288][254]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2021.08.05-21.37.22:288][254]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.05-21.37.22:288][254]PIE: Server logged in
+[2021.08.05-21.37.22:289][254]PIE: Play in editor total start time 0.222 seconds.
+[2021.08.05-21.37.29:044][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.05-21.37.29:091][656]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.05-21.37.33:587][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.05-21.37.33:633][926]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.08.05-21.37.50:951][960]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2021.08.05-21.37.50:951][960]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2021.08.05-21.37.50:953][960]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.08.05-21.37.50:953][960]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.08.05-21.37.50:954][960]LogNet: Browse: /Game/Mara/Scene/Mara_Sc_Test
+[2021.08.05-21.37.50:954][960]LogLoad: LoadMap: /Game/Mara/Scene/Mara_Sc_Test
+[2021.08.05-21.37.50:954][960]LogWorld: BeginTearingDown for /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.08.05-21.37.50:956][960]LogWorld: UWorld::CleanupWorld for M_Wolfi, bSessionEnded=true, bCleanupResources=true
+[2021.08.05-21.37.50:956][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.05-21.37.51:035][960]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.05-21.37.51:041][960]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2021.08.05-21.37.51:063][960]LogAudio: Display: Audio Device (ID: 6) registered with world 'Mara_Sc_Test'.
+[2021.08.05-21.37.51:064][960]LogAIModule: Creating AISystem for world Mara_Sc_Test
+[2021.08.05-21.37.51:065][960]LogLoad: Game class is 'GameMode'
+[2021.08.05-21.37.51:069][960]LogWorld: Bringing World /Game/Mara/Scene/UEDPIE_0_Mara_Sc_Test.Mara_Sc_Test up for play (max tick rate 60) at 2021.08.05-16.37.51
+[2021.08.05-21.37.51:070][960]LogWorld: Bringing up level for play took: 0.003781
+[2021.08.05-21.37.51:070][960]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.08.05-21.37.51:070][960]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.05-21.37.51:070][960]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.05-21.37.51:070][960]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.05-21.37.51:070][960]project dir:../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/
+[2021.08.05-21.37.51:232][960]LogTexture: Display: Building textures: ProcTexture_11 (AutoDXT, 1024X1024)
+[2021.08.05-21.37.52:365][960]LogSavePackage: Moving '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Saved/ProcTextureDE6A11374A851E9C71D70597E0AB868D.tmp' to '../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/ProceduralTextures/ProcTexture.uasset'
+[2021.08.05-21.37.52:371][960]project dir:../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/
+[2021.08.05-21.37.52:381][960]LogSerialization: ArchiveName: ../../../../../../Users/marad/OneDrive/Documents/GitHub/PPA_HSI/HSI/Content/ProceduralTextures/Groundthruth.uasset
+[2021.08.05-21.37.52:381][960]LogSerialization: Archive UE4 Version: 522
+[2021.08.05-21.37.52:381][960]LogSerialization: Archive Licensee Version: 0
+[2021.08.05-21.37.52:381][960]LogSerialization: Position: 2457
+[2021.08.05-21.37.52:381][960]LogSerialization: Read Size: 10476
+[2021.08.05-21.37.52:382][960]LogWindows: Windows GetLastError: La operación se completó correctamente. (0)

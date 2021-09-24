@@ -41,7 +41,7 @@ public:
 	int32 CurrentPixelIndex = 0;
 	TArray<FColor> colores;
 	UFUNCTION(BlueprintCallable)
-	void groundthruth(int size);
+	void groundthruth(int sizeX, int sizeY, FString proyectPath);
 	UFUNCTION(BlueprintCallable)
 		UTexture2D* getTexture();
 };
