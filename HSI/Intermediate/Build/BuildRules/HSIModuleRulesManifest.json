@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\HSI\\Source\\HSI\\HSI.Build.cs",
-		"C:\\HSI\\Source\\HSI.Target.cs",
-		"C:\\HSI\\Source\\HSIEditor.Target.cs"
-	],
-	"EngineVersion": "4.26.2"
-}
