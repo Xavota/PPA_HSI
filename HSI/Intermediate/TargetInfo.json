@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "HSI",
+			"Path": "C:\\Users\\Angel\\Documents\\GitHub\\PPA_HSI\\HSI\\Source\\HSI.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HSIEditor",
+			"Path": "C:\\Users\\Angel\\Documents\\GitHub\\PPA_HSI\\HSI\\Source\\HSIEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
