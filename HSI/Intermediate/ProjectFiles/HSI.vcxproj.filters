@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HSI.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{CBB690DD-8ADF-46A5-AEAE-A4C548FBB0AE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HSI.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HSIEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{1EE7ED7B-59CE-4107-80A2-EB738A15E3BC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HSI">
+      <UniqueIdentifier>{2205372C-B7B6-406E-AF22-F93751502995}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\HSI\generador.cpp">
+      <Filter>Source\HSI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSI\generador.h">
+      <Filter>Source\HSI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HSI\generator.cpp">
+      <Filter>Source\HSI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSI\generator.h">
+      <Filter>Source\HSI</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\HSI\HSI.Build.cs">
+      <Filter>Source\HSI</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HSI\HSI.cpp">
+      <Filter>Source\HSI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSI\HSI.h">
+      <Filter>Source\HSI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HSI\HSIGameModeBase.cpp">
+      <Filter>Source\HSI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSI\HSIGameModeBase.h">
+      <Filter>Source\HSI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HSI\MyActor.cpp">
+      <Filter>Source\HSI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSI\MyActor.h">
+      <Filter>Source\HSI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HSI\TerrainGenerator_CPP.cpp">
+      <Filter>Source\HSI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSI\TerrainGenerator_CPP.h">
+      <Filter>Source\HSI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HSI\Terrain_CPP.cpp">
+      <Filter>Source\HSI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSI\Terrain_CPP.h">
+      <Filter>Source\HSI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
