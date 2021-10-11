@@ -1,9 +1,0 @@
-C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\Definitions.HSI.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Source\HSI/HSIGameModeBase.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Inc\HSI\HSIGameModeBase.generated.h
