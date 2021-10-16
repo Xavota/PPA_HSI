@@ -78,7 +78,7 @@ void ATerrain_CPP::GenerateTerrain(FVector2D _size, FVector2D _tiles, FVector2D 
 
 	DynamicMat = UMaterialInstanceDynamic::Create(Material, this);
 
-	DynamicMat->SetTextureParameterValue("input", InputMap);
+	DynamicMat->SetTextureParameterValue("inputTest", InputMap);
 	DynamicMat->SetScalarParameterValue("HeightMult", MaxHeight);
 
 	ProceduralMesh->SetMaterial(0, DynamicMat);
