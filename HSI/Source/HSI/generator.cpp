@@ -164,16 +164,29 @@ void Agenerator::groundthruth(int sizeX, int sizeY, FString proyectPath)
     
     gt = new int[sizeX * sizeY];
     for (int i = 0; i < sizeY; i++) {
-        gt[i * sizeX + 0] = pixel(FVector2D((float)i / 256.f, 0.0f / 256.f));
-        out << gt[i * sizeX] << ',';
+        gt[i * sizeX ] = pixel(FVector2D((float)i / 256.f, 0.0f ));
+        //out << gt[i * sizeX];
         CurrentPixelIndex++;
         for (int o = 1; o < sizeX; o++) {
             gt[i * sizeX + o] = pixel(FVector2D((float)i/256.f , (float)o/ 256.f));
-            out << ',' << gt[i * sizeX + o] ;
+            //out << ',' << gt[i * sizeX + o] ;
             CurrentPixelIndex++;
         }
-        out << '\n';
+        //out << '\n';
     }
+
+    for (int i = 0; i < sizeY; i++) {
+      //gt[i * sizeX ] = pixel(FVector2D((float)i / 256.f, 0.0f ));
+      out << gt[sizeX-(i+1)];
+      //CurrentPixelIndex++;
+      for (int o = 1; o < sizeX; o++) {
+        //gt[i * sizeX + o] = pixel(FVector2D((float)i/256.f , (float)o/ 256.f));
+        out << ',' << gt[o * sizeX + sizeX-(i+1)] ;
+        //CurrentPixelIndex++;
+      }
+      out << '\n';
+    }
+
     //Allocate first mipmap.
     FTexture2DMipMap* Mip = new FTexture2DMipMap();
     textura->PlatformData->Mips.Add(Mip);
