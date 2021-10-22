@@ -105,7 +105,7 @@ void Agenerator::groundthruth(int sizeX, int sizeY, FString proyectPath)
     textura->PlatformData->PixelFormat = EPixelFormat::PF_B8G8R8A8;
     Pixels = new uint8[TextureWidth * TextureHeight * 4];
 
-	FString CSVPath = proyectPath.Append("/test.csv");
+	FString CSVPath = proyectPath.Append("/tex.csv");
     
     out.open(TCHAR_TO_ANSI(*CSVPath));
     
@@ -123,12 +123,12 @@ void Agenerator::groundthruth(int sizeX, int sizeY, FString proyectPath)
     }
 
     for (int i = 0; i < sizeY; i++) {
+      //out << gt[(sizeX-1-i)];
       out << gt[(sizeX-1-i)];
-
       for (int o = 1; o < sizeX; o++) {
-        out << gt[o*sizeX+(sizeX-1-i)];
+        out << ","  << gt[o*sizeX+(sizeX-1-i)];
       }
-      //out << '\n';
+      out << '\n';
     }
 
     //Allocate first mipmap.
