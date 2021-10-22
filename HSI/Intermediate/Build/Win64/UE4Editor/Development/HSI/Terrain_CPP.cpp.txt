@@ -1,7 +1,0 @@
-C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\Definitions.HSI.h
-C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Source\HSI\Terrain_CPP.h
-C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Inc\HSI\Terrain_CPP.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Runtime\ProceduralMeshComponent\Source\ProceduralMeshComponent\Public\ProceduralMeshComponent.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4Editor\Inc\ProceduralMeshComponent\ProceduralMeshComponent.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Runtime\ProceduralMeshComponent\Source\ProceduralMeshComponent\Public\KismetProceduralMeshLibrary.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4Editor\Inc\ProceduralMeshComponent\KismetProceduralMeshLibrary.generated.h

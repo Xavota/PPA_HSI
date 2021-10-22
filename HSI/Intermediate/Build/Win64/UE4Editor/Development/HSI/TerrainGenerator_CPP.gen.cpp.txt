@@ -1,5 +1,0 @@
-C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\Definitions.HSI.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Source\HSI/TerrainGenerator_CPP.h
-C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Inc\HSI\TerrainGenerator_CPP.generated.h
