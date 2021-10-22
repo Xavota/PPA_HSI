@@ -1,0 +1,8 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\simam\Documents\GitHub\PPA_HSI).
+  Creating makefile for HSIEditor (.uproject file is newer)
+  Building HSIEditor...
+  Using Visual Studio 2019 14.29.30040 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 1 action with 8 processes...
+    [1/1] HSIEditor.target
+  Total time in Parallel executor: 0.29 seconds
+  Total execution time: 3.72 seconds
