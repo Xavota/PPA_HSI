@@ -1,0 +1,1346 @@
+﻿Log file open, 10/22/21 17:24:12
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: HSI
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.424339
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe -Mode=QueryTargets -Project="C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/HSI.uproject" -Output="C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Intermediate/TargetInfo.json"]
+LogInit: Warning: Incompatible or missing module: HSI
+Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/HSI.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\simam\Documents\GitHub\PPA_HSI).
+Creating makefile for HSIEditor (no existing makefile)
+@progress push 5%
+Parsing headers for HSIEditor
+  Running UnrealHeaderTool "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\HSI.uproject" "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\HSIEditor\Development\HSIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\simam\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for HSIEditor in 5.2099216 seconds
+@progress pop
+Building HSIEditor...
+Using Visual Studio 2019 14.29.30040 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 19 actions with 8 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 5%
+  [1/19] Default.rc2
+  @progress 'Compiling C++ source code...' 11%
+  [2/19] SharedPCH.Engine.ShadowErrors.cpp
+  @progress 'Compiling C++ source code...' 16%
+  [3/19] HSI.cpp
+  @progress 'Compiling C++ source code...' 21%
+  [4/19] generador.cpp
+  @progress 'Compiling C++ source code...' 26%
+  [5/19] MyActor.cpp
+  @progress 'Compiling C++ source code...' 32%
+  [6/19] HSIGameModeBase.cpp
+  @progress 'Compiling C++ source code...' 37%
+  [7/19] Terrain_CPP.cpp
+  @progress 'Compiling C++ source code...' 42%
+  [8/19] HSIGameModeBase.gen.cpp
+  @progress 'Compiling C++ source code...' 47%
+  [9/19] TerrainGenerator_CPP.cpp
+  C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Source\HSI\TerrainGenerator_CPP.cpp(37): warning C4996: 'CreatePackage': Use CreatePackage overload that does not take the first Outer parameter. Specifying non-null outers for UPackages is no longer supported. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  @progress 'Compiling C++ source code...' 53%
+  [10/19] HSI.init.gen.cpp
+  @progress 'Compiling C++ source code...' 58%
+  [11/19] generator.gen.cpp
+  @progress 'Compiling C++ source code...' 63%
+  [12/19] Terrain_CPP.gen.cpp
+  @progress 'Compiling C++ source code...' 68%
+  [13/19] MyActor.gen.cpp
+  @progress 'Compiling C++ source code...' 74%
+  [14/19] TerrainGenerator_CPP.gen.cpp
+  @progress 'Compiling C++ source code...' 79%
+  [15/19] generador.gen.cpp
+  @progress 'Compiling C++ source code...' 84%
+  [16/19] generator.cpp
+  @progress 'Compiling C++ source code...' 89%
+  [17/19] UE4Editor-HSI.lib
+     Creando biblioteca C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI.lib y objeto C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI.exp
+  @progress 'Compiling C++ source code...' 95%
+  [18/19] UE4Editor-HSI.dll
+     Creando biblioteca C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI.suppressed.lib y objeto C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\UE4Editor-HSI.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [19/19] HSIEditor.target
+Total time in Parallel executor: 40.70 seconds
+Total execution time: 50.82 seconds
+LogLuminAPIImpl: Warning: MLSDK not found.  This likely means the MLSDK environment variable is not set.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.Mobile.ReflectionCaptureCompression:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2021.10.22-22.25.08:940][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2021.10.22-22.25.08:941][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2021.10.22-22.25.08:942][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2021.10.22-22.25.08:942][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2021.10.22-22.25.08:942][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2021.10.22-22.25.08:942][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2021.10.22-22.25.08:942][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2021.10.22-22.25.08:942][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2021.10.22-22.25.08:942][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlightsShadow:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.Mobile.AmbientOcclusion:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.GPUSkin.UnlimitedBoneInfluences:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.GPUSkin.UnlimitedBoneInfluencesThreshold:8]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[r.Mobile.PlanarReflectionMode:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.10.22-22.25.08:943][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.10.22-22.25.08:943][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.10.22-22.25.08:944][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.10.22-22.25.08:944][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.10.22-22.25.08:944][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.10.22-22.25.08:944][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.10.22-22.25.08:944][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.10.22-22.25.08:944][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.10.22-22.25.08:944][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.10.22-22.25.08:944][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.10.22-22.25.08:944][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.10.22-22.25.08:944][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.10.22-22.25.08:944][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.10.22-22.25.08:944][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.10.22-22.25.08:951][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.10.22-22.25.08:951][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.10.22-22.25.08:952][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.10.22-22.25.08:953][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.10.22-22.25.08:954][  0]LogInit: Selected Device Profile: [Windows]
+[2021.10.22-22.25.08:954][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.10.22-22.25.08:954][  0]LogHAL: Display: Platform has ~ 8 GB [8399564800 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.10.22-22.25.08:955][  0]LogInit: Going up to parent DeviceProfile []
+[2021.10.22-22.25.08:955][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.10.22-22.25.08:955][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.10.22-22.25.08:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.10.22-22.25.08:957][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.10.22-22.25.08:957][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.10.22-22.25.08:957][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.10.22-22.25.08:957][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.10.22-22.25.08:957][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.10.22-22.25.08:957][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.10.22-22.25.08:957][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.10.22-22.25.08:957][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:957][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.10.22-22.25.08:957][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.10.22-22.25.08:957][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Scalability.ini]
+[2021.10.22-22.25.08:957][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.10.22-22.25.08:957][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.10.22-22.25.08:957][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.10.22-22.25.08:957][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.10.22-22.25.08:958][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.10.22-22.25.08:958][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.10.22-22.25.08:958][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.10.22-22.25.08:958][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Engine.ini]
+[2021.10.22-22.25.08:958][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Config/Windows/Editor.ini]
+[2021.10.22-22.25.08:959][  0]LogInit: Computer: MSI
+[2021.10.22-22.25.08:959][  0]LogInit: User: simam
+[2021.10.22-22.25.08:959][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.10.22-22.25.08:959][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.10.22-22.25.08:959][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2021.10.22-22.25.08:959][  0]LogMemory: Platform Memory Stats for Windows
+[2021.10.22-22.25.08:959][  0]LogMemory: Process Physical Memory: 140.96 MB used, 140.97 MB peak
+[2021.10.22-22.25.08:959][  0]LogMemory: Process Virtual Memory: 120.47 MB used, 120.47 MB peak
+[2021.10.22-22.25.08:959][  0]LogMemory: Physical Memory: 5741.29 MB used,  2269.16 MB free, 8010.45 MB total
+[2021.10.22-22.25.08:959][  0]LogMemory: Virtual Memory: 134206992.00 MB used,  10734.74 MB free, 134217728.00 MB total
+[2021.10.22-22.25.08:969][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.10.22-22.25.09:098][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.10.22-22.25.09:101][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.10.22-22.25.09:101][  0]LogInit: Using OS detected locale (es-MX).
+[2021.10.22-22.25.09:478][  0]LogInit: Setting process to per monitor DPI aware
+[2021.10.22-22.25.09:494][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.10.22-22.25.09:541][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.10.22-22.25.09:541][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.10.22-22.25.09:929][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.10.22-22.25.09:929][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.10.22-22.25.09:929][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.10.22-22.25.09:929][  0]LogD3D11RHI: D3D11 adapters:
+[2021.10.22-22.25.10:149][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 Ti with Max-Q Design' (Feature Level 11_0)
+[2021.10.22-22.25.10:149][  0]LogD3D11RHI:       3962/0/4005 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.10.22-22.25.10:227][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2021.10.22-22.25.10:227][  0]LogD3D11RHI:       128/0/4005 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.10.22-22.25.10:231][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.10.22-22.25.10:231][  0]LogD3D11RHI:       0/0/4005 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.10.22-22.25.10:231][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.10.22-22.25.10:241][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.10.22-22.25.10:241][  0]LogD3D11RHI:     GPU DeviceId: 0x1f95 (for the marketing name, search the web for "GPU Device Id")
+[2021.10.22-22.25.10:241][  0]LogWindows: EnumDisplayDevices:
+[2021.10.22-22.25.10:242][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2021.10.22-22.25.10:242][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.10.22-22.25.10:242][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.10.22-22.25.10:242][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.10.22-22.25.10:243][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 Ti with Max-Q Design
+[2021.10.22-22.25.10:243][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.10.22-22.25.10:243][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.10.22-22.25.10:243][  0]LogRHI: Texture pool is 2773 MB (70% of 3962 MB)
+[2021.10.22-22.25.10:335][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.10.22-22.25.10:336][  0]LogD3D11RHI: Async texture creation enabled
+[2021.10.22-22.25.10:336][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.10.22-22.25.10:398][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.10.22-22.25.10:404][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.10.22-22.25.10:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.10.22-22.25.10:805][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.10.22-22.25.10:805][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.10.22-22.25.10:805][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.10.22-22.25.10:805][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.10.22-22.25.10:805][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.10.22-22.25.10:805][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.10.22-22.25.10:805][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.10.22-22.25.10:805][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.10.22-22.25.10:805][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.10.22-22.25.10:805][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.10.22-22.25.10:838][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.10.22-22.25.10:838][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.10.22-22.25.10:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.10.22-22.25.10:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.10.22-22.25.10:873][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.10.22-22.25.10:883][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.10.22-22.25.10:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.10.22-22.25.10:908][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.10.22-22.25.10:918][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.10.22-22.25.10:947][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.10.22-22.25.10:947][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.10.22-22.25.10:958][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.10.22-22.25.10:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.10.22-22.25.10:983][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.10.22-22.25.10:994][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.10.22-22.25.11:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.10.22-22.25.11:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.10.22-22.25.11:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.10.22-22.25.11:036][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.10.22-22.25.11:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.10.22-22.25.11:057][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.10.22-22.25.11:057][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.10.22-22.25.11:073][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.10.22-22.25.11:224][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.10.22-22.25.11:225][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Intermediate/Shaders/WorkingDirectory/14752/).
+[2021.10.22-22.25.11:226][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/simam/AppData/Local/Temp/UnrealShaderWorkingDir/1C327B634A58E7551ACD5DB787F6BEA5/'.
+[2021.10.22-22.25.11:227][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.10.22-22.25.11:227][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.10.22-22.25.12:152][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.10.22-22.25.12:250][  0]LogDerivedDataCache: Loaded boot cache 0.10s 77MB C:/Users/simam/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.10.22-22.25.12:250][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/simam/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.10.22-22.25.12:250][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.10.22-22.25.12:250][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.10.22-22.25.12:250][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.10.22-22.25.12:251][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.10.22-22.25.12:264][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.10.22-22.25.12:264][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.10.22-22.25.12:264][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.10.22-22.25.12:277][  0]LogDerivedDataCache: Speed tests for C:/Users/simam/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2021.10.22-22.25.12:277][  0]LogDerivedDataCache: Display: Performance to C:/Users/simam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.15ms. RandomReadSpeed=194.48MBs, RandomWriteSpeed=175.72MBs. Assigned SpeedClass 'Local'
+[2021.10.22-22.25.12:277][  0]LogDerivedDataCache: Using Local data cache path C:/Users/simam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.10.22-22.25.12:277][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.10.22-22.25.12:278][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.10.22-22.25.12:331][  0]LogSlate: Using FreeType 2.10.0
+[2021.10.22-22.25.12:333][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.10.22-22.25.12:377][  0]LogAssetRegistry: FAssetRegistry took 0.0057 seconds to start up
+[2021.10.22-22.25.12:877][  0]LogInit: Selected Device Profile: [Windows]
+[2021.10.22-22.25.12:877][  0]LogInit: Active device profile: [000001F5C8502200][000001F5C7F9FAC0 49] Windows
+[2021.10.22-22.25.12:877][  0]LogInit: Profiles: [000001F5C8502200][000001F5C7F9FAC0 49] Windows, [000001F5C8405A00][000001F5C7FA7C40 49] WindowsNoEditor, [000001F5C8502D00][000001F5C7FBA100 49] WindowsServer, [000001F5C8406500][000001F5C9282280 49] WindowsClient, [000001F5C8500F00][000001F5C929E400 49] IOS, [000001F5C8405000][000001F5C92EC580 49] iPadAir, [000001F5C8501C00][000001F5C92F0700 49] iPadAir2, [000001F5C9771D00][000001F5C93009C0 49] IPadPro, [000001F5C9771E00][000001F5C92FCA00 49] iPadAir3, [000001F5C8404500][000001F5C9304B80 49] iPadAir4, [000001F5C9773600][000001F5C9308D00 49] iPadMini2, [000001F5C8406800][000001F5C930CE80 49] iPadMini3, [000001F5C9771400][000001F5C9311000 49] iPadMini4, [000001F5C8405700][000001F5C9315180 49] iPadMini5, [000001F5C977D500][000001F5C931D440 49] iPhone6, [000001F5C977D600][000001F5C9319480 49] iPodTouch6, [000001F5C9770F00][000001F5C7FA3700 49] iPhone7, [000001F5C9770E00][000001F5C9321740 49] iPodTouch7, [000001F5C977ED00][000001F5C9325880 49] iPhone5S, [000001F5C9772900][000001F5C93299C0 49] iPhone6Plus, [000001F5C977FE00][000001F5C932DB00 49] iPhone6S, [000001F5C9770100][000001F5C9335C80 49] iPhone6SPlus, [000001F5C977C700][000001F5C9338140 49] iPhone7Plus, [000001F5C9770A00][000001F5C933C2C0 49] iPhoneSE, [000001F5C977E500][000001F5C9340440 49] iPhone8, [000001F5C9771500][000001F5C93445C0 49] iPhone8Plus, [000001F5C977C300][000001F5C9348740 49] iPhoneX, [000001F5C9772800][000001F5C934C8C0 49] iPhoneXS, [000001F5C977E400][000001F5C9350A40 49] iPhoneXSMax, [000001F5C9771700][000001F5C9354BC0 49] iPhoneXR, [000001F5C977CD00][000001F5C9358D40 49] iPhone11, [000001F5C9772400][000001F5C935CEC0 49] iPhone11Pro, [000001F5C977E300][000001F5C9361040 49] iPhone11ProMax, [000001F5C9773E00][000001F5C93771C0 49] iPhoneSE2, [000001F5C977E000][000001F5C937B340 49] iPhone12Mini, [000001F5C9772E00][000001F5C937F4C0 49] iPhone12, [000001F5C977DD00][000001F5C9383640 49] iPhone12Pro, [000001F5C9772F00][000001F5C93877C0 49] iPhone12ProMax, [000001F5C8500B00][000001F5C9331900 49] iPadPro105, [000001F5C9770400][000001F5C938BA40 49] iPadPro129, [000001F5C8501300][000001F5C938FB80 49] iPadPro97, [000001F5C9772700][000001F5C9397D00 49] iPadPro2_129, [000001F5C8502700][000001F5C939A1C0 49] iPad5, [000001F5C9770B00][000001F5C939E340 49] iPad6, [000001F5C8500300][000001F5C93A24C0 49] iPad7, [000001F5C9773A00][000001F5C93A6640 49] iPad8, [000001F5C8501900][000001F5C93B67C0 49] iPadPro11, [000001F5C9770D00][000001F5C93BE940 49] iPadPro2_11, [000001F5C8501600][000001F5C93C2AC0 49] iPadPro3_129, [000001F5C9773F00][000001F5C93C6C40 49] iPadPro4_129, [000001F5C8502500][000001F5C93CADC0 49] AppleTV, [000001F5C9772500][000001F5CA46CF40 49] AppleTV4K, [000001F5C8502800][000001F5CA4710C0 49] TVOS, [000001F5C9773400][000001F5CA475240 49] Mac, [000001F5C8500100][000001F5CA4793C0 49] MacClient, [000001F5C9770200][000001F5CA47D540 49] MacNoEditor, [000001F5C8501800][000001F5CA4816C0 49] MacServer, [000001F5C9771F00][000001F5CA4DD840 49] Linux, [000001F5C8502E00][000001F5C9393980 49] LinuxAArch64, [000001F5C9771000][000001F5CA51DAC0 49] LinuxNoEditor, [000001F5C8501B00][000001F5CA525C00 49] LinuxAArch64NoEditor, [000001F5C9771800][000001F5CA5380C0 49] LinuxClient, [000001F5C8501F00][000001F5CA53C240 49] LinuxAArch64Client, [000001F5C9773B00][000001F5CA5403C0 49] LinuxServer, [000001F5C8502100][000001F5CA544540 49] LinuxAArch64Server, [000001F5C9773900][000001F5CA5486C0 49] Android, [000001F5C8500500][000001F5CA54C840 49] Android_Low, [000001F5C9771200][000001F5CA5509C0 49] Android_Mid, [000001F5C8503200][000001F5CA554B40 49] Android_High, [000001F5C9771C00][000001F5CA558CC0 49] Android_Default, [000001F5C8500800][000001F5CA55CE40 49] Android_Adreno4xx, [000001F5C9770500][000001F5CA560FC0 49] Android_Adreno5xx_Low, [000001F5C8501100][000001F5CA565140 49] Android_Adreno5xx, [000001F5C9770300][000001F5CA5692C0 49] Android_Adreno6xx, [000001F5C8502B00][000001F5CA56D440 49] Android_Adreno6xx_Vulkan, [000001F5C8404C00][000001F5CA5715C0 49] Android_Mali_T6xx, [000001F5C977D300][000001F5CA575740 49] Android_Mali_T7xx, [000001F5C8406300][000001F5CA5798C0 49] Android_Mali_T8xx, [000001F5C977E900][000001F5CA535A00 49] Android_Mali_G71, [000001F5C8407900][000001F5CA589B40 49] Android_Mali_G72, [000001F5C977F200][000001F5CA613C80 49] Android_Mali_G72_Vulkan, [000001F5C8406200][000001F5CA616100 49] Android_Mali_G76, [000001F5C977C800][000001F5CA61E280 49] Android_Mali_G76_Vulkan, [000001F5C8407300][000001F5CA622400 49] Android_Mali_G77, [000001F5C977C100][000001F5CA626580 49] Android_Mali_G77_Vulkan, [000001F5C8406700][000001F5CA62A700 49] Android_Vulkan_SM5, [000001F5C977C400][000001F5CA62E880 49] Android_PowerVR_G6xxx, [000001F5C8405100][000001F5CA632A00 49] Android_PowerVR_GT7xxx, [000001F5C977D400][000001F5CA636B80 49] Android_PowerVR_GE8xxx, [000001F5C8405C00][000001F5CA63AD00 49] Android_PowerVR_GM9xxx, [000001F5C977E600][000001F5CA63EE80 49] Android_PowerVR_GM9xxx_Vulkan, [000001F5C8405B00][000001F5CA643000 49] Android_TegraK1, [000001F5C977EC00][000001F5CA647180 49] Android_Unknown_Vulkan, [000001F5C8407500][000001F5CA64B300 49] Lumin, [000001F5C977E800][000001F5CA64F480 49] Lumin_Desktop, [000001F5C8407100][000001F5CA653600 49] HoloLens, 
+[2021.10.22-22.25.13:025][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.10.22-22.25.13:026][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.10.22-22.25.13:026][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.10.22-22.25.13:026][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.10.22-22.25.13:026][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.10.22-22.25.13:168][  0]LogNetVersion: HSI 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 34038537)
+[2021.10.22-22.25.14:077][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.10.22-22.25.14:148][  0]LogPackageLocalizationCache: Processed 23 localized package path(s) for 1 prioritized culture(s) in 0.069893 seconds
+[2021.10.22-22.25.14:156][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2021.10.22-22.25.14:156][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2021.10.22-22.25.14:156][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.10.22-22.25.15:024][  0]LogPython: Using Python 3.7.7
+[2021.10.22-22.25.15:927][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.10.22-22.25.15:952][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.10.22-22.25.16:171][  0]SourceControl: Source control is disabled
+[2021.10.22-22.25.16:171][  0]SourceControl: Source control is disabled
+[2021.10.22-22.25.16:181][  0]SourceControl: Source control is disabled
+[2021.10.22-22.25.16:188][  0]SourceControl: Source control is disabled
+[2021.10.22-22.25.16:206][  0]SourceControl: Source control is disabled
+[2021.10.22-22.25.16:232][  0]LogUProjectInfo: Found projects:
+[2021.10.22-22.25.16:726][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.10.22-22.25.16:777][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.10.22-22.25.16:777][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.10.22-22.25.16:928][  0]LogCollectionManager: Loaded 0 collections in 0.002231 seconds
+[2021.10.22-22.25.16:936][  0]LogFileCache: Scanning file cache for directory 'C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Collections/' took 0.00s
+[2021.10.22-22.25.16:936][  0]LogFileCache: Scanning file cache for directory 'C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/Developers/simam/Collections/' took 0.00s
+[2021.10.22-22.25.16:936][  0]LogFileCache: Scanning file cache for directory 'C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/Collections/' took 0.00s
+[2021.10.22-22.25.16:972][  0]LogOcInput: OculusInput pre-init called
+[2021.10.22-22.25.17:003][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.10.22-22.25.17:003][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.10.22-22.25.17:120][  0]LogEngine: Initializing Engine...
+[2021.10.22-22.25.17:123][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.10.22-22.25.17:124][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.10.22-22.25.17:128][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.10.22-22.25.17:277][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.10.22-22.25.17:330][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.10.22-22.25.17:341][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.10.22-22.25.17:350][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.10.22-22.25.17:350][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.10.22-22.25.17:350][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.22-22.25.17:350][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.22-22.25.17:350][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.22-22.25.17:351][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.22-22.25.17:351][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.22-22.25.17:351][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.22-22.25.17:351][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.22-22.25.17:351][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.22-22.25.17:353][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.22-22.25.17:353][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.22-22.25.17:416][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.22-22.25.17:416][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.10.22-22.25.17:539][  0]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.10.22-22.25.17:541][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.22-22.25.17:543][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.22-22.25.17:544][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.22-22.25.17:545][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.22-22.25.17:546][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.22-22.25.17:546][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.22-22.25.17:547][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.22-22.25.17:547][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.22-22.25.17:547][  0]LogInit: FAudioDevice initialized.
+[2021.10.22-22.25.17:548][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.10.22-22.25.17:549][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.10.22-22.25.17:608][  0]LogDerivedDataCache: Saved boot cache 0.06s 77MB C:/Users/simam/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.10.22-22.25.17:610][  0]LogInit: Texture streaming: Enabled
+[2021.10.22-22.25.17:634][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.10.22-22.25.17:642][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.10.22-22.25.17:642][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.10.22-22.25.17:650][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.10.22-22.25.17:684][  0]LogInit: Transaction tracking system initialized
+[2021.10.22-22.25.17:739][  0]BlueprintLog: New page: Editor Load
+[2021.10.22-22.25.17:921][  0]LocalizationService: Localization service is disabled
+[2021.10.22-22.25.17:981][  0]TimingProfiler: Initialize
+[2021.10.22-22.25.17:982][  0]TimingProfiler: OnSessionChanged
+[2021.10.22-22.25.17:982][  0]LoadingProfiler: Initialize
+[2021.10.22-22.25.17:983][  0]LoadingProfiler: OnSessionChanged
+[2021.10.22-22.25.17:983][  0]NetworkingProfiler: Initialize
+[2021.10.22-22.25.17:983][  0]NetworkingProfiler: OnSessionChanged
+[2021.10.22-22.25.17:983][  0]MemoryProfiler: Initialize
+[2021.10.22-22.25.17:983][  0]MemoryProfiler: OnSessionChanged
+[2021.10.22-22.25.18:229][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.10.22-22.25.18:229][  0]LogCook: Display: Mobile HDR setting 1
+[2021.10.22-22.25.18:596][  0]LogFileCache: Scanning file cache for directory 'C:/Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/' took 0.01s
+[2021.10.22-22.25.18:847][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.10.22-22.25.18:860][  0]SourceControl: Source control is disabled
+[2021.10.22-22.25.18:860][  0]LogUnrealEdMisc: Loading editor; pre map load, took 67.624
+[2021.10.22-22.25.18:868][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.26/FeaturePacks/StarterContent.upack)
+[2021.10.22-22.25.18:870][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.22-22.25.18:870][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.18:870][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.22-22.25.18:881][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2021.10.22-22.25.18:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2021.10.22-22.25.18:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2021.10.22-22.25.18:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2021.10.22-22.25.18:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2021.10.22-22.25.18:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2021.10.22-22.25.18:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2021.10.22-22.25.18:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2021.10.22-22.25.18:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2021.10.22-22.25.18:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2021.10.22-22.25.18:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2021.10.22-22.25.18:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2021.10.22-22.25.18:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Collapse01.uasset"
+[2021.10.22-22.25.18:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Collapse02.uasset"
+[2021.10.22-22.25.18:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2021.10.22-22.25.18:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Explosion01.uasset"
+[2021.10.22-22.25.18:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Explosion02.uasset"
+[2021.10.22-22.25.18:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2021.10.22-22.25.18:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Fire01.uasset"
+[2021.10.22-22.25.18:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2021.10.22-22.25.18:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2021.10.22-22.25.18:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2021.10.22-22.25.18:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Light01.uasset"
+[2021.10.22-22.25.18:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2021.10.22-22.25.18:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Light02.uasset"
+[2021.10.22-22.25.18:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2021.10.22-22.25.18:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Smoke01.uasset"
+[2021.10.22-22.25.18:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2021.10.22-22.25.18:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2021.10.22-22.25.18:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2021.10.22-22.25.18:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2021.10.22-22.25.18:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2021.10.22-22.25.18:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2021.10.22-22.25.18:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2021.10.22-22.25.18:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Steam01.uasset"
+[2021.10.22-22.25.18:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2021.10.22-22.25.18:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2021.10.22-22.25.18:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2021.10.22-22.25.18:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2021.10.22-22.25.18:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2021.10.22-22.25.18:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2021.10.22-22.25.18:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2021.10.22-22.25.18:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2021.10.22-22.25.18:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2021.10.22-22.25.18:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2021.10.22-22.25.18:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2021.10.22-22.25.18:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2021.10.22-22.25.18:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2021.10.22-22.25.18:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2021.10.22-22.25.18:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2021.10.22-22.25.18:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2021.10.22-22.25.18:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2021.10.22-22.25.19:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2021.10.22-22.25.19:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2021.10.22-22.25.19:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2021.10.22-22.25.19:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Maps/Minimal_Default.umap"
+[2021.10.22-22.25.19:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2021.10.22-22.25.19:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Maps/StarterMap.umap"
+[2021.10.22-22.25.19:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2021.10.22-22.25.19:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2021.10.22-22.25.19:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2021.10.22-22.25.19:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2021.10.22-22.25.19:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2021.10.22-22.25.19:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2021.10.22-22.25.19:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2021.10.22-22.25.19:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2021.10.22-22.25.19:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2021.10.22-22.25.19:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2021.10.22-22.25.19:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2021.10.22-22.25.19:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2021.10.22-22.25.19:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2021.10.22-22.25.19:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2021.10.22-22.25.19:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2021.10.22-22.25.19:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2021.10.22-22.25.19:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2021.10.22-22.25.19:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2021.10.22-22.25.19:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Glass.uasset"
+[2021.10.22-22.25.19:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2021.10.22-22.25.19:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2021.10.22-22.25.19:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2021.10.22-22.25.19:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2021.10.22-22.25.19:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2021.10.22-22.25.19:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2021.10.22-22.25.19:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2021.10.22-22.25.19:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2021.10.22-22.25.19:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2021.10.22-22.25.19:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2021.10.22-22.25.19:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2021.10.22-22.25.19:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2021.10.22-22.25.19:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2021.10.22-22.25.19:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2021.10.22-22.25.19:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2021.10.22-22.25.19:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2021.10.22-22.25.19:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2021.10.22-22.25.19:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2021.10.22-22.25.19:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2021.10.22-22.25.19:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2021.10.22-22.25.19:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2021.10.22-22.25.19:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2021.10.22-22.25.19:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2021.10.22-22.25.19:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2021.10.22-22.25.19:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2021.10.22-22.25.19:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2021.10.22-22.25.19:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/P_Explosion.uasset"
+[2021.10.22-22.25.19:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/P_Fire.uasset"
+[2021.10.22-22.25.19:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/P_Smoke.uasset"
+[2021.10.22-22.25.19:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/P_Sparks.uasset"
+[2021.10.22-22.25.19:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2021.10.22-22.25.19:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2021.10.22-22.25.19:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2021.10.22-22.25.19:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2021.10.22-22.25.19:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2021.10.22-22.25.19:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2021.10.22-22.25.19:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2021.10.22-22.25.19:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2021.10.22-22.25.19:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2021.10.22-22.25.19:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2021.10.22-22.25.19:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2021.10.22-22.25.19:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/MaterialSphere.uasset"
+[2021.10.22-22.25.19:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_Bush.uasset"
+[2021.10.22-22.25.19:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_Chair.uasset"
+[2021.10.22-22.25.19:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2021.10.22-22.25.19:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_Couch.uasset"
+[2021.10.22-22.25.19:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_Door.uasset"
+[2021.10.22-22.25.19:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2021.10.22-22.25.19:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2021.10.22-22.25.19:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2021.10.22-22.25.19:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2021.10.22-22.25.19:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2021.10.22-22.25.19:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2021.10.22-22.25.19:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2021.10.22-22.25.19:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_Rock.uasset"
+[2021.10.22-22.25.19:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_Shelf.uasset"
+[2021.10.22-22.25.19:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_Stairs.uasset"
+[2021.10.22-22.25.19:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_Statue.uasset"
+[2021.10.22-22.25.19:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_TableRound.uasset"
+[2021.10.22-22.25.19:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2021.10.22-22.25.19:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2021.10.22-22.25.19:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2021.10.22-22.25.19:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2021.10.22-22.25.19:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2021.10.22-22.25.19:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2021.10.22-22.25.19:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2021.10.22-22.25.19:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2021.10.22-22.25.19:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2021.10.22-22.25.19:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2021.10.22-22.25.19:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2021.10.22-22.25.19:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2021.10.22-22.25.19:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2021.10.22-22.25.19:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2021.10.22-22.25.19:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2021.10.22-22.25.19:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2021.10.22-22.25.19:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2021.10.22-22.25.19:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2021.10.22-22.25.19:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2021.10.22-22.25.19:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2021.10.22-22.25.19:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2021.10.22-22.25.19:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2021.10.22-22.25.19:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2021.10.22-22.25.19:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2021.10.22-22.25.19:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2021.10.22-22.25.19:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2021.10.22-22.25.19:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2021.10.22-22.25.19:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2021.10.22-22.25.19:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2021.10.22-22.25.19:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2021.10.22-22.25.19:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2021.10.22-22.25.19:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2021.10.22-22.25.19:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2021.10.22-22.25.19:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2021.10.22-22.25.19:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2021.10.22-22.25.19:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2021.10.22-22.25.19:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2021.10.22-22.25.19:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2021.10.22-22.25.19:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2021.10.22-22.25.19:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2021.10.22-22.25.19:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2021.10.22-22.25.19:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2021.10.22-22.25.19:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2021.10.22-22.25.19:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2021.10.22-22.25.19:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2021.10.22-22.25.19:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2021.10.22-22.25.19:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2021.10.22-22.25.19:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2021.10.22-22.25.19:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2021.10.22-22.25.19:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2021.10.22-22.25.19:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2021.10.22-22.25.19:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2021.10.22-22.25.19:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2021.10.22-22.25.19:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2021.10.22-22.25.19:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2021.10.22-22.25.19:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2021.10.22-22.25.19:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2021.10.22-22.25.19:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2021.10.22-22.25.19:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2021.10.22-22.25.19:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2021.10.22-22.25.19:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2021.10.22-22.25.19:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2021.10.22-22.25.19:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2021.10.22-22.25.19:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2021.10.22-22.25.19:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2021.10.22-22.25.19:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2021.10.22-22.25.19:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2021.10.22-22.25.19:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2021.10.22-22.25.19:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2021.10.22-22.25.19:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2021.10.22-22.25.19:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2021.10.22-22.25.19:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Door_M.uasset"
+[2021.10.22-22.25.19:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Door_N.uasset"
+[2021.10.22-22.25.19:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2021.10.22-22.25.19:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2021.10.22-22.25.19:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2021.10.22-22.25.19:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2021.10.22-22.25.19:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2021.10.22-22.25.19:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2021.10.22-22.25.19:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2021.10.22-22.25.19:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2021.10.22-22.25.19:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2021.10.22-22.25.19:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2021.10.22-22.25.19:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2021.10.22-22.25.19:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2021.10.22-22.25.19:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2021.10.22-22.25.19:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2021.10.22-22.25.19:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2021.10.22-22.25.19:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2021.10.22-22.25.19:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2021.10.22-22.25.19:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2021.10.22-22.25.19:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2021.10.22-22.25.19:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2021.10.22-22.25.19:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2021.10.22-22.25.19:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2021.10.22-22.25.19:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2021.10.22-22.25.19:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2021.10.22-22.25.19:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2021.10.22-22.25.19:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2021.10.22-22.25.19:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2021.10.22-22.25.19:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2021.10.22-22.25.19:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2021.10.22-22.25.19:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2021.10.22-22.25.19:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2021.10.22-22.25.19:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2021.10.22-22.25.19:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2021.10.22-22.25.20:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2021.10.22-22.25.20:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2021.10.22-22.25.20:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2021.10.22-22.25.20:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2021.10.22-22.25.20:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2021.10.22-22.25.20:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2021.10.22-22.25.20:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2021.10.22-22.25.20:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2021.10.22-22.25.20:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2021.10.22-22.25.20:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2021.10.22-22.25.20:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2021.10.22-22.25.20:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2021.10.22-22.25.20:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2021.10.22-22.25.20:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2021.10.22-22.25.20:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2021.10.22-22.25.20:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2021.10.22-22.25.20:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2021.10.22-22.25.20:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2021.10.22-22.25.20:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Water_M.uasset"
+[2021.10.22-22.25.20:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Water_N.uasset"
+[2021.10.22-22.25.20:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2021.10.22-22.25.20:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2021.10.22-22.25.20:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2021.10.22-22.25.20:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2021.10.22-22.25.20:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2021.10.22-22.25.20:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2021.10.22-22.25.20:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2021.10.22-22.25.20:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2021.10.22-22.25.20:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2021.10.22-22.25.20:236][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2021.10.22-22.25.20:694][  0]LogSavePackage: Moving '../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Saved/Floor_400x4002A5C98DA4B55382E69D6598F1FCE6DFA.tmp' to '../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2021.10.22-22.25.20:697][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2021.10.22-22.25.20:700][  0]Cmd: MAP LOAD FILE="../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.22-22.25.20:701][  0]LightingResults: New page: Lighting Build
+[2021.10.22-22.25.20:708][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.10.22-22.25.20:710][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.22-22.25.20:715][  0]MapCheck: New page: Map Check
+[2021.10.22-22.25.20:715][  0]LightingResults: New page: Lighting Build
+[2021.10.22-22.25.20:744][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2021.10.22-22.25.20:878][  0]LogTexture: Display: Building textures: DeprecatedTextureD6C57B644F03DADF4F2699848FAEA3C3 (BGRA8, 128X128)
+[2021.10.22-22.25.20:885][  0]LogTexture: Display: Building textures: DeprecatedTexture8D91C9AE4C6B8D628CDA3C848426284A (BGRA8, 128X128)
+[2021.10.22-22.25.20:915][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2021.10.22-22.25.20:915][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.10.22-22.25.20:943][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.22-22.25.20:955][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.10.22-22.25.20:956][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.22-22.25.20:956][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.199ms to complete.
+[2021.10.22-22.25.20:956][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.258
+[2021.10.22-22.25.20:995][  0]LogUnrealEdMisc: Total Editor Startup Time, took 69.759
+[2021.10.22-22.25.21:214][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-22.25.21:222][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-22.25.21:232][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-22.25.21:239][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-22.25.21:312][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0102 seconds. Added 3623 classes and 867 folders.
+[2021.10.22-22.25.21:321][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.10.22-22.25.21:327][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.10.22-22.25.21:327][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:327][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.22-22.25.21:327][  0]LogPakFile: OnPakFileMounted2Time == 0.000189
+[2021.10.22-22.25.21:331][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.10.22-22.25.21:331][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:331][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.10.22-22.25.21:331][  0]LogPakFile: OnPakFileMounted2Time == 0.000193
+[2021.10.22-22.25.21:333][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.10.22-22.25.21:333][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:333][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.10.22-22.25.21:333][  0]LogPakFile: OnPakFileMounted2Time == 0.000195
+[2021.10.22-22.25.21:334][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.22-22.25.21:334][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:334][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.22-22.25.21:334][  0]LogPakFile: OnPakFileMounted2Time == 0.000197
+[2021.10.22-22.25.21:335][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.10.22-22.25.21:335][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:335][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.10.22-22.25.21:335][  0]LogPakFile: OnPakFileMounted2Time == 0.000200
+[2021.10.22-22.25.21:336][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.10.22-22.25.21:336][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:336][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.10.22-22.25.21:336][  0]LogPakFile: OnPakFileMounted2Time == 0.000202
+[2021.10.22-22.25.21:338][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.10.22-22.25.21:338][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:338][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.10.22-22.25.21:338][  0]LogPakFile: OnPakFileMounted2Time == 0.000205
+[2021.10.22-22.25.21:339][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.10.22-22.25.21:339][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:339][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.10.22-22.25.21:339][  0]LogPakFile: OnPakFileMounted2Time == 0.000207
+[2021.10.22-22.25.21:341][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.10.22-22.25.21:341][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:341][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.10.22-22.25.21:341][  0]LogPakFile: OnPakFileMounted2Time == 0.000209
+[2021.10.22-22.25.21:342][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.10.22-22.25.21:342][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:342][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.10.22-22.25.21:342][  0]LogPakFile: OnPakFileMounted2Time == 0.000212
+[2021.10.22-22.25.21:345][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.10.22-22.25.21:345][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:345][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.10.22-22.25.21:345][  0]LogPakFile: OnPakFileMounted2Time == 0.000221
+[2021.10.22-22.25.21:349][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.10.22-22.25.21:349][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:349][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.10.22-22.25.21:349][  0]LogPakFile: OnPakFileMounted2Time == 0.000226
+[2021.10.22-22.25.21:350][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.22-22.25.21:350][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:350][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.22-22.25.21:350][  0]LogPakFile: OnPakFileMounted2Time == 0.000228
+[2021.10.22-22.25.21:352][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.10.22-22.25.21:352][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:352][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.10.22-22.25.21:352][  0]LogPakFile: OnPakFileMounted2Time == 0.000230
+[2021.10.22-22.25.21:353][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.10.22-22.25.21:353][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:353][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.10.22-22.25.21:353][  0]LogPakFile: OnPakFileMounted2Time == 0.000232
+[2021.10.22-22.25.21:355][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.10.22-22.25.21:355][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:355][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.22-22.25.21:355][  0]LogPakFile: OnPakFileMounted2Time == 0.000235
+[2021.10.22-22.25.21:356][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.10.22-22.25.21:356][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:356][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.10.22-22.25.21:356][  0]LogPakFile: OnPakFileMounted2Time == 0.000238
+[2021.10.22-22.25.21:358][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.10.22-22.25.21:358][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:358][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.10.22-22.25.21:358][  0]LogPakFile: OnPakFileMounted2Time == 0.000240
+[2021.10.22-22.25.21:360][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.22-22.25.21:360][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:360][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.22-22.25.21:360][  0]LogPakFile: OnPakFileMounted2Time == 0.000243
+[2021.10.22-22.25.21:362][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.22-22.25.21:362][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:362][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.22-22.25.21:362][  0]LogPakFile: OnPakFileMounted2Time == 0.000245
+[2021.10.22-22.25.21:363][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.10.22-22.25.21:363][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:363][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.10.22-22.25.21:363][  0]LogPakFile: OnPakFileMounted2Time == 0.000247
+[2021.10.22-22.25.21:365][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.10.22-22.25.21:365][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:365][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.10.22-22.25.21:365][  0]LogPakFile: OnPakFileMounted2Time == 0.000249
+[2021.10.22-22.25.21:366][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.10.22-22.25.21:366][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:366][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.10.22-22.25.21:366][  0]LogPakFile: OnPakFileMounted2Time == 0.000252
+[2021.10.22-22.25.21:368][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.10.22-22.25.21:368][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:368][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.10.22-22.25.21:368][  0]LogPakFile: OnPakFileMounted2Time == 0.000254
+[2021.10.22-22.25.21:369][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.10.22-22.25.21:369][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:369][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.10.22-22.25.21:369][  0]LogPakFile: OnPakFileMounted2Time == 0.000256
+[2021.10.22-22.25.21:371][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.10.22-22.25.21:371][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.10.22-22.25.21:371][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.10.22-22.25.21:371][  0]LogPakFile: OnPakFileMounted2Time == 0.000258
+[2021.10.22-22.25.21:505][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.10.22-22.25.21:517][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.10.22-22.25.21:727][  0]LogSlate: Took 0.000921 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.10.22-22.25.21:732][  0]LogSlate: Took 0.001432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.10.22-22.25.21:737][  0]LogSlate: Took 0.000501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.10.22-22.25.21:802][  0]LogRenderer: Reallocating scene render targets to support 848x392 Format 10 NumSamples 1 (Frame:1).
+[2021.10.22-22.25.21:856][  0]LogSlate: Took 0.000959 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.10.22-22.25.21:959][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.10.22-22.25.21:959][  0]LogLoad: (Engine Initialization) Total time: 70.72 seconds
+[2021.10.22-22.25.21:959][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.10.22-22.25.21:959][  0]LogInit: First time updating LLM stats...
+[2021.10.22-22.25.21:993][  0]AssetCheck: New page: Asset Save: Floor_400x400
+[2021.10.22-22.25.21:993][  0]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2021.10.22-22.25.22:032][  0]LogAssetRegistry: Asset discovery search completed in 9.6563 seconds
+[2021.10.22-22.25.22:034][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.10.22-22.25.22:144][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.10.22-22.25.22:204][  0]LogRenderer: Reallocating scene render targets to support 848x408 Format 10 NumSamples 1 (Frame:2).
+[2021.10.22-22.25.30:528][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.10.22-22.25.30:539][472]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.10.22-22.25.30:751][472]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Wolfi/M_Wolfi.M_Wolfi
+[2021.10.22-22.25.30:752][472]Cmd: MAP LOAD FILE="../../../../../../Users/simam/Documents/GitHub/PPA_HSI/HSI/Content/Wolfi/M_Wolfi.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.22-22.25.30:752][472]LightingResults: New page: Lighting Build
+[2021.10.22-22.25.30:752][472]LoadErrors: New page: Loading map: M_Wolfi.umap
+[2021.10.22-22.25.30:758][472]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.10.22-22.25.30:758][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.22-22.25.30:759][472]MapCheck: New page: Map Check
+[2021.10.22-22.25.30:759][472]LightingResults: New page: Lighting Build
+[2021.10.22-22.25.30:765][472]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.22-22.25.30:776][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.10.22-22.25.30:780][472]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Wolfi'.
+[2021.10.22-22.25.30:853][472]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.22-22.25.30:853][472]LogAIModule: Creating AISystem for world M_Wolfi
+[2021.10.22-22.25.30:861][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.10.22-22.25.30:863][472]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.22-22.25.30:863][472]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.129ms to complete.
+[2021.10.22-22.25.30:863][472]LogFileHelpers: Loading map 'M_Wolfi' took 0.112
+[2021.10.22-22.25.32:390][558]LogTemp: Repeating last play command: Selected Viewport
+[2021.10.22-22.25.32:399][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.22-22.25.32:401][558]PIE: New page: PIE session: M_Wolfi (22 oct. 2021 12:25:32)
+[2021.10.22-22.25.32:407][558]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.10.22-22.25.32:408][558]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.10.22-22.25.32:409][558]LogPlayLevel: Creating play world package: /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.10.22-22.25.32:413][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003324s)
+[2021.10.22-22.25.32:414][558]LogAIModule: Creating AISystem for world M_Wolfi
+[2021.10.22-22.25.32:415][558]LogPlayLevel: PIE: World Init took: (0.001832s)
+[2021.10.22-22.25.32:415][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Wolfi/M_Wolfi.M_Wolfi to /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi (0.005751s)
+[2021.10.22-22.25.32:421][558]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.10.22-22.25.32:423][558]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.10.22-22.25.32:423][558]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.22-22.25.32:423][558]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.22-22.25.32:423][558]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.22-22.25.32:423][558]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.22-22.25.32:423][558]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.22-22.25.32:423][558]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.22-22.25.32:423][558]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.22-22.25.32:423][558]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.22-22.25.32:423][558]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.22-22.25.32:423][558]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.22-22.25.32:426][558]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.22-22.25.32:426][558]LogAudioMixer: Display: 1: FrontRight
+[2021.10.22-22.25.32:467][558]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.10.22-22.25.32:467][558]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.22-22.25.32:467][558]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.22-22.25.32:467][558]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.22-22.25.32:468][558]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.22-22.25.32:468][558]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.22-22.25.32:468][558]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.22-22.25.32:486][558]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.22-22.25.32:486][558]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.22-22.25.32:486][558]LogInit: FAudioDevice initialized.
+[2021.10.22-22.25.32:486][558]LogAudio: Display: Audio Device (ID: 2) registered with world 'M_Wolfi'.
+[2021.10.22-22.25.32:501][558]LogLoad: Game class is 'GameMode'
+[2021.10.22-22.25.32:507][558]LogWorld: Bringing World /Game/Wolfi/UEDPIE_0_M_Wolfi.M_Wolfi up for play (max tick rate 60) at 2021.10.22-17.25.32
+[2021.10.22-22.25.32:508][558]LogWorld: Bringing up level for play took: 0.001784
+[2021.10.22-22.25.32:509][558]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.10.22-22.25.32:520][558]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.10.22-22.25.32:520][558]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.10.22-22.25.32:520][558]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.10.22-22.25.32:520][558]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.10.22-22.25.32:550][558]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.10.22-22.25.32:550][558]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2021.10.22-22.25.32:550][558]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2021.10.22-22.25.32:551][558]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.10.22-22.25.32:552][558]PIE: Server logged in
+[2021.10.22-22.25.32:553][558]PIE: Play in editor total start time 0.16 seconds.
+[2021.10.22-22.25.39:484][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-22.25.39:540][921]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.10.22-22.25.51:760][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-22.25.51:812][  8]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.10.22-22.26.02:688][640]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2021.10.22-22.26.02:688][640]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2021.10.22-22.26.02:689][640]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.10.22-22.26.02:689][640]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.10.22-22.26.02:689][640]LogNet: Browse: /Game/Mara/Scene/Mara_Sc
+[2021.10.22-22.26.02:690][640]LogLoad: LoadMap: /Game/Mara/Scene/Mara_Sc
+[2021.10.22-22.26.02:690][640]LogWorld: BeginTearingDown for /Game/Wolfi/UEDPIE_0_M_Wolfi
+[2021.10.22-22.26.02:696][640]LogWorld: UWorld::CleanupWorld for M_Wolfi, bSessionEnded=true, bCleanupResources=true
+[2021.10.22-22.26.02:697][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.22-22.26.02:707][640]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.22-22.26.02:711][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2021.10.22-22.26.02:788][640]LogAudio: Display: Audio Device (ID: 2) registered with world 'Mara_Sc'.
+[2021.10.22-22.26.02:790][640]LogAIModule: Creating AISystem for world Mara_Sc
+[2021.10.22-22.26.02:790][640]LogLoad: Game class is 'GameMode'
+[2021.10.22-22.26.02:797][640]LogWorld: Bringing World /Game/Mara/Scene/UEDPIE_0_Mara_Sc.Mara_Sc up for play (max tick rate 60) at 2021.10.22-17.26.02
+[2021.10.22-22.26.02:797][640]LogWorld: Bringing up level for play took: 0.006880
+[2021.10.22-22.26.02:798][640]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.10.22-22.26.02:799][640]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.10.22-22.26.02:799][640]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.10.22-22.26.02:799][640]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.10.22-22.26.03:210][640]LogTexture: Display: Building textures: Texture2D_2 (AutoDXT, 1024X1024)
+[2021.10.22-22.26.03:262][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-22.26.03:262][640]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.10.22-22.26.03:262][640]LogLoad: Took 0.572091 seconds to LoadMap(/Game/Mara/Scene/Mara_Sc)
+[2021.10.22-22.26.03:298][641]LogRenderer: Reallocating scene render targets to support 2048x2048 Format 10 NumSamples 1 (Frame:1).
+[2021.10.22-22.26.06:474][746]LogBlueprintUserMessages: [MyChar2_2] Saved Image 1
+[2021.10.22-22.26.06:799][746]LogBlueprintUserMessages: [MyChar2_2] Saved Image 2
+[2021.10.22-22.26.06:872][746]LogBlueprintUserMessages: [MyChar2_2] Saved image 3
+[2021.10.22-22.26.07:609][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-22.26.07:609][769]LogWorld: BeginTearingDown for /Game/Mara/Scene/UEDPIE_0_Mara_Sc
+[2021.10.22-22.26.07:609][769]LogWorld: UWorld::CleanupWorld for Mara_Sc, bSessionEnded=true, bCleanupResources=true
+[2021.10.22-22.26.07:610][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.22-22.26.07:622][769]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.22-22.26.07:624][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.22-22.26.07:631][769]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.22-22.26.07:633][769]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.22-22.26.07:635][769]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.22-22.26.07:682][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-22.26.07:687][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2021.10.22-22.26.07:713][770]LogPlayLevel: Display: Destroying online subsystem :Context_2
