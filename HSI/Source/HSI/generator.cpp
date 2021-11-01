@@ -11,14 +11,14 @@ Agenerator::Agenerator()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
+  
 }
 
 // Called when the game starts or when spawned
 void Agenerator::BeginPlay()
 {
 	Super::BeginPlay();
-	
+  getSeeds(FMath::Rand());
 }
 
 // Called every frame
@@ -46,10 +46,13 @@ float Agenerator::lerp(volatile float a, volatile float b, volatile float t)
 }
 
 float Agenerator::noise(FVector2D uv,float localScale) {
+  
   uv.X/=localScale;
   uv.Y/=localScale;
   uv.X+=1.f/(localScale*2.f);
   uv.Y+=1.f/(localScale*2.f);
+  uv.X += seedx;
+  uv.Y += seedy;
   float ix = (int)uv.X;
   float iy = (int)uv.Y;
   float fx = fmod(uv.X, 1);
@@ -191,6 +194,14 @@ float Agenerator::valueAt(FVector2D uv)
     localPersistence*=persistence;
   }
   return ans;
+}
+
+void Agenerator::getSeeds(int s)
+{
+  int w = floorf((sqrt(s * 8 + 1) - 1) / 2.f);
+  int t = (w * w + w) / 2;
+  seedy = s - t;
+  seedx = w - seedy;
 }
 
 int* Agenerator::get()
