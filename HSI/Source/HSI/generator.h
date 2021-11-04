@@ -21,7 +21,7 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
-	float scale= 3, intensity= 2, sampleRadius= .5, bias=.15, bias0= -.15;
+	float intensity= 2, sampleRadius= .5, bias=.2, bias0= -.2;
 	// Called every frame
 	int* gt;
 	virtual void Tick(float DeltaTime) override;
@@ -33,7 +33,7 @@ public:
 	std::ofstream out;
 	float rand(FVector2D uv);
 	FVector2D randvec(FVector2D uv);
-	float noise(FVector2D uv);
+	float noise(FVector2D uv,float localScale);
 	int pixel(FVector2D uv);
 	int* get();
 	UTexture2D* textura;
@@ -44,4 +44,22 @@ public:
 	void groundthruth(int sizeX, int sizeY, FString proyectPath);
 	UFUNCTION(BlueprintCallable)
 		UTexture2D* getTexture();
+
+	FVector2D randomGradient(int x, int y);
+
+	float valueAt(FVector2D uv);
+
+	void getSeeds(int s);
+
+	float scale = 256;
+
+	float octaves = 3;
+
+	float lacunarity = .5f;
+
+	float persistence = .75f;
+
+	int seedx;
+
+	int seedy;
 };

@@ -11,14 +11,14 @@ Agenerator::Agenerator()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
+  
 }
 
 // Called when the game starts or when spawned
 void Agenerator::BeginPlay()
 {
 	Super::BeginPlay();
-	
+  getSeeds(FMath::Rand());
 }
 
 // Called every frame
@@ -45,77 +45,36 @@ float Agenerator::lerp(volatile float a, volatile float b, volatile float t)
     return a + t * (b - a);
 }
 
-float Agenerator::rand(FVector2D uv)
-{
-    uv.X += seed % 7907;
-    uv.Y += seed % 7919;//*/
-    //out<<"p " << uv.X <<" "<< uv.Y<< std::endl;
-    float d = FVector2D::DotProduct(uv, FVector2D(12.9898f, 78.233f));
-    //out << "d " << d << std::endl;
-    float s = sin(d * 2.0);
-    //out << "s " << s << std::endl;
-    float n = fmod(s * 43758.5453, 1.0f);
-    //out << "n " << n << std::endl;
-    return  abs(n);
-}
-FVector2D Agenerator::randvec(FVector2D uv) {
-    //out << "uv " << uv.X << " " << uv.Y << std::endl;
-    float r = rand(uv);
-    //out << "r " << r << std::endl;
-    if (r < 0.125f) {
-        return FVector2D(1.0f, 1.0f);
-    }
-    else if (r < 0.25f) {
-        return FVector2D(-1.0f, 1.0f);
-    }
-    else if (r < 0.325f) {
-        return FVector2D(1.0f, -1.0f);
-    }
-    else if (r < 0.5f) {
-        return FVector2D(-1.0f, -1.0f);
-    }
-    if (r < 0.625f) {
-        return FVector2D(1.0f, 0.0f);
-    }
-    else if (r < 0.75f) {
-        return FVector2D(0.0f, 1.0f);
-    }
-    else if (r < 0.825f) {
-        return FVector2D(0.0f, -1.0f);
-    }
-    else {
-        return FVector2D(-1.0f, 0.0f);
-    }
-}
-float Agenerator::noise(FVector2D uv) {
-    FVector2D i = floor(uv);
-    //out << "i " << i.X << " " << i.Y << std::endl;
-    
-    FVector2D f = frac(uv);
-    //out << "f " << f.X << " " << f.Y << std::endl;
-    f = f * f * f * (f * (f * 6.0f - 15.0f) + 10.0f);
-    //out << "f " << f.X << " " << f.Y << std::endl;
-    //out << "i " << i.X << " " << i.Y << std::endl;
-    FVector2D a = randvec(i);
-    //out << "a " << a.X << " " << a.Y << std::endl;
-
-    FVector2D b = randvec(i + FVector2D(1.0, 0.0));
-    //out << "b " << b.X << " " << b.Y << std::endl;
-    FVector2D c = randvec(i + FVector2D(0.0, 1.0));
-    //out << "c " << c.X << " " << c.Y << std::endl;
-    FVector2D d = randvec(i + FVector2D(1.0, 1.0));
-    //out << "d " << d.X << " " << d.Y << std::endl;
-    float w = dot(a, f);
-    float x = dot(b, f - FVector2D(1.0, 0.0));
-    float y = dot(c, f - FVector2D(0.0, 1.0));
-    float z = dot(d, f - FVector2D(1.0, 1.0));
-    volatile float t = lerp(lerp(w, x, f.X), lerp(y, z, f.X), f.Y);
-    return t;
+float Agenerator::noise(FVector2D uv,float localScale) {
+  
+  uv.X/=localScale;
+  uv.Y/=localScale;
+  uv.X+=1.f/(localScale*2.f);
+  uv.Y+=1.f/(localScale*2.f);
+  uv.X += seedx;
+  uv.Y += seedy;
+  float ix = (int)uv.X;
+  float iy = (int)uv.Y;
+  float fx = fmod(uv.X, 1);
+  float fy = fmod(uv.Y, 1);
+  FVector2D a = randomGradient(ix, iy);
+  FVector2D b = randomGradient(ix+1, iy);
+  FVector2D c = randomGradient(ix, iy+1);
+  FVector2D d = randomGradient(ix+1, iy+1);
+  float e = a.X * fx + a.Y * fy;
+  float f = b.X * (1-fx) + b.Y * fy;
+  float g = c.X * fx + c.Y * (1-fy);
+  float h = d.X * (1 - fx) + d.Y * (1 - fy);
+  float i = lerp(e,f,fx);
+  float j = lerp(g, h, fx);
+  float k = lerp(i, j, fy);
+  return k;
 }
 
 int Agenerator::pixel(FVector2D uv)
 {
-    float n = noise(uv * scale) + noise(uv * intensity) * sampleRadius;
+    //float n = noise(uv * scale) + noise(uv * intensity) * sampleRadius;
+    float n = valueAt(uv);
     Pixels[4 * CurrentPixelIndex] = 0;
     Pixels[4 * CurrentPixelIndex + 1] = 0;
     Pixels[4 * CurrentPixelIndex + 2] = 0;
@@ -138,15 +97,6 @@ int Agenerator::pixel(FVector2D uv)
 
 void Agenerator::groundthruth(int sizeX, int sizeY, FString proyectPath)
 {
-    //FString PackageName = TEXT("/Game/ProceduralTextures/");
-    //FString BaseTextureName = FString("Groundthruth");
-    //PackageName += BaseTextureName;
-    //UPackage* Package = CreatePackage(NULL, *PackageName);
-    //GLog->Log("project dir:" + FPaths::ProjectDir());
-    //FName TextureName = MakeUniqueObjectName(Package, UTexture2D::StaticClass(), FName(*BaseTextureName));
-    //Package->FullyLoad();
-
-
 	textura = NewObject<UTexture2D>();// Package, TextureName, RF_Public | RF_Standalone | RF_MarkAsRootSet);
 
     int32 TextureWidth = sizeX;
@@ -158,22 +108,32 @@ void Agenerator::groundthruth(int sizeX, int sizeY, FString proyectPath)
     textura->PlatformData->PixelFormat = EPixelFormat::PF_B8G8R8A8;
     Pixels = new uint8[TextureWidth * TextureHeight * 4];
 
-	FString CSVPath = proyectPath.Append("/test.csv");
+	FString CSVPath = proyectPath.Append("/tex.csv");
     
     out.open(TCHAR_TO_ANSI(*CSVPath));
     
     gt = new int[sizeX * sizeY];
     for (int i = 0; i < sizeY; i++) {
-        gt[i * sizeX + 0] = pixel(FVector2D((float)i / 256.f, 0.0f / 256.f));
-        out << gt[i * sizeX];
+        gt[i * sizeX ] = pixel(FVector2D(i,0));
+        //out << gt[i * sizeX];
         CurrentPixelIndex++;
         for (int o = 1; o < sizeX; o++) {
-            gt[i * sizeX + o] = pixel(FVector2D((float)i/256.f , (float)o/ 256.f));
-            out << ',' << gt[i * sizeX + o] ;
+            gt[i * sizeX + o] = pixel(FVector2D(i,o));
+            //out << ',' << gt[i * sizeX + o] ;
             CurrentPixelIndex++;
         }
-        out << '\n';
+        //out << '\n';
     }
+
+    for (int i = 0; i < sizeY; i++) {
+      //out << gt[(sizeX-1-i)];
+      out << gt[(sizeX-1-i)];
+      for (int o = 1; o < sizeX; o++) {
+        out << ","  << gt[o*sizeX+(sizeX-1-i)];
+      }
+      out << '\n';
+    }
+
     //Allocate first mipmap.
     FTexture2DMipMap* Mip = new FTexture2DMipMap();
     textura->PlatformData->Mips.Add(Mip);
@@ -209,6 +169,39 @@ void Agenerator::groundthruth(int sizeX, int sizeY, FString proyectPath)
 UTexture2D* Agenerator::getTexture()
 {
     return textura;
+}
+
+FVector2D Agenerator::randomGradient(int x, int y)
+{
+  const unsigned w = 8 * sizeof(unsigned);
+  const unsigned s = w / 2; 
+  unsigned a = x, b = y;
+  a *= 3284157443; b ^= (a << s) | (a >> (w-s));
+  b *= 1911520717; a ^= (b << s) | (b >> (w-s));
+  a *= 2048419325;
+  float random = a * (3.14159265 / ~(~0u >> 1)); 
+  return FVector2D(sinf(random),cosf(random));
+}
+
+float Agenerator::valueAt(FVector2D uv)
+{
+  float ans = 0;
+  float localScale =scale;
+  float localPersistence = 1;
+  for(int32 i=0; i<octaves;i++){
+    ans += noise(uv,localScale)*localPersistence;
+    localScale*=lacunarity;
+    localPersistence*=persistence;
+  }
+  return ans;
+}
+
+void Agenerator::getSeeds(int s)
+{
+  int w = floorf((sqrt(s * 8 + 1) - 1) / 2.f);
+  int t = (w * w + w) / 2;
+  seedy = s - t;
+  seedx = w - seedy;
 }
 
 int* Agenerator::get()
