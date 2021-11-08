@@ -49,6 +49,8 @@ public:
 
 	float valueAt(FVector2D uv);
 
+	void getSeeds(int s);
+
 	float scale = 256;
 
 	float octaves = 3;
@@ -56,4 +58,8 @@ public:
 	float lacunarity = .5f;
 
 	float persistence = .75f;
+
+	int seedx;
+
+	int seedy;
 };
