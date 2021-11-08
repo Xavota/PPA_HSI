@@ -20,10 +20,17 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterial_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterialInstanceDynamic_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	PROCEDURALMESHCOMPONENT_API UClass* Z_Construct_UClass_UProceduralMeshComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ATerrain_CPP::execGetGrayscalesMat)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(UMaterialInstanceDynamic**)Z_Param__Result=P_THIS->GetGrayscalesMat();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ATerrain_CPP::execGetSize)
 	{
 		P_FINISH;
@@ -37,11 +44,12 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 		P_GET_STRUCT(FVector2D,Z_Param__tiles);
 		P_GET_STRUCT(FVector2D,Z_Param__textureTiles);
 		P_GET_OBJECT(UMaterial,Z_Param__Material);
+		P_GET_OBJECT(UMaterial,Z_Param__grayScalesMaterial);
 		P_GET_OBJECT(UTexture2D,Z_Param__InputMap);
 		P_GET_PROPERTY(FFloatProperty,Z_Param__MaxHeight);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->GenerateTerrain(Z_Param__size,Z_Param__tiles,Z_Param__textureTiles,Z_Param__Material,Z_Param__InputMap,Z_Param__MaxHeight);
+		P_THIS->GenerateTerrain(Z_Param__size,Z_Param__tiles,Z_Param__textureTiles,Z_Param__Material,Z_Param__grayScalesMaterial,Z_Param__InputMap,Z_Param__MaxHeight);
 		P_NATIVE_END;
 	}
 	void ATerrain_CPP::StaticRegisterNativesATerrain_CPP()
@@ -49,6 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 		UClass* Class = ATerrain_CPP::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "GenerateTerrain", &ATerrain_CPP::execGenerateTerrain },
+			{ "GetGrayscalesMat", &ATerrain_CPP::execGetGrayscalesMat },
 			{ "GetSize", &ATerrain_CPP::execGetSize },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -61,6 +70,7 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 			FVector2D _tiles;
 			FVector2D _textureTiles;
 			UMaterial* _Material;
+			UMaterial* _grayScalesMaterial;
 			UTexture2D* _InputMap;
 			float _MaxHeight;
 		};
@@ -68,6 +78,7 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp__tiles;
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp__textureTiles;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp__Material;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp__grayScalesMaterial;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp__InputMap;
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__MaxHeight;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -80,6 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::NewProp__tiles = { "_tiles", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Terrain_CPP_eventGenerateTerrain_Parms, _tiles), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::NewProp__textureTiles = { "_textureTiles", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Terrain_CPP_eventGenerateTerrain_Parms, _textureTiles), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::NewProp__Material = { "_Material", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Terrain_CPP_eventGenerateTerrain_Parms, _Material), Z_Construct_UClass_UMaterial_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::NewProp__grayScalesMaterial = { "_grayScalesMaterial", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Terrain_CPP_eventGenerateTerrain_Parms, _grayScalesMaterial), Z_Construct_UClass_UMaterial_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::NewProp__InputMap = { "_InputMap", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Terrain_CPP_eventGenerateTerrain_Parms, _InputMap), Z_Construct_UClass_UTexture2D_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::NewProp__MaxHeight = { "_MaxHeight", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Terrain_CPP_eventGenerateTerrain_Parms, _MaxHeight), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::PropPointers[] = {
@@ -87,6 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::NewProp__tiles,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::NewProp__textureTiles,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::NewProp__Material,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::NewProp__grayScalesMaterial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::NewProp__InputMap,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::NewProp__MaxHeight,
 	};
@@ -102,6 +115,38 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ATerrain_CPP_GetGrayscalesMat_Statics
+	{
+		struct Terrain_CPP_eventGetGrayscalesMat_Parms
+		{
+			UMaterialInstanceDynamic* ReturnValue;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ATerrain_CPP_GetGrayscalesMat_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Terrain_CPP_eventGetGrayscalesMat_Parms, ReturnValue), Z_Construct_UClass_UMaterialInstanceDynamic_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATerrain_CPP_GetGrayscalesMat_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATerrain_CPP_GetGrayscalesMat_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATerrain_CPP_GetGrayscalesMat_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Terrain_CPP.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATerrain_CPP_GetGrayscalesMat_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATerrain_CPP, nullptr, "GetGrayscalesMat", nullptr, nullptr, sizeof(Terrain_CPP_eventGetGrayscalesMat_Parms), Z_Construct_UFunction_ATerrain_CPP_GetGrayscalesMat_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATerrain_CPP_GetGrayscalesMat_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATerrain_CPP_GetGrayscalesMat_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATerrain_CPP_GetGrayscalesMat_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATerrain_CPP_GetGrayscalesMat()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATerrain_CPP_GetGrayscalesMat_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -165,6 +210,10 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Material;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GrayScalesMaterial_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GrayScalesMaterial;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InputMap_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InputMap;
@@ -197,6 +246,10 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DynamicMat;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GrayScalesDynamicMat_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GrayScalesDynamicMat;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProceduralMesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ProceduralMesh;
@@ -209,7 +262,8 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_HSI,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATerrain_CPP_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain, "GenerateTerrain" }, // 1938827916
+		{ &Z_Construct_UFunction_ATerrain_CPP_GenerateTerrain, "GenerateTerrain" }, // 279861268
+		{ &Z_Construct_UFunction_ATerrain_CPP_GetGrayscalesMat, "GetGrayscalesMat" }, // 2884738247
 		{ &Z_Construct_UFunction_ATerrain_CPP_GetSize, "GetSize" }, // 3143986564
 	};
 #if WITH_METADATA
@@ -246,6 +300,13 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_Material = { "Material", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATerrain_CPP, Material), Z_Construct_UClass_UMaterial_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_Material_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_Material_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_GrayScalesMaterial_MetaData[] = {
+		{ "Category", "TerrainSettings" },
+		{ "ModuleRelativePath", "Terrain_CPP.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_GrayScalesMaterial = { "GrayScalesMaterial", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATerrain_CPP, GrayScalesMaterial), Z_Construct_UClass_UMaterial_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_GrayScalesMaterial_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_GrayScalesMaterial_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_InputMap_MetaData[] = {
 		{ "Category", "TerrainSettings" },
@@ -299,6 +360,12 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_DynamicMat = { "DynamicMat", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATerrain_CPP, DynamicMat), Z_Construct_UClass_UMaterialInstanceDynamic_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_DynamicMat_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_DynamicMat_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_GrayScalesDynamicMat_MetaData[] = {
+		{ "ModuleRelativePath", "Terrain_CPP.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_GrayScalesDynamicMat = { "GrayScalesDynamicMat", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATerrain_CPP, GrayScalesDynamicMat), Z_Construct_UClass_UMaterialInstanceDynamic_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_GrayScalesDynamicMat_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_GrayScalesDynamicMat_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_ProceduralMesh_MetaData[] = {
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Terrain_CPP.h" },
@@ -310,6 +377,7 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_Tiles,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_TextureTiles,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_Material,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_GrayScalesMaterial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_InputMap,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_MaxHeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_Vertices_Inner,
@@ -321,6 +389,7 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_Indices_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_Indices,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_DynamicMat,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_GrayScalesDynamicMat,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATerrain_CPP_Statics::NewProp_ProceduralMesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATerrain_CPP_Statics::StaticCppClassTypeInfo = {
@@ -350,7 +419,7 @@ void EmptyLinkFunctionForGeneratedCodeTerrain_CPP() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATerrain_CPP, 262965025);
+	IMPLEMENT_CLASS(ATerrain_CPP, 1710554320);
 	template<> HSI_API UClass* StaticClass<ATerrain_CPP>()
 	{
 		return ATerrain_CPP::StaticClass();

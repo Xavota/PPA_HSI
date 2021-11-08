@@ -39,7 +39,7 @@ void ATerrain_CPP::CleanGeometry()
 }
 
 void ATerrain_CPP::GenerateTerrain(FVector2D _size, FVector2D _tiles, FVector2D _textureTiles, UMaterial* _material,
-								   UTexture2D* _InputMap, float _maxHeight)
+								                   UMaterial* _grayScalesMaterial, UTexture2D* _InputMap, float _maxHeight)
 {
 	CleanGeometry();
 	
@@ -47,6 +47,7 @@ void ATerrain_CPP::GenerateTerrain(FVector2D _size, FVector2D _tiles, FVector2D 
 	Tiles = _tiles;
 	TextureTiles = _textureTiles;
 	Material = _material;
+	GrayScalesMaterial = _grayScalesMaterial;
 	InputMap = _InputMap;
 	MaxHeight = _maxHeight;
 
@@ -81,6 +82,11 @@ void ATerrain_CPP::GenerateTerrain(FVector2D _size, FVector2D _tiles, FVector2D 
 	DynamicMat->SetTextureParameterValue("inputTest", InputMap);
 	DynamicMat->SetScalarParameterValue("HeightMult", MaxHeight);
 
+  GrayScalesDynamicMat = UMaterialInstanceDynamic::Create(GrayScalesMaterial, this);
+	
+	GrayScalesDynamicMat->SetTextureParameterValue("inputGrayTest", InputMap);
+	GrayScalesDynamicMat->SetScalarParameterValue("HeightMult", MaxHeight);
+	
 	ProceduralMesh->SetMaterial(0, DynamicMat);
 }
 

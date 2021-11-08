@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UMaterialInstanceDynamic;
 struct FVector2D;
 class UMaterial;
 class UTexture2D;
@@ -19,12 +20,14 @@ class UTexture2D;
 #define HSI_Source_HSI_Terrain_CPP_h_12_SPARSE_DATA
 #define HSI_Source_HSI_Terrain_CPP_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetGrayscalesMat); \
 	DECLARE_FUNCTION(execGetSize); \
 	DECLARE_FUNCTION(execGenerateTerrain);
 
 
 #define HSI_Source_HSI_Terrain_CPP_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetGrayscalesMat); \
 	DECLARE_FUNCTION(execGetSize); \
 	DECLARE_FUNCTION(execGenerateTerrain);
 
@@ -76,6 +79,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATerrain_CPP); \
 	FORCEINLINE static uint32 __PPO__Tiles() { return STRUCT_OFFSET(ATerrain_CPP, Tiles); } \
 	FORCEINLINE static uint32 __PPO__TextureTiles() { return STRUCT_OFFSET(ATerrain_CPP, TextureTiles); } \
 	FORCEINLINE static uint32 __PPO__Material() { return STRUCT_OFFSET(ATerrain_CPP, Material); } \
+	FORCEINLINE static uint32 __PPO__GrayScalesMaterial() { return STRUCT_OFFSET(ATerrain_CPP, GrayScalesMaterial); } \
 	FORCEINLINE static uint32 __PPO__InputMap() { return STRUCT_OFFSET(ATerrain_CPP, InputMap); } \
 	FORCEINLINE static uint32 __PPO__MaxHeight() { return STRUCT_OFFSET(ATerrain_CPP, MaxHeight); } \
 	FORCEINLINE static uint32 __PPO__Vertices() { return STRUCT_OFFSET(ATerrain_CPP, Vertices); } \
@@ -83,6 +87,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATerrain_CPP); \
 	FORCEINLINE static uint32 __PPO__Normals() { return STRUCT_OFFSET(ATerrain_CPP, Normals); } \
 	FORCEINLINE static uint32 __PPO__Indices() { return STRUCT_OFFSET(ATerrain_CPP, Indices); } \
 	FORCEINLINE static uint32 __PPO__DynamicMat() { return STRUCT_OFFSET(ATerrain_CPP, DynamicMat); } \
+	FORCEINLINE static uint32 __PPO__GrayScalesDynamicMat() { return STRUCT_OFFSET(ATerrain_CPP, GrayScalesDynamicMat); } \
 	FORCEINLINE static uint32 __PPO__ProceduralMesh() { return STRUCT_OFFSET(ATerrain_CPP, ProceduralMesh); }
 
 

@@ -27,10 +27,17 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void GenerateTerrain(FVector2D _size, FVector2D _tiles, FVector2D _textureTiles,
-		UMaterial* _Material, UTexture2D* _InputMap, float _MaxHeight);
+		                   UMaterial* _Material, UMaterial* _grayScalesMaterial,
+											 UTexture2D* _InputMap, float _MaxHeight);
 
 	UFUNCTION(BlueprintCallable)
 		FVector2D GetSize();
+
+  UFUNCTION(BlueprintCallable)
+  UMaterialInstanceDynamic* GetGrayscalesMat()
+	{
+	  return GrayScalesDynamicMat;
+	}
 
 private:
 	UPROPERTY(EditAnywhere, Category = TerrainSettings)
@@ -44,6 +51,9 @@ private:
 
 	UPROPERTY(EditAnywhere, Category = TerrainSettings)
 		UMaterial* Material;
+
+  UPROPERTY(EditAnywhere, Category = TerrainSettings)
+    UMaterial* GrayScalesMaterial;
 
 	UPROPERTY(EditAnywhere, Category = TerrainSettings)
 		UTexture2D* InputMap;
@@ -71,6 +81,9 @@ private:
 
 	UPROPERTY()
 		UMaterialInstanceDynamic* DynamicMat;
+
+  UPROPERTY()
+    UMaterialInstanceDynamic* GrayScalesDynamicMat;
 
 	UPROPERTY()
 		class UProceduralMeshComponent* ProceduralMesh;
