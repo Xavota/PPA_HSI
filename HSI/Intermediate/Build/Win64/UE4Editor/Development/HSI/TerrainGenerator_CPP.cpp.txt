@@ -1,9 +1,9 @@
-C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\Definitions.HSI.h
-C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Source\HSI\TerrainGenerator_CPP.h
-C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Inc\HSI\TerrainGenerator_CPP.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistryModule.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/AssetRegistryModule.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/IAssetRegistry.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\Misc/AssetRegistryInterface.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\AssetRegistry/ARFilter.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\IAssetRegistry.generated.h
+C:\Users\Alumno\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\Definitions.HSI.h
+C:\Users\Alumno\Documents\GitHub\PPA_HSI\HSI\Source\HSI\TerrainGenerator_CPP.h
+C:\Users\Alumno\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Inc\HSI\TerrainGenerator_CPP.generated.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistryModule.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/AssetRegistryModule.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/IAssetRegistry.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\Misc/AssetRegistryInterface.h
+C:\UnrealEngine\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\AssetRegistry/ARFilter.h
+C:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\IAssetRegistry.generated.h
