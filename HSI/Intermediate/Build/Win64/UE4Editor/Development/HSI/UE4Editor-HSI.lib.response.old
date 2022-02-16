@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\HSIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\deleteme.cpp.obj"
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\generador.cpp.obj"
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\generator.cpp.obj"
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\HSI.cpp.obj"

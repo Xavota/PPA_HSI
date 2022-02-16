@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HSI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{90FE9B9A-7A48-4A2D-8BAF-2CD5C461B5FA}</UniqueIdentifier>
+      <UniqueIdentifier>{CADAD88D-E6C6-444E-A56F-EB86CA7C70BB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HSI.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{549DADFF-1807-4E4A-A977-D047884F865A}</UniqueIdentifier>
+      <UniqueIdentifier>{5428BE36-26FA-486D-9649-DF0837154677}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,20 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HSI">
-      <UniqueIdentifier>{749318D7-3859-4E00-B81E-7E0F842E8C93}</UniqueIdentifier>
+      <UniqueIdentifier>{B9E02A07-BC43-451D-A16D-5B721922CB8C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\HSI\deleteme.cpp">
+      <Filter>Source\HSI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSI\deleteme.h">
+      <Filter>Source\HSI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HSI\ExportWidget.cpp">
+      <Filter>Source\HSI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HSI\ExportWidget.h">
+      <Filter>Source\HSI</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\HSI\generador.cpp">
       <Filter>Source\HSI</Filter>
     </ClCompile>
