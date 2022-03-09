@@ -1,0 +1,2 @@
+C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4\Shipping\HSI\Definitions.HSI.h
+C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Source\HSI\deleteme.h

@@ -8,6 +8,7 @@
 /NODEFAULTLIB
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\HSIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\deleteme.cpp.obj"
+"C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\ExportWidget.cpp.obj"
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\generador.cpp.obj"
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\generator.cpp.obj"
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\HSI.cpp.obj"
@@ -15,6 +16,7 @@
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\MyActor.cpp.obj"
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\TerrainGenerator_CPP.cpp.obj"
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\Terrain_CPP.cpp.obj"
+"C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\ExportWidget.gen.cpp.obj"
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\generador.gen.cpp.obj"
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\generator.gen.cpp.obj"
 "C:\Users\simam\Documents\GitHub\PPA_HSI\HSI\Intermediate\Build\Win64\UE4Editor\Development\HSI\HSI.init.gen.cpp.obj"

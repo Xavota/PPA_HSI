@@ -29,22 +29,10 @@
     <Filter Include="Source\HSI">
       <UniqueIdentifier>{B9E02A07-BC43-451D-A16D-5B721922CB8C}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\HSI\deleteme.cpp">
-      <Filter>Source\HSI</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HSI\deleteme.h">
-      <Filter>Source\HSI</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\HSI\ExportWidget.cpp">
       <Filter>Source\HSI</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HSI\ExportWidget.h">
-      <Filter>Source\HSI</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HSI\generador.cpp">
-      <Filter>Source\HSI</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HSI\generador.h">
       <Filter>Source\HSI</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HSI\generator.cpp">
@@ -66,18 +54,6 @@
       <Filter>Source\HSI</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HSI\HSIGameModeBase.h">
-      <Filter>Source\HSI</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HSI\MyActor.cpp">
-      <Filter>Source\HSI</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HSI\MyActor.h">
-      <Filter>Source\HSI</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HSI\TerrainGenerator_CPP.cpp">
-      <Filter>Source\HSI</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HSI\TerrainGenerator_CPP.h">
       <Filter>Source\HSI</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HSI\Terrain_CPP.cpp">

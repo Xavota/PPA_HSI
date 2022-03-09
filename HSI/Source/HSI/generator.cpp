@@ -6,6 +6,8 @@
 #include <cmath>
 #include "AssetRegistryModule.h"
 #include "ImageUtils.h"
+#include "Engine/Texture2D.h"
+
 // Sets default values
 Agenerator::Agenerator()
 {
